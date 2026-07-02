@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "aliases": {
+    "audience": {
+      "canonical": "audience_segment",
+      "note": "Legacy shorthand in fixtures; prefer the canonical family in new assets."
+    },
+    "length": {
+      "canonical": "duration",
+      "note": "Broad time or size shorthand; new assets should prefer duration."
+    },
+    "duration_seconds": {
+      "canonical": "duration",
+      "note": "Granular runtime detail under the duration family."
+    },
+    "episode_minutes": {
+      "canonical": "duration",
+      "note": "Episode runtime detail under the duration family."
+    },
+    "episodes": {
+      "canonical": "format",
+      "note": "Series or package shape detail under the format family."
+    },
+    "acts": {
+      "canonical": "format",
+      "note": "Structure-size detail under the format family."
+    },
+    "branches": {
+      "canonical": "format",
+      "note": "Interactive package shape detail under the format family."
+    },
+    "branching_depth": {
+      "canonical": "format",
+      "note": "Interactive package shape detail under the format family."
+    },
+    "campaign": {
+      "canonical": "campaign_goal",
+      "note": "Legacy campaign shorthand; prefer campaign_goal."
+    },
+    "goal": {
+      "canonical": "campaign_goal",
+      "note": "Ambiguous short label; prefer campaign_goal in new assets."
+    },
+    "comparison": {
+      "canonical": "comparison_mode",
+      "note": "Legacy comparison label; prefer comparison_mode."
+    },
+    "focus": {
+      "canonical": "creative_problem",
+      "note": "Narrow creative focus should resolve to creative_problem."
+    },
+    "theory_scope": {
+      "canonical": "research_scope",
+      "note": "Broad theory or background-study focus should resolve to research_scope."
+    },
+    "background_focus": {
+      "canonical": "research_scope",
+      "note": "Background-research shorthand; prefer research_scope in new assets."
+    },
+    "pain": {
+      "canonical": "failure_layer",
+      "note": "Observed symptom or pain should resolve to failure_layer."
+    },
+    "target_genre": {
+      "canonical": "genre",
+      "note": "Target genre should use the same canonical family as source genre."
+    },
+    "posture": {
+      "canonical": "posture_mode",
+      "note": "Short form of creative posture signal; prefer posture_mode in new assets."
+    },
+    "source_mode": {
+      "canonical": "posture_mode",
+      "note": "Creative source axis detail; resolves under the posture_mode family."
+    },
+    "certainty_mode": {
+      "canonical": "posture_mode",
+      "note": "Creative certainty axis detail; resolves under the posture_mode family."
+    },
+    "attention_focus": {
+      "canonical": "posture_mode",
+      "note": "Creative attention axis detail; resolves under the posture_mode family."
+    },
+    "audience_proxy_mode": {
+      "canonical": "audience_proxy_mode",
+      "note": "Proxy evaluation mode; activates audience-proxy-review protocol."
+    },
+    "proxy_persona_set": {
+      "canonical": "proxy_persona_set",
+      "note": "Which proxy personas to activate (core_viewer, casual_viewer, story_editor, genre_veteran or custom)."
+    },
+    "anti_sycophancy_guard": {
+      "canonical": "anti_sycophancy_guard",
+      "note": "Enforces Anti-Sycophancy Guard in proxy evaluation; blocks diplomatic softening."
+    },
+    "session_plan_mode": {
+      "canonical": "session_plan_mode",
+      "note": "Session execution planning mode; triggers multi-segment decomposition protocol."
+    },
+    "segment_count": {
+      "canonical": "segment_count",
+      "note": "Number of segments in a session execution plan; used by session-execution-plan protocol."
+    }
+  },
+  "detail_keys": {
+    "brand_value": {
+      "family": "campaign_goal",
+      "note": "Brand promise detail nested under campaign direction."
+    },
+    "choice_focus": {
+      "family": "creative_problem",
+      "note": "Interactive emphasis detail; not a top-level route family."
+    },
+    "challenge_type": {
+      "family": "creative_problem",
+      "note": "Specific challenged-claim subtype nested under the broader creative problem."
+    },
+    "research_lens": {
+      "family": "research_scope",
+      "note": "Specific theory/background lens nested under research_scope."
+    },
+    "quest_type": {
+      "family": "format",
+      "note": "Interactive content-shape detail under format."
+    },
+    "posture_source": {
+      "family": "posture_mode",
+      "note": "Source-axis value (discover, construct, generate) under posture_mode."
+    },
+    "posture_certainty": {
+      "family": "posture_mode",
+      "note": "Certainty-axis value (certain, exploring, lost) under posture_mode."
+    },
+    "posture_focus": {
+      "family": "posture_mode",
+      "note": "Attention-focus axis value (character, world, event, audience, language) under posture_mode."
+    }
+  }
+}

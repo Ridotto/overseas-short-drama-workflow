@@ -1,0 +1,19 @@
+.DS_Store
+
+# local session / scratch
+.context/
+.claude/hooks/.logs/
+
+# editor / system noise
+*.swp
+*.swo
+*.tmp
+
+# local env
+.env
+.env.*
+
+# python
+__pycache__/
+*.pyc
+

@@ -1,0 +1,17 @@
+batch_id: blind_batch_2026_06_28_new_samples
+mode: legal_blind_eval
+ratings_hidden: true
+notes_hidden: true
+scripts:
+  - blind_id: N1
+    title_hint: "黑手党少主痛哭求原谅_前妻她杀疯了"
+    source_text_path: /Users/jiakun/Codex/自动化编剧/input/feishu-base-samples-2026-06-28/blind-batch-2026-06-28/[修改版] 黑手党少主痛哭求原谅_前妻她杀疯了.txt
+  - blind_id: N2
+    title_hint: "和我的爱葬身大海"
+    source_text_path: /Users/jiakun/Codex/自动化编剧/input/feishu-base-samples-2026-06-28/blind-batch-2026-06-28/【返改版】和我的爱葬身大海_双语台词版-1-30集.txt
+  - blind_id: N3
+    title_hint: "Slum Queen Showdown of Lies"
+    source_text_path: /Users/jiakun/Codex/自动化编剧/input/feishu-base-samples-2026-06-28/blind-batch-2026-06-28/Slum Queen Showdown of Lies-1-30集-中英台词对照.txt
+  - blind_id: N4
+    title_hint: "全纽约大佬争当我的榜一"
+    source_text_path: /Users/jiakun/Codex/自动化编剧/input/feishu-base-samples-2026-06-28/blind-batch-2026-06-28/【修改版】全纽约大佬争当我的榜一_双语台词版_1-35集.txt
