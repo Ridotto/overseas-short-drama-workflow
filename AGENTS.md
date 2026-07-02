@@ -6,23 +6,16 @@
 
 进入项目后，先看：
 
-1. `v2-restart/当前状态_2026-07-01_重收口.md`
-2. `v2-restart/当前工作入口.md`
-3. `v2-restart/项目基础说明.md`
-4. `v2-restart/PRD_v4.md`
-5. `v2-restart/全版本能力回收总账_2026-07-01.md`
-6. `v2-restart/能力归层与交接矩阵_2026-07-01.md`
-7. `v2-restart/workflow重建交接链草案_2026-07-01.md`
-8. `v2-restart/原项目能力全集盘点_2026-07-01.md`
-9. `v2-restart/原项目能力对账表_2026-07-01.md`
-10. `v2-restart/全量要求层级交接对账表_2026-07-01.md`
-11. `v2-restart/层级归位表_2026-07-01.md`
-12. `v2-restart/skill_chain_spec_v1.md`
-13. `v2-restart/workflow_spec_v16_全能力交接候选版.md`
-14. `v2-restart/workflow_spec_v15_工位合同候选版.md`
-15. `v2-restart/workflow_spec_v2.md`
-16. `v2-restart/workflow_execution_protocol_v1.md`
-17. `v2-restart/样本验证/`
+1. `v2-restart/当前工作入口.md`
+2. `v2-restart/项目基础说明.md`
+3. `v2-restart/PRD_v4.md`
+4. `docs/决策与变更.md`
+5. `v2-restart/workflow_spec_v19_创作蓝图包前置候选版_2026-07-02.md`
+6. `v2-restart/skill_chain_spec_v2_创作蓝图链候选版_2026-07-02.md`
+7. `v2-restart/workflow_execution_protocol_v1.md`
+8. `v2-restart/thread_handoff_2026-07-02/`
+9. `v2-restart/支撑审计/`
+10. `v2-restart/样本验证/`
 
 `v2-restart/设计提纲_v8.md` 只作为参考文档、设计推演和规则池。只有当 `PRD_v4.md` 和当前 workflow 来源不够细、需要追溯设计原因时才看。
 
@@ -30,12 +23,7 @@
 
 不要把以下内容当当前产品方案：
 
-- `v2-restart/设计提纲_v1草案.md` 到 `v2-restart/设计提纲_v7.md`
-- `v2-restart/第一阶段PRD与验证设计.md`
-- `v2-restart/机制卡片_*.md`
-- `v2-restart/机制诊断_*.md`
-- `v2-restart/重构方案_*.md`
-- `v2-restart/盲测/`
+- `v2-restart/archive/history-pre-v19-2026-07-03/` 下的旧 PRD / 旧 workflow / 旧设计提纲 / 旧盲测
 - `archive/do-not-use-as-product-design-2026-06-28/`
 
 这些只作历史线索，除非任务明确要求追溯。
@@ -46,19 +34,13 @@
 
 当前没有已通过验证的正式候选执行细则。
 
-`workflow_spec_v16_全能力交接候选版.md` 是当前最新候选 workflow，但尚未正式化。
+`workflow_spec_v19_创作蓝图包前置候选版_2026-07-02.md` 是当前最新候选 workflow，但尚未正式化。
 
-`workflow_spec_v15_工位合同候选版.md` 是 v16 的直接前身，只作来源和对照，不再作为当前最新候选。
+`skill_chain_spec_v2_创作蓝图链候选版_2026-07-02.md` 是当前配套工位链说明。
 
-`workflow_spec_v8_创作抓手合并候选版.md` 已跑出 V18，结果为执行完成但交付不达标，不能继续当默认 workflow。
+当前最新根因判断：不是缺短剧概念，而是 workflow 已经能把中间层接成戏，但还没有稳定把不同源本首批的商业刺激下限拉到够高。重点检查 `S3/S4/S5/S8` 的交接物是否干净，以及替换后的写作内核是否真的把强度传下去。
 
-`workflow_spec_v14_skill工位链候选版.md` 已跑出 V25，方向有效但产物仍未达送审标准，不能正式化。
-
-当前最新根因判断：不是缺短剧概念，而是源本有效性、外部短剧手艺和 V5 的场面发动机没有稳定变成 writer 当下可执行的生产动作。重点检查 S3/S4/S5/S8/S9 的交接物是否干净。
-
-当前重收口已经新增三份前置产物：`全版本能力回收总账_2026-07-01.md`、`能力归层与交接矩阵_2026-07-01.md`、`workflow重建交接链草案_2026-07-01.md`。它们不是正式 workflow spec，但下一版 workflow spec 必须以它们为依据，不能再直接选某个旧版本当母版。
-
-注意：不要把 v16 误读成“只管短剧感”。短剧手艺必须生效，但不能挤掉源本有效性、洗稿边界、新壳承载、钩子卡点、爽点压放、人物关系、拉扯、信息差、反派压力、Do Not Consume、连续性和海外市场语感。
+`v2-restart/支撑审计/` 里的文件仍然有价值，但已经降级为支撑审计，不再作为第一入口。
 
 任何 agent 只要声称“跑 workflow / 重跑 / 按流程产出”，必须同时遵守 `v2-restart/workflow_execution_protocol_v1.md`，为本次运行留下轻量 `run_log`。没有 run log，只能说“有产物”，不能声称“按 workflow 完整执行”。
 
@@ -87,17 +69,16 @@
 
 ## 当前下一步
 
-当前不要继续修 V18 正文，也不要继续从 v8 小修。
+当前不要继续修样本文本，也不要继续扩写规则。
 
 当前下一步：
 
 1. 不改 PRD；
-2. 不继续修 V25 正文；
-3. 不把 v15 直接正式化；
-4. 不把 v16 直接正式化；
-5. 先对 `workflow_spec_v16_全能力交接候选版.md` 做静态对齐检查；
-6. 再用同一飞书三星样本完整跑首批 1-10 集；
-7. 对比 V5 / V22 / V24 / V25 / v16 新版，确认产物是否显著提升。
+2. 不把历史 workflow 直接复活；
+3. 先按当前 `v19 + skill_chain_v2` 跑飞书三星样本；
+4. 再跑阿尔法样本；
+5. 只看是否至少不低于 `V5`、并能更接近商业平台稿的刺激强度；
+6. 若不通过，回到最小必要链路层修，不在同一轮继续长规则。
 
 旧 checkpoint / goal 文件只作历史记录，不作为当前下一步。
 
