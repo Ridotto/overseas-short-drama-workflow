@@ -9,13 +9,14 @@
 1. `v2-restart/当前工作入口.md`
 2. `v2-restart/项目基础说明.md`
 3. `v2-restart/PRD_v4.md`
-4. `docs/决策与变更.md`
-5. `v2-restart/workflow_spec_v19_创作蓝图包前置候选版_2026-07-02.md`
-6. `v2-restart/skill_chain_spec_v2_创作蓝图链候选版_2026-07-02.md`
-7. `v2-restart/workflow_execution_protocol_v1.md`
-8. `v2-restart/thread_handoff_2026-07-02/`
-9. `v2-restart/支撑审计/`
-10. `v2-restart/样本验证/`
+4. `v2-restart/specs/PRD_v4_产品契约_spec_v2.md`
+5. `docs/决策与变更.md`
+6. `v2-restart/workflow_spec_v19_创作蓝图包前置候选版_2026-07-02.md`
+7. `v2-restart/skill_chain_spec_v2_创作蓝图链候选版_2026-07-02.md`
+8. `v2-restart/workflow_execution_protocol_v1.md`
+9. `v2-restart/thread_handoff_2026-07-02/`
+10. `v2-restart/支撑审计/`
+11. `v2-restart/样本验证/`
 
 `v2-restart/设计提纲_v8.md` 只作为参考文档、设计推演和规则池。只有当 `PRD_v4.md` 和当前 workflow 来源不够细、需要追溯设计原因时才看。
 
@@ -32,13 +33,15 @@
 
 当前主文档是 `v2-restart/PRD_v4.md`。
 
+当前 PRD 编译源是 `v2-restart/specs/PRD_v4_产品契约_spec_v2.md`。它以 `PRD_v4.md` 为主上游、以 `项目基础说明.md` 为地基约束，取代 `PRD_v4_执行系统_spec_v1.md`。
+
 当前没有已通过验证的正式候选执行细则。
 
 `workflow_spec_v19_创作蓝图包前置候选版_2026-07-02.md` 是当前最新候选 workflow，但尚未正式化。
 
 `skill_chain_spec_v2_创作蓝图链候选版_2026-07-02.md` 是当前配套工位链说明。
 
-当前最新根因判断：不是缺短剧概念，而是 workflow 已经能把中间层接成戏，但还没有稳定把不同源本首批的商业刺激下限拉到够高。重点检查 `S3/S4/S5/S8` 的交接物是否干净，以及替换后的写作内核是否真的把强度传下去。
+当前最新根因判断：不是缺短剧概念，也不是只缺某个 paywall / reviewer 规则，而是 `PRD_v4 -> spec -> workflow` 的编译层会把产品契约变形成内部字段、gate、reviewer、打回和 S 编号执行合同。后续 workflow 必须先从 `PRD_v4_产品契约_spec_v2.md` 重新编译，再反查 v19 / skill_chain 哪些能力可保留。
 
 `v2-restart/支撑审计/` 里的文件仍然有价值，但已经降级为支撑审计，不再作为第一入口。
 
@@ -75,10 +78,10 @@
 
 1. 不改 PRD；
 2. 不把历史 workflow 直接复活；
-3. 先按当前 `v19 + skill_chain_v2` 跑飞书三星样本；
-4. 再跑阿尔法样本；
-5. 只看是否至少不低于 `V5`、并能更接近商业平台稿的刺激强度；
-6. 若不通过，回到最小必要链路层修，不在同一轮继续长规则。
+3. 先认 `PRD_v4_产品契约_spec_v2.md`；
+4. 再从该 spec 重新编译下一版 workflow / skill chain；
+5. 静态确认用户产物、内部产物和自然承接没有再变形；
+6. 通过后再跑飞书三星样本与阿尔法样本验证。
 
 旧 checkpoint / goal 文件只作历史记录，不作为当前下一步。
 

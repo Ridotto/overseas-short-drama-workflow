@@ -19,14 +19,15 @@
 2. [v2-restart/当前工作入口.md](./v2-restart/当前工作入口.md)
 3. [v2-restart/项目基础说明.md](./v2-restart/项目基础说明.md)
 4. [v2-restart/PRD_v4.md](./v2-restart/PRD_v4.md)
-5. [docs/决策与变更.md](./docs/决策与变更.md)
-6. [v2-restart/workflow_spec_v19_创作蓝图包前置候选版_2026-07-02.md](./v2-restart/workflow_spec_v19_创作蓝图包前置候选版_2026-07-02.md)
-7. [v2-restart/skill_chain_spec_v2_创作蓝图链候选版_2026-07-02.md](./v2-restart/skill_chain_spec_v2_创作蓝图链候选版_2026-07-02.md)
+5. [v2-restart/specs/PRD_v4_产品契约_spec_v2.md](./v2-restart/specs/PRD_v4_产品契约_spec_v2.md)
+6. [docs/决策与变更.md](./docs/决策与变更.md)
+7. [v2-restart/workflow_spec_v19_创作蓝图包前置候选版_2026-07-02.md](./v2-restart/workflow_spec_v19_创作蓝图包前置候选版_2026-07-02.md)
+8. [v2-restart/skill_chain_spec_v2_创作蓝图链候选版_2026-07-02.md](./v2-restart/skill_chain_spec_v2_创作蓝图链候选版_2026-07-02.md)
 
 ## 目录说明
 
 - `v2-restart/`
-  - 当前有效的产品定义、workflow 候选版、入口文档
+  - 当前有效的产品定义、产品契约 spec、workflow 候选版、入口文档
 - `v2-restart/支撑审计/`
   - 仍可能会查，但不再作为当前第一入口的审计、对账、外部接线材料
 - `v2-restart/archive/`
@@ -51,9 +52,10 @@
 
 ## 当前已知状态
 
-- `v19` 是当前最重要的候选 workflow 方向
+- `PRD_v4_产品契约_spec_v2` 是当前 PRD 编译源
+- `v19` 是重要候选 workflow 方向，但不能继续作为当前直跑源头
 - 飞书三星样本与阿尔法样本都已经跑出重要证据
-- 当前根因已从“中间层不成戏”收窄到“写作内核已经会成戏，但强度传递还不稳定”
+- 当前根因已从“中间层不成戏”上移到“PRD 到 workflow 的编译层会变形，导致用户产物、内部产物和质量责任混在一起”
 
 ## 仓库治理约定
 
@@ -69,3 +71,7 @@
 而是：
 
 > workflow 已经能把中间层接成戏了，但还没有稳定把不同源本的首批 1-10 集都拉到足够想让用户继续追、继续付费的强度下限。
+
+进一步收口后，当前先解决：
+
+> PRD 写的是产品形态和创作能力，但编译到 spec / workflow 时容易变成内部字段、gate、reviewer、打回和 S 编号执行合同。下一版 workflow 必须先从 `PRD_v4_产品契约_spec_v2` 重新编译。
