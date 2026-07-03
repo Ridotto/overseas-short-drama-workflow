@@ -21,8 +21,8 @@
 4. [v2-restart/PRD_v4.md](./v2-restart/PRD_v4.md)
 5. [v2-restart/specs/PRD_v4_产品契约_spec_v2.md](./v2-restart/specs/PRD_v4_产品契约_spec_v2.md)
 6. [docs/决策与变更.md](./docs/决策与变更.md)
-7. [v2-restart/workflow_spec_v19_创作蓝图包前置候选版_2026-07-02.md](./v2-restart/workflow_spec_v19_创作蓝图包前置候选版_2026-07-02.md)
-8. [v2-restart/skill_chain_spec_v2_创作蓝图链候选版_2026-07-02.md](./v2-restart/skill_chain_spec_v2_创作蓝图链候选版_2026-07-02.md)
+7. [v2-restart/workflow_spec_v20_产品契约编译候选版_2026-07-03.md](./v2-restart/workflow_spec_v20_产品契约编译候选版_2026-07-03.md)
+8. [v2-restart/skill_chain_spec_v3_产品契约链候选版_2026-07-03.md](./v2-restart/skill_chain_spec_v3_产品契约链候选版_2026-07-03.md)
 
 ## 目录说明
 
@@ -53,7 +53,8 @@
 ## 当前已知状态
 
 - `PRD_v4_产品契约_spec_v2` 是当前 PRD 编译源
-- `v19` 是重要候选 workflow 方向，但不能继续作为当前直跑源头
+- `v20` 是当前最新候选 workflow，但尚未通过样本验证升默认
+- `v19` 是重要反查对象，但不能继续作为当前直跑源头
 - 飞书三星样本与阿尔法样本都已经跑出重要证据
 - 当前根因已从“中间层不成戏”上移到“PRD 到 workflow 的编译层会变形，导致用户产物、内部产物和质量责任混在一起”
 
@@ -74,4 +75,4 @@
 
 进一步收口后，当前先解决：
 
-> PRD 写的是产品形态和创作能力，但编译到 spec / workflow 时容易变成内部字段、gate、reviewer、打回和 S 编号执行合同。下一版 workflow 必须先从 `PRD_v4_产品契约_spec_v2` 重新编译。
+> PRD 写的是产品形态和创作能力，但编译到 spec / workflow 时容易变成内部字段、gate、reviewer、打回和 S 编号执行合同。当前已编译出 `workflow_spec_v20` 和 `skill_chain_spec_v3`，下一步是先跑飞书三星样本验证。

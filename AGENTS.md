@@ -11,8 +11,8 @@
 3. `v2-restart/PRD_v4.md`
 4. `v2-restart/specs/PRD_v4_产品契约_spec_v2.md`
 5. `docs/决策与变更.md`
-6. `v2-restart/workflow_spec_v19_创作蓝图包前置候选版_2026-07-02.md`
-7. `v2-restart/skill_chain_spec_v2_创作蓝图链候选版_2026-07-02.md`
+6. `v2-restart/workflow_spec_v20_产品契约编译候选版_2026-07-03.md`
+7. `v2-restart/skill_chain_spec_v3_产品契约链候选版_2026-07-03.md`
 8. `v2-restart/workflow_execution_protocol_v1.md`
 9. `v2-restart/thread_handoff_2026-07-02/`
 10. `v2-restart/支撑审计/`
@@ -37,11 +37,13 @@
 
 当前没有已通过验证的正式候选执行细则。
 
-`workflow_spec_v19_创作蓝图包前置候选版_2026-07-02.md` 是当前最新候选 workflow，但尚未正式化。
+`workflow_spec_v20_产品契约编译候选版_2026-07-03.md` 是当前最新候选 workflow，但尚未正式化。
 
-`skill_chain_spec_v2_创作蓝图链候选版_2026-07-02.md` 是当前配套工位链说明。
+`skill_chain_spec_v3_产品契约链候选版_2026-07-03.md` 是当前配套工位链说明。
 
-当前最新根因判断：不是缺短剧概念，也不是只缺某个 paywall / reviewer 规则，而是 `PRD_v4 -> spec -> workflow` 的编译层会把产品契约变形成内部字段、gate、reviewer、打回和 S 编号执行合同。后续 workflow 必须先从 `PRD_v4_产品契约_spec_v2.md` 重新编译，再反查 v19 / skill_chain 哪些能力可保留。
+当前最新根因判断：不是缺短剧概念，也不是只缺某个 paywall / reviewer 规则，而是 `PRD_v4 -> spec -> workflow` 的编译层会把产品契约变形成内部字段、gate、reviewer、打回和 S 编号执行合同。v20 已从 `PRD_v4_产品契约_spec_v2.md` 重新编译，并反查吸收 v19 / skill_chain_v2 的有效能力。
+
+`v2-restart/archive/superseded-v19-2026-07-03/` 中的 v19 和 skill_chain_v2 现在只作为反查对象，不作为当前直跑入口。
 
 `v2-restart/支撑审计/` 里的文件仍然有价值，但已经降级为支撑审计，不再作为第一入口。
 
@@ -77,11 +79,11 @@
 当前下一步：
 
 1. 不改 PRD；
-2. 不把历史 workflow 直接复活；
-3. 先认 `PRD_v4_产品契约_spec_v2.md`；
-4. 再从该 spec 重新编译下一版 workflow / skill chain；
-5. 静态确认用户产物、内部产物和自然承接没有再变形；
-6. 通过后再跑飞书三星样本与阿尔法样本验证。
+2. 不把 v19 直接复活；
+3. 先认 `workflow_spec_v20_产品契约编译候选版_2026-07-03.md` 和 `skill_chain_spec_v3_产品契约链候选版_2026-07-03.md`；
+4. 按 v20 先跑飞书三星样本；
+5. 飞书三星样本通过后，再跑阿尔法样本；
+6. 若不通过，回到最小必要链路层修，不在同一轮继续长规则。
 
 旧 checkpoint / goal 文件只作历史记录，不作为当前下一步。
 
