@@ -104,3 +104,12 @@ v2-restart/workflow_spec_*
 ```
 
 They remain recoverable through Git history or local archive only, not the current product entry.
+
+## 8. Report Problems
+
+Use the GitHub issue templates:
+
+- `主链运行问题` for reproducible problems in the current `shortdrama-remix` chain.
+- `产品反馈 / 改进建议` for workflow, quality, continuation, export, or documentation feedback.
+
+If a problem claims the current chain was followed, include the relevant `run_log.md` path. Do not paste full private source scripts or complete generated scripts into public issues.

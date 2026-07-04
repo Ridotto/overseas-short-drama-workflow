@@ -24,6 +24,7 @@
 ```
 {项目目录}/
 ├── source-handoff.md         # 从源本库复制来的写稿交接包
+├── run_log.md                # 本项目按当前主链执行的运行证据
 ├── creative-plan.md          # 商业项目包 / 创作蓝图包
 ├── characters.md             # 角色档案
 ├── episode-directory.md      # 分集目录 / 分集执行包
@@ -61,6 +62,31 @@
   "batchState": ""
 }
 ```
+
+## 运行日志
+
+每个声称“按当前主链执行”的项目都必须有 `run_log.md`。它不是复盘文档，而是给主控、reviewer 和用户确认当前链路真实执行过的证据。
+
+`run_log.md` 至少记录：
+
+```markdown
+# run log
+
+- 项目目录：
+- 源本库 / handoff：
+- 当前链路版本：
+- 输出语言 / 市场：
+- 当前批次：
+
+## 步骤记录
+
+| 时间 | 步骤 | 输入 | 输出 | 读取的关键文件 | 降级/缺口 | 下一步 |
+| --- | --- | --- | --- | --- | --- | --- |
+```
+
+每完成或中止一个内部步骤，都必须追加一行，包括 `/start`、`/write-from-source`、`/plan`、`/characters`、`/outline`、`/episode`、`/dialogue-polish`、`/review`、`/batch-state`、`/export`、`/compliance`。
+
+如果某步没有更新 `run_log.md`，不能对用户声称该步已经按当前主链执行完成；只能说“产物存在，但运行证据缺失”。
 
 ## 参考资料
 
@@ -140,6 +166,7 @@
 5. 如用户选择 English，自动切换为出海模式（等同 /overseas）
 
 6. 复制源本交接包为当前项目的 `source-handoff.md`，保存状态到 `.drama-state.json`，提示进入下一步 `/plan`
+7. 创建或更新 `run_log.md`，记录源本库、读取文件、确认配置、缺口和下一步。
 
 **输出格式：**
 ```markdown
@@ -179,7 +206,8 @@
 3. 按 `/start` 的完整检查项确认源本导入完整。
 4. 如果用户没有指定新壳，读取 `08_新壳迁移建议.md` 的推荐新壳作为默认方向，并向用户复述确认。
 5. 复制交接包为 `source-handoff.md`，保存 `.drama-state.json`。
-6. 继续执行 `/plan`。
+6. 创建或更新 `run_log.md`，记录本次从 handoff 启动的输入、完整性检查、默认新壳来源和下一步。
+7. 继续执行 `/plan`。
 
 如果 `{handoff_path}` 不存在，或同目录缺少源本账本，必须停下；不得把外部项目内容口头概括后继续写。
 
@@ -245,6 +273,8 @@
 18. **禁抄边界落地**：明确哪些高识别源本组合不能出现在新剧里；常见人名、通用短句、短剧套路句不作为单独硬禁
 
 **输出：** 保存为 `creative-plan.md`
+
+同时必须追加 `run_log.md`：记录 `/plan` 读取的 reference、源本账本、输出文件、是否停在蓝图确认。
 
 **通过标准：**
 
@@ -327,6 +357,8 @@ graph TD
 
 **输出：** 保存为 `characters.md`
 
+同时必须追加 `run_log.md`：记录 `/characters` 读取的角色/反派/状态依据、输出文件和下一步。
+
 **硬要求：**
 
 - 新角色必须承接源本的功能压力，但身份、关系、表达方式必须换壳。
@@ -394,6 +426,8 @@ graph TD
 - 证据、文件、系统记录、会议、鉴定只能作为触发物；如果没有当场可见损失，不能算作本集刺激动作
 
 **输出：** 保存为 `episode-directory.md`
+
+同时必须追加 `run_log.md`：记录 `/outline` 读取的蓝图、角色、源本账本、输出范围、付费/状态/禁区是否完整。
 
 **重要提示：** 生成目录后，提醒用户务必通读全部目录确认节奏再开始写分集。
 
@@ -587,6 +621,8 @@ CLOSE-UP - {key detail}
 
 **输出：** 保存为 `episodes/ep{NNN}.md`（三位数补零）
 
+同时必须追加 `run_log.md`：记录 `/episode {N}` 使用的分集执行包、已读取的前文状态增量、输出文件和任何降级。
+
 **结束提示：** `✅ 第{N}集已保存！输入 /dialogue-polish {N} 做台词精修，或 /episode {N+1} 继续。`
 
 ---
@@ -643,6 +679,8 @@ CLOSE-UP - {key detail}
 10. 追加 `## Dialogue Polish Notes`，说明压缩、声线、反应拍和未改动硬约束。
 
 **输出：** 更新 `episodes/ep{NNN}.md`
+
+同时必须追加 `run_log.md`：记录 `/dialogue-polish {N}` 的草稿备份位置、读取的 brief、修改权限边界和输出文件。
 
 **通过标准：**
 
@@ -746,6 +784,8 @@ CLOSE-UP - {key detail}
 
 **结束提示：** 根据评分给出建议（重写/微调/通过）
 
+同时必须追加 `run_log.md`：记录 `/review {N}` 或 `/review {range}` 的输入、报告位置、是否完成台词精修、callback 归因和下一步。
+
 ---
 
 ### /batch-state
@@ -829,6 +869,8 @@ CLOSE-UP - {key detail}
 
 **结束提示：** `批次续写状态包已保存。下一批写作前请先读取 batch-state.md，再进入 /outline。`
 
+同时必须追加 `run_log.md`：记录 `/batch-state` 使用的已完成集数、状态增量来源、缺失项和下一批范围。
+
 ---
 
 ### /export
@@ -883,6 +925,8 @@ CLOSE-UP - {key detail}
 - 不得在导出时改剧情、台词、真相释放或人物关系；导出只清理呈现层。
 
 **输出：** 保存为 `export/{剧名}-完整剧本.md`
+
+同时必须追加 `run_log.md`：记录 `/export` 的输入集数、清理掉的内部字段、导出路径和是否还有未验证缺口。
 
 **结束提示：**
 ```
@@ -941,6 +985,8 @@ CLOSE-UP - {key detail}
 4. **正向价值观检查**
 
 **输出：** 保存为 `compliance-report.md`
+
+同时必须追加 `run_log.md`：记录 `/compliance` 的检查范围、读取的合规清单、报告路径和需要用户确认的风险。
 
 ```markdown
 # 📋 合规审核报告

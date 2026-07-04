@@ -1,0 +1,55 @@
+name: 产品反馈 / 改进建议
+description: 提交入口、流程、质量标准、续批、导出或文档层面的改进建议。
+title: "[feedback] "
+labels: ["feedback", "needs-triage"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: 你真正想改善什么
+      description: 先说使用上的卡点，不要先给实现方案。
+      placeholder: 例如：我不知道什么时候该让主控停下来等我确认蓝图。
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 主要影响范围
+      options:
+        - 用户入口 / 冷启动
+        - 源本导入
+        - 蓝图确认
+        - 首批正文质量
+        - 台词精修
+        - clean review
+        - 续批 / batch-state
+        - 导出交付
+        - 文档 / Quickstart
+        - 仓库治理 / 发布
+        - 不确定
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: 具体例子或片段
+      description: 给最小上下文即可。质量反馈最好说明源本功能是否被洗掉、是否复刻、是否不好看。
+      placeholder: 例如：蓝图里能看懂设定，但看不出每集付费按钮。
+    validations:
+      required: false
+  - type: textarea
+    id: desired
+    attributes:
+      label: 你希望产品变成什么样
+      placeholder: 例如：主控应该在蓝图确认前明确列出首批每集的释放/扣住/下一债务。
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: 边界确认
+      options:
+        - label: 这个建议面向当前 main 产品包，而不是恢复旧 workflow。
+          required: true
+        - label: 如果建议来自某个样本，我理解样本修稿不等于主链能力通过。
+          required: true

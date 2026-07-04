@@ -120,6 +120,7 @@ Do not silently rewrite upstream artifacts when the user asked for a local fix.
 ## Production Rules
 
 - Every claim that a run followed the current chain must be backed by `run_log.md`.
+- The controller must check or create `run_log.md` as soon as a production project starts. If generated files exist but `run_log.md` is missing or incomplete, report that as a validation gap instead of treating the run as fully proven.
 - User-visible blueprint and writer input must describe the same story. Do not create separate hidden剧情.
 - The final script cannot include internal tags such as `Commercial Function`, `Visible Stimulus Action`, `One-Glance Cost`, `State Delta Goal`, `## 状态增量`, `Dialogue Polish Notes`, review scores, or callback notes.
 - Common names, short dramatic lines, and genre tropes are allowed. Only high-recognition surface combinations are hard rewrite risks.
@@ -141,6 +142,7 @@ For `/rewrite-status`, report:
 - current mode;
 - source library path;
 - new project path;
+- `run_log.md` status;
 - latest confirmed gate;
 - completed files;
 - next recommended action;

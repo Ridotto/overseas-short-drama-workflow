@@ -23,6 +23,8 @@
 
 更详细的上手说明见 [QUICKSTART.md](./QUICKSTART.md)。
 
+如果要报告问题或提改进建议，请使用 GitHub issue 模板。当前仓库只接受面向 `shortdrama-remix` 主链的反馈；旧 workflow 和旧样本路线不再作为产品入口。
+
 ## 当前产品入口
 
 当前入口是项目内主控：
@@ -127,3 +129,5 @@ shortdrama-remix/新剧/{新剧名}/export/
 - 新剧项目写入 `shortdrama-remix/新剧/`
 
 历史样本、旧 workflow、旧审计和旧输入脚本已从当前工作树清出。本地保全位置见 [docs/仓库治理_2026-07-04.md](./docs/仓库治理_2026-07-04.md)。
+
+Issue、修复分支和发布检查规则见 [docs/issue与发布流程.md](./docs/issue与发布流程.md)。
