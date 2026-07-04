@@ -1,8 +1,10 @@
-.DS_Store
+**/.DS_Store
 
 # local session / scratch
 .context/
 .claude/hooks/.logs/
+.local-archive/
+tmp_*
 
 # editor / system noise
 *.swp
@@ -17,3 +19,13 @@
 __pycache__/
 *.pyc
 
+# runtime inputs and generated drama projects
+input/**
+!input/
+!input/.gitkeep
+shortdrama-remix/源本库/**
+!shortdrama-remix/源本库/
+!shortdrama-remix/源本库/.gitkeep
+shortdrama-remix/新剧/**
+!shortdrama-remix/新剧/
+!shortdrama-remix/新剧/.gitkeep

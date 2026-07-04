@@ -1,956 +1,0 @@
-角色 List
-薇奥莉特 / Violet； 薇奥利特 / Violet； 阿尔德里克 / Aldric； 赫尔曼 / Herman； 塞西莉亚 / Cecilia
-塞琳娜 / Selina； 伦纳德 / Leonard； 克劳利使者 / Crowley Envoy； 克劳利总管 / Crowley Steward
-老克劳利 / Old Crowley； 女仆长 / Head Maid； 信使 / Messenger； 仆从甲 / Servant A； 仆从乙 / Servant B
-仆从丙 / Servant C； 仆从 / Servant； 傀儡买家 / Puppet Buyer； 血棘会使者 / Bloodthorn Envoy； 拉杜 / Radu
-维克多 / Victor； 马尔科姆 / Malcolm； 莫尔斯 / Morse； 叛军首领 / Rebel Leader； 战士甲 / Warrior A
-运输队长 / Transport Captain； 女吸血鬼 / Female Vampire； 赌坊老板 / Casino Boss； 密报仆从 / Informant Servant； 拍卖官 / Auctioneer
-领头守卫 / Lead Guard； 守卫 / Guards； 众战士 / Warriors； 大长老 / Grand Elder
-
-
-
-
-第一集
-场1-1 古堡吊桥 夜 外
-出场人物 薇奥莉特 仆从甲 仆从乙 
-△血月低垂，暗红色的雾霭如同活物般缠绕在诺斯费拉图家族古堡的尖塔上。
-△十岁的薇奥莉特穿着一件极不合身的破旧人类亚麻衬衫。她赤着脚，一步步走上湿冷的石板吊桥。
-△【特写】肮脏、布满细小划痕的小脚踩在冰冷粗糙的石板上，步步向前走去。
-薇奥莉特OS：我重生了。回到十岁那年，也回到这地狱的起点. Violet O.S.: I was reborn. Back to when I was ten, back to where the hell began.
-△【远景转场】镜头拉远，血月低垂，暗红色的雾霭如同活物般缠绕在诺斯费拉图家族古堡的尖塔上，无数蝙蝠绕着诺斯费拉图古堡飞动，最后化作人形，走进诺斯费拉图古堡大门。
-△【全景】吊桥两侧，两排身穿黑红制服的吸血鬼仆从垂首站立，交头接耳。
-仆从甲（压低声音，讥笑）：这就是那个流落在人类世界的血脉？人类的味道真让人作呕。 Servant A: So this is the half-blood lost in the human world? That human stink makes me sick.
-仆从乙（紧张，吞咽口水）：闭嘴。她身上流着阿尔德里克大人的血。 Servant B: Shut up. Lord Aldric's blood runs in her veins.
-△薇奥莉特脚步未停，对周遭的议论充耳不闻。她抬起头，猩红的眼眸死死盯着古堡紧闭的黄铜大门。
-△薇奥莉特走到大门前，站定。
-△两排仆从齐刷刷单膝跪地，右手抚胸。
-仆从（齐声）：恭迎大小姐回巢！ Servant: Welcome home, my lady!
-△薇奥莉特面无表情，薄唇微启。
-薇奥莉特：开门。 Violet: Open it.
-△轰隆一声，沉重的黄铜大门向内洞开，里面仿佛一口巨大的黑洞。薇奥莉特毫不犹豫地迈入黑暗。
-
-
-场1-2 家族大堂 夜 内
-出场人物 薇奥莉特 阿尔德里克 塞琳娜 赫尔曼 塞西莉亚 克劳利使者
-△大堂内烛火幽暗。族长阿尔德里克高坐在巨大的骨雕王座上，目光如炬。
-△王座下首，继妻塞琳娜摇晃着高脚杯里的鲜血。二叔赫尔曼满脸傲慢。养女塞西莉亚端坐一旁，眼神闪烁。
-△薇奥莉特走到大堂中央，脊背挺直。
-阿尔德里克（声音低沉）：我的孙女。诺斯费拉图不养废物。告诉我，家族接下来的扩张，是该去争夺克劳利家族的“血月矿脉”，还是与狼人部落签订“银血条约”？ Aldric: Nosferatu never keep loser. My granddaughter, tell me, For the family’s next move, should we seize the Crowleys’ [Blood Moon Mines], or make a [Silver-Blood Treaty] with the werewolves?
-△【全景】阿尔德里克身着华丽繁复的礼服长袍，坐在骨雕王座上，王座由无数森森白骨构筑，阿尔德里克手中握着一柄银色权杖，权杖顶端镶嵌着红水晶，权杖通体散发光华，阿尔德里克神情淡漠，不怒自威。
-薇奥利特OS：这是我的爷爷，阿尔德里克大公，诺斯费拉图家族的族长，拥有无限的权势、力量和财富，这次回来，我必须向他展示我对诺斯费拉图的作用。 Violet O.S.: This is my grandfather, Grand Duke Aldric, patriarch of Nosferatu. He has endless power, strength, and wealth. Now that I'm back, I must prove my worth to the Nosferatu.
-△赫尔曼嗤笑一声，上前一步。
-赫尔曼：父亲，这不过是个刚回来的野种，懂什么家族大计？我早就说过，狼人部落骁勇善战，与他们结盟，签订银血条约，才是长远之计！ Herman: Father, she's only a bastard who just returned. What would she know about family strategy? Like I said before, An alliance with them through the Silver-Blood Treaty is the smarter long-term move. 
-薇奥利特OS：这是我的亲生父亲，赫尔曼亲王，也是塞西莉亚敢以养女身份欺辱我至死的...罪魁祸首！ Violet OS: This is my birth father, Prince Herman. He’s the reason Cecilia dared to bully me to death, even as an adopted daughter.
-△塞西莉亚掩嘴轻笑，目光轻蔑地扫过薇奥莉特的破衣服。
-塞西莉亚：我认同父亲的看法，姐姐刚从人类世界回来，还是不要问她比较好。 Cecilia: I agree with Father. Sister has only just returned from the human world. Better not ask her.
-△薇奥利特转身，冷冷地盯着塞西莉亚。
-薇奥利特OS：是你啊，好久不见，塞西莉亚。 Violet O.S.: Hey, it's you. Been a long time, Cecilia.
-
-闪回
-【快切镜头】塞西莉亚将薇奥利特吊在地牢，一群蝙蝠围绕着奄奄一息的薇奥利特上下翻飞，薇奥利特的手腕被割开，众蝙蝠吸食着薇奥利特的血液，塞西莉亚一袭盛装，手中拿着阿尔德里克的权杖。
-塞西莉亚：姐姐，我已经是诺斯费拉图的继承人，至于你...不过是我血仆的食物！ Cecilia: Sister, I am already the heir of Nosferatu. As for you... you're just food for my blood servants!
-△薇奥利特虚弱地摇头，最后闭上双眼。
-薇奥利特：不...不.... Violet: No... no...
-闪出
-薇奥利特OS：这一次，我必须以眼还眼以牙还牙，让你千百倍地感受，我前世失血而亡的痛苦！ Violet O.S.: This time, I'll pay you back in full. I'll make you feel the agony of bleeding to death in my past life a thousand times over!
-△薇奥利特向阿尔德里克行礼致意，环视周围一圈，淡淡开口。
-薇奥莉特（冷冷）：克劳利家族会在午夜主动献上血石。 Violet: The Crowley family will offer up the Bloodstone at midnight.
-△大堂内瞬间安静。
-赫尔曼（怒喝）：胡言乱语！克劳利那群疯狗护矿如命，怎么可能主动献上血石？ Herman: Nonsense! Those Crowley mad dogs guard that mine with their lives. Why would they offer up the Bloodstone?
-△话音未落，古堡外突然响起刺耳的长角号声。
-△沉重的大门再次被推开。克劳利家族的使者跌跌撞撞地冲进大堂，扑通一声双膝跪地。
-△使者双手高举，掌心捧着一块散发着暗红脉动光芒的血石。
-克劳利使者（声音发颤）：克劳利家主致诺斯费拉图大人！我族愿全盘割让血月矿脉，献上血石，只求两族和平！ Crowley Envoy: A message from Patriarch Crowley to Grand Duke Aldric! We will surrender the entire Bloodmoon Mine and offer the Bloodstone, if only our two families can have peace!
-△大堂内死一般寂静。赫尔曼脸上的嘲弄僵住。塞琳娜手里的酒杯顿在半空。
-△阿尔德里克猛地前倾身体，深邃的目光穿过人群，死死钉在这个年仅十岁的孙女身上。
-阿尔德里克OS：竟然...被她说中了。 Aldric O.S.: She... was right.
-△薇奥莉特微微仰起头，迎上阿尔德里克的目光，毫无惧色。
-
-
-第二集
-场2-1 家族大堂 夜 内
-出场人物 薇奥莉特 阿尔德里克 赫尔曼 塞琳娜 塞西莉亚 克劳利使者
-△大堂内死一般寂静，只有壁炉里燃烧的火光发出劈啪声。
-△薇奥莉特缓步走向大堂中央，冰冷的月光穿过巨大的彩绘玻璃窗，在她苍白稚嫩的脸上投下冷冽的光影。
-薇奥莉特（声音清冷，语速平稳）：克劳利家族内部正爆发“血瘟”，他们连自己的领地都快控制不住了，根本无力与我们争夺矿脉。 Violet: The Crowley family is being ravaged by the blood plague. They can barely hold their own territory, much less fight us for the mine.
-△【特写】赫尔曼的脸色瞬间铁青，眼角微微抽搐。
-△【特写】塞琳娜原本摇晃高脚杯的手猛地停住，不甘地攥紧了王座下首的黄铜扶手，指节泛白。
-薇奥莉特（冷笑）：至于狼人部落的“银血条约”……那不过是个愚蠢的陷阱。那些满身腥臊味的畜生，早就埋伏好了银制武器，只等签约仪式上发动突袭。 Violet: As for the werewolves' Silver Blood Treaty... it's just a stupid trap. Those reeking beasts have silver weapons waiting. They'll strike during the signing ceremony.
-赫尔曼（怒不可遏，指着薇奥莉特）：你血口喷人！你一个刚回来的—— Herman: You filthy liar! You just got back from-
-薇奥莉特（厉声打断）：我的建议是，放弃与狼人的接触。转而与中立势力“暗影议会”结盟，共享血月矿脉的开采权，借他们的手，彻底稳固我们在北方的统治。 Violet: My advice is,  drop the werewolves. Ally with the neutral power, Shadow Council, instead. Share the Bloodmoon Mine, and use them to secure our rule in the North.
-△全场鸦雀无声。所有吸血鬼贵族都震惊地看着这个衣衫褴褛的十岁女孩。
-△【全景】高坐在骨雕王座上的阿尔德里克大公突然爆发出低沉的笑声，笑声在空旷的大堂内回荡。
-△阿尔德里克猛地站起身，用力鼓掌。
-阿尔德里克（高声）：好！很好！这才是流着我诺斯费拉图血液的后代！有胆识，有谋略！ Aldric: Good! Very good! Now that is a true descendant of Nosferatu blood! She has nerve and strategy!
-△阿尔德里克威严的目光扫过众人，最后落在旁边的仆从身上。
-阿尔德里克：带大小姐去顶层的奢华套房更衣！今晚的认亲晚宴，我要让整个暗夜世界都知道，诺斯费拉图真正的明珠回来了。 Aldric: Take the lady to the top-floor suite to change! At tonight's homecoming banquet, I want the entire dark world to know the true jewel of Nosferatu has returned!
-仆从（鞠躬）：是，大公阁下。 Servant: Yes, Your Grace.
-△薇奥莉特转身准备离开，余光不经意间扫过站在一旁的塞西莉亚。
-△【特写】塞西莉亚嘴角勾起一抹恶毒且不易察觉的冷笑。
-薇奥莉特OS（眼神骤冷）：上一世，就是你们准备的那件华丽礼服，让我在宴会上皮开肉绽，沦为全族的笑柄。 Violet O.S.: In my last life, it was that gorgeous gown you prepared that tore my skin open at the banquet and made me the joke of the entire clan.
-△薇奥莉特不动声色地收回目光，双手在破旧的亚麻衬衫下死死攥紧拳头，锋利的指甲深深嵌进掌心，渗出暗红的血丝。
-
-第三集
-场3-1 薇奥莉特卧室 夜 内
-出场人物 薇奥莉特 女仆长 仆从若干
-△奢华宽敞的卧室内，水晶吊灯洒下冷光。
-△女仆长领着一排捧着黑红丝绒礼服的仆从，恭敬地站在薇奥莉特面前。
-女仆长（假笑）：大小姐，这是塞琳娜夫人和塞西莉亚小姐特意为您挑选的礼服，尤其是这件最华丽的，是用极品冰血蚕丝缝制的。 Head Maid: My Lady, Madam Selina and Miss Cecilia chose these gowns specifically for you. This most splendid one is sewn from the finest ice-blood silk.
-△薇奥莉特面无表情地走上前，指尖轻轻触碰那件最华丽礼服的蕾丝领口。
-△【特写】薇奥莉特的指尖刚一碰到布料，一道微弱的暗绿色光芒在布料纤维中一闪而过。
-薇奥莉特OS：果然。隐藏的腐蚀符文。一旦接触体温，就会化作强酸。上一世，这件衣服在宴会上化为灰烬，让我当众露出大片溃烂的皮肤，像个怪物。 Violet O.S.: As I expected. The hidden corrosion runes. Once they touch body heat, they turn into acid. In my last life, this gown burned to ash at the banquet and exposed my festering skin to everyone. Like a monster.
-△薇奥莉特冷笑一声，猛地缩回手。
-薇奥莉特（冷冷）：你们出去。 Violet: Get out.
-女仆长（愣住）：可是大小姐，晚宴马上就要开始了，您不需要我们服侍更衣吗？ Head Maid: But my lady, the banquet is about to begin. Don't you want us to help you dress?
-薇奥莉特（眼神如刀）：滚。 Violet: Get. Out.
-△女仆长咬了咬牙，带着仆从退下，关上房门。
-△薇奥莉特转过身，目光落在落地窗前那厚重巨大的黑丝绒窗帘上，走上前，用力一扯。
-△“嘶啦”一声，厚重的窗帘被硬生生扯下。薇奥莉特动作利落地将窗帘裹在身上，犹如披上一件暗夜的战袍，最后从梳妆台上拿起一枚纯银别针，狠狠刺穿布料固定在肩膀上。
-场3-2 宴会大厅 夜 内
-出场人物 薇奥莉特 阿尔德里克 塞琳娜 塞西莉亚 女仆长 伦纳德 众贵族
-△宴会大厅内金碧辉煌，长桌上摆满盛着鲜血的水晶杯。众贵族交头接耳，
-△大门轰然推开。
-△【慢镜头】薇奥莉特赤着脚，气场凛然地步入大厅。黑丝绒窗帘宛如女王的披风般在她身后垂落。她手里拖着那件华丽的礼服，眼神睥睨。
-△全场瞬间鸦雀无声，所有的嘲笑僵在脸上。
-△薇奥莉特走到大厅中央，猛地将手中的礼服抖开，扔向半空。
-薇奥莉特：这就是你们送我的“大礼”！ Violet: So this is your “great gift" to me!
-△【特写】礼服在半空中突然自燃，冒出幽绿色的火焰，布料瞬间燃成黑灰飘落。
-△灰烬散去，一个刻满恶毒诅咒符文的徽章掉落在光洁的大理石地板上，发出沉闷的声响。
-△全场哗然。
-△女仆长吓得双膝一软，“扑通”一声跪倒在地，浑身发抖，眼神惊恐地不断瞟向人群中的塞西莉亚。
-女仆长（哭喊）：大公饶命！这不关我的事！是……是…… Head Maid: Mercy, Grand Duke! This has nothing to do with me! It was... it was...
-△女仆长惊恐万状，下意识地转头，向躲在赛琳娜身后的塞西莉亚投去求救的目光。
-△塞西莉亚脸色一白，立刻往后缩。
-薇奥利特（步步紧逼）：一个低贱的血仆，就算给她一万个胆子，也不敢在拥有始祖血脉的纯血千金衣服上动手脚。除非……有人指使。 Violet: A lowly blood servant wouldn’t dare tamper with the First-Blood pureblood heiress’s dress. Unless... someone ordered it.
-塞西莉亚（梨花带雨）：姐姐，你看着我做什么？我一直在大厅里，我怎么可能做这种事？你刚回来就想冤枉我吗？ Cecilia: Sister, why are you looking at me? I've been in the hall the whole time. How could I do this? You just came back and already want to frame me?
-赛琳娜（怒斥）：薇奥利特！你闹够了没有！塞西莉亚那么善良，你怎么能怀疑她！ Selina: Violet! Have you made enough of a scene?! Cecilia is so kind. How dare you suspect her!
-薇奥利特（轻笑）：既然妹妹说不是她。那便是这奴才自作主张，意图谋害纯血。 Violet: Since my sister says it wasn't her, then this servant acted on her own and tried to murder a pureblood.
-薇奥利特（目光转冷）：按诺斯菲拉图家规，以下犯上者，赐予旭日之刑。 Violet: By Nosferatu family law, those who defy their superiors suffer the Sunlight Punishment.
-△女仆长猛地瞪大眼睛，发出凄厉的惨叫。
-女仆长：不！不要！塞西莉亚小姐救我！ Head Maid: No! Please! Miss Cecilia, save me!
-△两名高大的血族守卫上前，如同拖死狗一般将女仆长拖向大厅外。女仆长绝望的惨叫声逐渐远去。
-△阿尔德里克猛地捏碎了手中的酒杯，鲜血混着玻璃渣流下，他暴怒地站起身。
-阿尔德里克（怒吼）：就按照薇奥利特说的办！ Aldric: Do as Violet says!
-塞琳娜（脸色苍白，强装镇定上前）：大公，这或许是个误会，女仆们笨手笨脚…… Selina: Grand Duke, perhaps this is a misunderstanding. The maids are clumsy...
-阿尔德里克（冷冷瞥向塞琳娜）：闭嘴。再有下次，你也滚进血牢。 Aldric: Silence. If it happens again, you go into the Blood Prison too.
-△塞琳娜触电般退后，咬牙低头。
-△阿尔德里克转身看向薇奥莉特，眼中闪过一丝赞赏。
-阿尔德里克（大声宣布）：作为补偿，也是对她能力的认可。我宣布，即刻赠予薇奥莉特10%的血源力量！ Aldric: As compensation, and also as recognition of her ability, I hereby grant Violet ten percent of the blood-source power!
-△台下再次爆发出一阵压抑的惊呼。塞西莉亚嫉妒得面容扭曲。
-阿尔德里克：现在，我的孙女，去拥抱你的父亲赫尔曼吧，这场认亲宴因你而生。 Aldric: Now, my granddaughter, go embrace your father Herman. This recognition banquet was made for you.
-△薇奥莉特站在原地，看都没看满脸虚荣、准备接受拥抱的赫尔曼一眼。
-△她转过身，视线穿过人群，落在角落里一个坐在破旧轮椅上的男人（伦纳德）身上。
-△【特写】伦纳德头发乱如枯草，衣服沾满酒渍，醉醺醺地瘫在轮椅上，手中的酒杯刚刚滚落在地。
-△薇奥莉特迈开赤脚，一步步穿过人群，走到伦纳德面前。
-薇奥莉特（声音清脆，掷地有声）：我不要赫尔曼那样的父亲。我选他。 Violet: I don't want a father like Herman. I choose him.
-△全场死寂，随后爆发出巨大的哗然声。
-
-第四集
-场4-1 宴会大厅 夜 内
-出场人物 薇奥莉特 伦纳德 赫尔曼 塞琳娜 阿尔德里克
-△赫尔曼暴跳如雷，额头上青筋暴起，猛地冲出人群，指着轮椅上的伦纳德。
-赫尔曼（怒吼）：你疯了吗？！你宁愿选这个连站都站不起来的废物，也不选我这个亲王？！他是个废人！ Herman: Are you insane?! You'd rather choose a cripple who can't even stand over me, a prince?! He's useless!
-塞琳娜（用羽毛扇掩着嘴，阴阳怪气）：哎呀，在人类世界长大的野种，配一个喝废了脑子的废人，真不愧是天生一对呢。 Selina: Oh my. A bastard raised by humans, paired with a drunk washed-up cripple. What a perfect match.
-△周遭贵族发出低声的窃笑和嘲讽。
-△薇奥莉特对身后的喧闹充耳不闻。她缓缓蹲下身，平视着轮椅上的伦纳德。
-△伦纳德浑浊的眼睛微微睁开，带着醉意和迷茫看着眼前的女孩。
-薇奥莉特OS：上一世，塞西莉亚吸取我全身的血液之后，将我推入永夜深渊，所有人都冷眼旁观。 Violet O.S.: In my last life, after Cecilia drained every drop of my blood, she pushed me into the Abyss of Eternal Night. Everyone just stood by and watched.
-【闪回】 
-△【快切镜头】深不见底的黑色深渊，狂风呼啸。薇奥莉特绝望地向下坠落。
-△突然，一双带着伤疤的手死死抓住了她的手腕。是满脸血污的伦纳德。
-伦纳德（嘶吼）：抓紧我！ Leonard: Hold on to me!
-△两人一同坠入无尽的黑暗。
-【闪出】
-△薇奥莉特眼眶微红，伸出双手，轻轻覆盖在伦纳德颤抖的双手上。
-薇奥莉特（柔声，但异常坚定）：叔叔，你愿意做我的父亲吗？ Violet: Uncle, will you be my father?
-△伦纳德浑身一震，仿佛被一道电流击中，酒意瞬间醒了大半。他局促地收回手，环顾四周那些嘲笑的面孔，头深深地低了下去。
-伦纳德（声音沙哑，带着自卑）：别开玩笑了，孩子……我不配。我连自己都保护不了。 Leonard: Don't joke, child... I'm not worthy. I can't even protect myself.
-△薇奥莉特反手死死握住他的手，不让他退缩。
-薇奥莉特（直视他的眼睛）：上一世……哪怕所有人都放弃我，只有你救过我。你不是废物，你是诺斯费拉图曾经最耀眼的血魔法天才！ Violet: In my last life... even when everyone abandoned me, you were the only one who tried to save me. You are not worthless. You were once Nosferatu's brightest blood-magic genius!
-△【特写】伦纳德的眼眶瞬间泛红，沉积多年的委屈与痛苦在这一刻被击溃。他颤抖着张开双臂，一把将薇奥莉特紧紧揽入怀中。
-△阿尔德里克坐在王座上，冷眼看着这一幕，沉默良久。
-阿尔德里克（沉声开口）：既然这是薇奥莉特的选择，我尊重。 Aldric: Since this is Violet's choice, I will honor it.
-赫尔曼（急道）：父亲！这怎么行！血源力量怎么能落到这个废物那一脉？！我提出条件！ Herman: Father! This is absurd! The blood-source power can’t go to that useless branch. I shall challenge it!
-阿尔德里克：说。 Aldric: Speak.
-赫尔曼（冷笑看着伦纳德）：如果伦纳德能在一个月内，让克劳利家族签下绝对臣服的“血盟契约”，这10%的力量才算生效。否则，就收回一切！ Herman: If Leonard can make the Crowley family sign a Blood Pact of absolute submission within one month, that ten percent of power takes effect. If not, everything is revoked!
-△周遭响起倒吸凉气的声音。
-阿尔德里克：是个不错的挑战。克劳利家族就算献上血石，也绝不可能签下丧权辱国的臣服契约。 Aldric: A worthy challenge. Even if the Crowleys hand over the Bloodstone, they will never sign such a humiliating submission pact.
-△薇奥莉特从伦纳德怀里退出，转身面对赫尔曼和全场贵族。
-△【特写】薇奥莉特猩红的眼眸中燃起熊熊烈火，如同嗜血的修罗。
-薇奥莉特（字字铿锵）：一个月后，克劳利家族的家主，会亲手将血盟契约跪着送到我们手中！ Violet: In one month, the head of the Crowley family will kneel and deliver the Blood Pact to us himself!
-
-第五集
-场5-1 废弃暗塔 夜 内
-出场人物 薇奥莉特 伦纳德 仆从甲、乙、丙
-△伴随着生锈齿轮的转动声，薇奥莉特推着伦纳德的轮椅，走进了属于他的废弃暗塔。
-△【全景】塔内阴暗潮湿，空气中弥漫着刺鼻的霉味和劣质酒精的味道。石壁上爬满了厚厚的蛛网，地面上横七竖八地散落着空酒瓶和发霉的古籍。
-△壁炉里的火光微弱。三个穿着肮脏制服的仆从正歪七扭八地靠在壁炉边，一边嗑着人类骨骼制成的瓜子，一边闲聊。
-△听到开门声，三个仆从回头看了一眼，不仅没有起身行礼，反而发出一阵哄笑。
-仆从甲（吐出瓜子壳，嬉笑）：哟，咱们的废物主子回来了。今天喝了多少啊？ Servant A: Well, our useless lord is back. How much did you drink today?
-仆从乙（阴阳怪气）：还带回来一个小叫花子，真把这里当垃圾场了。 Servant B: And he brought back a little street rat. What, is this place a dump now?
-△伦纳德脸色涨得通红，感到无比窘迫。伦纳德看到脚边有一个滚落的酒瓶，下意识地想要弯腰去捡，以掩饰自己的难堪。
-△轮椅一歪，伦纳德重心不稳，差点从轮椅上狼狈地栽倒在布满灰尘的地上。
-△薇奥莉特眼疾手快，一把稳稳扶住了伦纳德的肩膀。
-薇奥莉特（低声）：父亲，坐好。从今天起，你不需要再向任何人低头。 Violet: Father, sit up. From today on, you bow to no one.
-△薇奥莉特松开手，转身，一步步走向那三个还在嬉皮笑脸的仆从。
-△【特写】薇奥莉特每走一步，周围的气温就骤降几分。她原本漆黑的瞳孔瞬间转化为刺骨的猩红色，属于高阶血族的恐怖威压如海啸般爆发。
-△三个仆从瞬间感到呼吸困难，脸上的笑容僵住，双腿不由自主地发软，“扑通”几声接连跪倒在地。
-薇奥莉特（居高临下，声音仿佛来自地狱）：一小时内，把这间暗塔的每一寸角落、每一条石缝，都给我舔得干干净净。 Violet: Within the hour, lick every corner and every crack in this dark tower spotless. 
-仆从丙（颤抖求饶）：大……大小姐…… Servant C: M-My Lady...
-薇奥莉特（眼神冷酷）：否则，我会亲自吸干你们血管里的每一滴血，把你们的皮剥下来当地毯。 Violet: Or I will drain every drop from your veins myself and turn your skins into rugs.
-△话音刚落，薇奥莉特微微抬手。
-△【特写】一抹耀眼的暗红血光在她指尖疯狂凝聚，随后化作一道血刃爆射而出！
-△血刃精准地擦过仆从甲的耳畔，将他脚边那个空酒瓶连同后方的石砖瞬间击得粉碎！石屑飞溅，划破了仆从的脸颊。
-△三个仆从吓得魂飞魄散，连滚带爬地抓起抹布和水桶，疯狂地开始擦拭地面。
-△伦纳德坐在轮椅上，呆呆地看着挡在自己面前那个瘦小却宛如战神般的背影。
-△【特写】伦纳德浑浊的双眼微微颤动，伦纳德双眼放出光芒。
-
-第六集
-场6-1 暗塔书房 夜 内
-出场人物 薇奥莉特 伦纳德
-△深夜，幽暗的书房内仅有一盏即将燃尽的烛台散发着微光。
-△【全景】四周堆满了积灰的魔法典籍。伦纳德趴在宽大的橡木书桌上，沉沉睡去。他的手边散落着几只空酒瓶，面前摊开着一本厚重的《血盟契约史 History of Blood Pacts》，以及十几张揉皱的羊皮草稿纸。
-△门被轻轻推开。薇奥莉特赤着脚，抱着一条羊绒毯子悄无声息地走进来。
-△【特写】薇奥莉特动作轻柔地将毯子披在伦纳德的肩膀上，目光落在那几张画满阵法演算的草稿纸上，眼神中闪过一丝不易察觉的温情。
-△也许是动作惊动了沉睡的人，伦纳德的身体猛地瑟缩了一下，惊醒过来。
-△伦纳德睡眼惺忪，看到肩上的毯子，又抬头看了看站在桌边的女儿，眼神中闪过一丝慌乱与自卑。他下意识地将手边的空酒瓶往桌子边缘推了推。
-伦纳德（声音嘶哑，带着浓重的自我怀疑）：薇奥莉特……我……我真的能当一个好父亲吗？克劳利家族……太危险了，我怕连累你。 Leonard: Violet... can I really be a good father? The Crowley family is too dangerous... I'm afraid I'll drag you down.
-△薇奥莉特没有立刻回答。她拉开伦纳德对面的高背椅，坐下，双手托着下巴，那双猩红的眼眸冷冷地盯着他。
-薇奥莉特（语气讥讽，故意拉长声音）：邋遢的酒鬼，连几个低贱的仆从都管不住，现在还想当力挽狂澜的英雄？ Violet: A filthy drunk who can't even control a few lowborn servants, and now you want to play the hero?
-△【特写】伦纳德的脸色瞬间惨白，手指死死抠住桌沿，指节泛白。
-薇奥莉特（站起身，居高临下）：我听古堡里的老仆人说，你以前能用高阶血魔法点亮整座暗塔的防御阵。现在呢？只会在这里对着酒瓶自怨自艾。 Violet: The old servants in the castle told me you once lit up this entire dark tower's defenses with high-level blood magic. And now? You just sit here whining into a bottle.
-△薇奥莉特冷笑一声，转身走向门口。
-薇奥莉特（背对伦纳德，语气冰冷）：既然你烂泥扶不上墙，算了，我还是去找阿尔德里克大公换个父亲吧。赫尔曼虽然恶心，但至少还有点用。 Violet: Since you're beyond saving, fine. I'll ask Grand Duke Aldric for a new father. Herman is disgusting, but at least he's useful.
-△伦纳德如遭雷击。
-△【快切镜头】伦纳德猛地从轮椅上扑倒在地，不顾膝盖撞击石板的剧痛，一把死死抓住薇奥莉特的脚踝。
-伦纳德（抬起头，双眼布满血丝，声音颤抖却爆发出极大的力量）：不要走！我改！薇奥莉特，求你……给我一次机会！ Leonard: Don't go! I'll change! Violet, please... give me one chance!
-△薇奥莉特停住脚步，没有回头，但嘴角却微微上扬。
-
-场6-2 暗塔 内/外（蒙太奇快剪）
-出场人物 薇奥莉特 伦纳德
-△【快切镜头1】清晨。伦纳德一把拉开冰窖的大门，将里面所有的陈年血酒全部砸碎在地上。薇奥莉特站在一旁，指挥仆从将一箱箱散发着浓郁能量的黑牛血（血族滋补品）搬进冰窖。
-△【快切镜头2】深夜的塔顶。伦纳德坐在轮椅上，面对着呼啸的冷风。他闭着双眼，双手痛苦地颤抖着，猛地睁眼，指尖艰难地凝聚起一滴暗红色的血珠。血珠在半空中溃散。他咬紧牙关，再次凝聚。
-△【快切镜头3】清晨的书房。阳光透过彩绘玻璃照进来。伦纳德换上了一件整洁的白衬衫，却笨拙地系不好领带。薇奥莉特默默走上前，踮起脚尖，动作熟练地帮他打好了一个完美的温莎结。
-
-
-场6-3 暗塔大厅 日 内
-出场人物 薇奥莉特 伦纳德
-△七天后。
-△暗塔大厅的壁炉燃烧着旺盛的炉火，驱散了多年的阴冷。
-△通往二楼的石阶上传来沉稳的脚步声。
-△【全景】伦纳德换上了一身裁剪得体的黑色立领战袍，胸口佩戴着象征他那一脉的暗银色蝙蝠徽章。虽然他依然拄着一根纯黑色的手杖，步伐略显蹒跚，但他腰背挺直，眼中的颓废与迷茫已被凌厉的精光彻底扫空。
-△薇奥莉特站在壁炉前，看着焕然一新的伦纳德，眼眶微热。
-伦纳德（走到薇奥莉特面前，单膝跪地，平视着她）：准备好去征服克劳利家族了吗，我的小公主？ Leonard: Ready to conquer the Crowley family, my little princess?
-△薇奥莉特向伦纳德伸出手。
-薇奥莉特（认真）：不许再做回那个酒鬼。 Violet: Never go back to being that drunk.
-△伦纳德微微一愣，随即伸出手，和她交握。
-伦纳德（声音低沉而坚定）：我用我的荣耀🧙发誓。 Leonard: I swear on my honor.
-
-第七集
-场7-1 克劳利古堡大厅 夜 内
-出场人物 薇奥莉特 伦纳德 老克劳利 十二骑士
-△血月当空，猩红的光芒透过克劳利古堡巨大的穹顶玻璃，将大厅映照得如同血池。
-△伴随着沉重的轮椅碾压石板的声音，薇奥莉特推着坐在轮椅上的伦纳德，在一片肃杀之气中踏入大厅。
-△【全景】大厅两侧，十二名身披重甲、手持双手重剑的吸血鬼骑士宛如雕塑般矗立，眼神中透着毫不掩饰的杀意。正前方的巨大骨雕王座上，老克劳利满脸横肉，手里把玩着一颗纯金骷髅头。
-老克劳利（发出一阵刺耳的狂笑，声音如夜枭）：诺斯费拉图真是没人了！阿尔德里克那个老狐狸，竟然派一个连站都站不稳的废物，和一个毛都没长齐的丫头来跟我谈判？ Old Crowley: Has Nosferatu really fallen this low?! That old fox Aldric sent a cripple who can barely stand and a young girl to negotiate with me?
-△面对震耳欲聋的嘲笑，薇奥莉特面不改色，松开轮椅的把手，上前一步。
-薇奥莉特（声音清脆，掷地有声）：尊敬的克劳利家主。我们带来的不是屈辱，而是生机。血月矿脉虽然在你们领地，但以克劳利家族目前的开采技术和兵力，根本守不住暗影议会的觊觎。 Violet: Honored Lord Crowley, we’re not here to insult you. We’re offering a way out. The Blood Moon Mines may be on your land, but with the Crowleys’ current tech and forces, you can’t keep the Shadow Council away.
-△老克劳利停止了笑声，眼睛危险地眯起。
-薇奥莉特：我父亲的提议是，由诺斯费拉图提供高阶防御阵法和开采技术，联合开发矿脉。利润对半分。这对你们百利而无一害。 Violet: My father's proposal is simple. Nosferatu provides high-level defensive arrays and mining technology, and we develop the mine together. Profits split evenly. You lose nothing.
-△老克劳利沉默片刻，突然脸色一沉，猛地将手中的金骷髅砸在地上。
-老克劳利（怒吼）：放肆！在我克劳利的地盘，什么时候轮到一个黄毛丫头大放厥词！来人，把这个不知天高地厚的小丫头给我抓起来，抽干她的血！ Old Crowley: Insolent! Since when does some little girl get to speak on Crowley land! Guards, seize this arrogant brat and drain her dry!
-△“锵！”两名距离最近的重甲骑士瞬间拔出腰间的佩剑，犹如两道黑色的闪电，张开长满獠牙的血盆大口，挥舞着利爪直扑薇奥莉特的咽喉！
-△【慢镜头】锋利的爪尖距离薇奥莉特的瞳孔仅剩寸许，带起的劲风吹乱了她的黑发。
-△就在这千钧一发之际！
-△【特写】一直沉默坐在轮椅上的伦纳德，双眼中猛然爆发出骇人的猩红血光！
-△伴随着一声震耳欲聋的音爆，伦纳德宛如离弦之箭般从轮椅上弹射而出！他干瘪的肌肉在瞬间充血膨胀，爆发出恐怖的威压。
-△伦纳德右掌化爪，带着撕裂空气的呼啸声，一巴掌狠狠拍在两名重剑骑士的胸甲上！
-△【特写】坚硬的玄铁胸甲瞬间凹陷龟裂。两名骑士惨叫着倒飞出去，重重砸在几十米外的石柱上，狂吐鲜血。
-△同一时间，伦纳德左手在半空中猛然一握，一道犹如实质的暗红色血色屏障拔地而起，将薇奥莉特严严实实地护在身后。
-△伦纳德挡在女儿身前。他因为强行催动生疏的魔力，导致手指不受控制地微微颤抖，但他死死盯着高台上的老克劳利，像一头被触怒的雄狮。
-伦纳德（声如洪钟，杀气冲天）：谁敢动我女儿！我拼着这根老骨头不要，也要屠尽你克劳利满门！ Leonard: Who dares touch my daughter?! I’ll burn through what’s left of this old body and wipe out the entire Crowley bloodline!
-△大厅内瞬间死寂，所有骑士都被这股狂暴的威压震慑得不敢上前。
-△老克劳利愣在王座上，目光死死盯着伦纳德那虽然颤抖却毫不退缩的背影。
-△突然，老克劳利放声大笑，笑声中充满了赞赏。
-老克劳利（站起身，挥手喝退想要上前的骑士）：好！好一个护犊的父亲！好一个诺斯费拉图的亲王！ Old Crowley: Good! Now that is a father who protects his child! That is a prince of Nosferatu!
-△老克劳利走下高台，重新审视着伦纳德。
-老克劳利：伦纳德，你体内的血魔法虽然荒废多年，有些生疏，但底子还在。最重要的是，你有胆量，有骨气。 Old Crowley: Leonard, your blood magic may be rusty after all these years, but the foundation is still there. More importantly, you have courage and spine.
-老克劳利（伸出右手）：这个项目，我克劳利家族，愿意谈。 Old Crowley: The Crowley family is open for discussion. 
-△伦纳德紧绷的身体终于放松下来。他没有理会老克劳利的手，而是猛地回头，紧张地上下打量着薇奥莉特。
-伦纳德（声音发颤）：你没事吧，孩子？ Leonard: Are you okay, child?
-△薇奥莉特看着父亲眼中的焦急与关切，原本冰冷的心脏仿佛被什么东西狠狠撞击了一下。她扬起嘴角，露出一个发自内心的灿烂笑容。
-薇奥莉特：我没事，父亲。 Violet: I'm fine, Father.
-
-第八集
-场8-1 家族大堂 夜 内
-出场人物 阿尔德里克 赫尔曼 塞琳娜 塞西莉亚 仆从若干
-△诺斯费拉图家族的每月例行晚宴上，气氛压抑到了极点。
-△大堂中央的骨雕王座前，“啪”的一声脆响回荡在空旷的大厅里。
-△【特写】赫尔曼捂着高高肿起的左脸，嘴角渗出刺目的鲜血。他惊恐地低着头，浑身发抖。
-阿尔德里克（勃然大怒，将一叠羊皮卷狠狠砸在赫尔曼脸上）：蠢货！整整一个月！你不仅没有拿下狼人部落的契约，反而让他们集结兵力，屠杀了我们边境的三座哨塔！这就是你向我保证的长远之计？！ Aldric: Idiot! A whole month! You failed to secure the werewolves' contract, and let them gather forces and slaughter three of our border watchtowers! This is the long game you promised me?!
-赫尔曼（扑通跪倒）：父亲息怒！是……是那群狼人出尔反尔，他们…… Herman: Father, please calm down! It was... it was those werewolves. They broke their word, they...
-塞琳娜（眼珠一转，连忙走上前，用丝帕假惺惺地擦拭眼角）：大公，赫尔曼确实办事不利，但这也怪不得他啊！家族内部出了内鬼，把我们的底牌全泄露给了敌人，这仗还怎么打？ Selina: Your Grace, Herman did fail, but this is not all on him! We have a traitor inside the family. They leaked every card we had to the enemy. How was he supposed to fight that?
-阿尔德里克（目光如刀）：内鬼？ Aldric: A traitor?
-塞西莉亚（装作一副痛心疾首的模样）：爷爷，就是伦纳德叔叔和薇奥莉特啊！他们不仅没有去拿什么血盟契约，反而暗中与克劳利家族勾结，出卖我们诺斯费拉图的利益！ Cecilia: Grandfather, it's Uncle Leonard and Violet! They never went after any Blood Pact. They secretly colluded with the Crowley family and sold out Nosferatu's interests!
-阿尔德里克（眉头紧锁）：荒谬！他们哪来的胆子？ Aldric: Absurd! Where would they get the nerve?
-△赫尔曼如蒙大赦，急忙从怀里掏出一颗散发着幽光的影像水晶。
-赫尔曼（咬牙切齿）：父亲，我有人证物证！这是我在克劳利古堡潜伏的眼线拼死拍下的！ Herman: Father, I have witnesses and evidence! My spy inside Crowley Castle risked his life to capture this!
-△赫尔曼将魔力注入水晶。
-△【全景】大堂半空中立刻投射出一幅清晰的影像：画面中，伦纳德正与老克劳利双手紧紧握在一起，两人相视大笑，看起来极为熟稔。影像被人为地剪辑过，掐头去尾。
-赫尔曼（断章取义，大声指控）：您看！他亲口答应，只要克劳利家帮他夺回继承权，他就将诺斯费拉图一半的血源矿脉拱手相让！ Herman: Look! He said it himself. If Crowley helps him reclaim the inheritance, he will hand over half of Nosferatu's blood-source mines!
-△全场一片哗然，贵族们交头接耳，纷纷露出鄙夷和愤怒的神色。
-塞琳娜（在一旁煽风点火，声音尖锐）：大公！这种吃里扒外的东西，留着就是家族的耻辱！早该动用家规，将他们处以极刑了！ Selina: Your Grace! Keeping those traitors alive is a disgrace to the family! They should have faced family law and been executed long ago!
-△阿尔德里克死死盯着半空中的影像，脸色铁青，眼底的怒火仿佛要将整个大堂点燃。手中的银色权杖在地板上猛地一顿，发出一声巨响。
-阿尔德里克（怒吼，声音震动穹顶）：来人！立刻去暗塔，把伦纳德和那个不知天高地厚的野丫头，给我押回大堂受审！ Aldric: Guards! Go to the dark tower now. Drag Leonard and that arrogant brat back to the hall for judgment right now!
-
-第九集
-场9-1 家族大堂 夜 内
-出场人物 伦纳德 薇奥莉特 阿尔德里克 赫尔曼 塞琳娜 塞西莉亚 刑罚官
-△大堂的黄铜大门被粗暴地推开。
-△两名强壮的血族守卫一左一右，将伦纳德像拖拽死狗一样拖进大厅。
-△【特写】伦纳德满脸通红，浑身散发着刺鼻的劣质酒精味，他的衣服凌乱，脚步踉跄，眼神涣散，完全是一副醉死鬼的模样。
-△薇奥莉特被另外两名守卫反扣着双手，强行押解在后。她清冷的目光扫过伦纳德嘴角的酒渍，立刻明白了什么。
-薇奥利特OS：该死！他们竟然强行给父亲灌了掺了高阶致幻毒药的血酒！ Violet O.S.: Damn it! They forced Father to drink blood wine laced with a high-level hallucinogenic poison!
-赫尔曼（走到伦纳德面前，满脸得意，一脚踹在他的小腿上）：看看你这副鬼样子！伦纳德，你这个家族的败类，还有什么脸面活着！ Herman: Look at you! Leonard, you disgrace to this family. How can you even live with yourself?
-△伦纳德闷哼一声，双腿一软，狼狈地跌倒在地板上。
-△阿尔德里克高坐在王座上，看着烂醉如泥的伦纳德，眼中的失望彻底化为冰冷的杀意。
-阿尔德里克（声音毫无温度）：取血棘鞭。 Aldric: Bring the Bloodthorn Whip.
-△全场倒吸一口凉气。刑罚官捧着一条长满倒刺、闪烁着暗红色雷光的骨鞭走上前来。
-阿尔德里克：背叛家族者，抽筋拔骨。给我打！ Aldric: Those who betray the family have their bones stripped and tendons torn. Beat them!
-△刑罚官高高举起血棘鞭，带着撕裂空气的尖啸，狠狠抽向薇奥莉特！
-△皮肉绽开的沉闷声响起。然而，鞭子并没有落在薇奥莉特身上。
-△【慢镜头】就在鞭子落下的瞬间，原本醉得不省人事的伦纳德，不知从哪里爆发出惊人的力量。他猛地挣脱了守卫的压制，连滚带爬地扑向薇奥莉特，死死将她护在身下。
-△血棘鞭狠狠抽在伦纳德的背上，瞬间撕开了一道深可见骨的血槽。
-△伦纳德浑身剧烈颤抖，却咬紧牙关没有发出一声惨叫。他张开双臂，像一堵坚不可摧的肉墙，醉醺醺却又无比狂暴地冲着大堂众人怒吼。
-伦纳德（双眼赤红，歇斯底里）：要打打我！冲着我来！薇奥莉特是我的女儿……我要看谁敢动她一根头发！ Leonard: Hit me! Come at me! Violet is my daughter... let's see who dares touch a single hair on her head!
-△薇奥莉特被死死护在怀里，看着父亲背上触目惊心的伤痕，眼中的杀意如同实质般爆发。
-△她反手挣脱守卫的束缚，一把扶住摇摇欲坠的伦纳德，缓缓站直身体，宛如降临人间的死神般环视全场，最后目光冷冷地锁死在赫尔曼身上。
-薇奥莉特（声音犹如万载寒冰）：谁说我们勾结外敌了？ Violet: Who said we colluded with outsiders?
-△薇奥莉特从怀中不慌不忙地取出一份暗红色的羊皮卷轴。
-△【特写】卷轴在半空中猛地展开，卷轴底部，赫然盖着克劳利家族代表着绝对臣服的黑色血印！
-赫尔曼（瞳孔地震，随即像是抓住了救命稻草般疯狂大笑）：伪造的！这绝对是伪造的！按照暗夜法则，牵涉到矿脉的血盟，如果没有暗影议会的联合印章，就是一张废纸！ Herman: Forged! This has to be forged! Under the Laws of Night, any Blood Pact involving a mine is worthless without the Shadow Council's joint seal!
-△阿尔德里克原本震惊的神色微微一滞，陷入了犹豫。他死死盯着那份卷轴，确实没有看到暗影议会的印记。
-
-第十集
-场10-1 家族大堂 夜 内
-出场人物 薇奥莉特 伦纳德 阿尔德里克 赫尔曼 塞琳娜 塞西莉亚 克劳利总管
-△面对赫尔曼的质问和全场的冷眼，薇奥莉特昂首挺胸地站在大堂中央，宛如一尊不败的战神。
-薇奥莉特（嘴角勾起一抹嘲弄的冷笑，声音响彻大厅）：好。既然二叔觉得是假的，那我们不如赌一把。 Violet: Fine. Since Uncle thinks it's fake, let's make a wager.
-△薇奥莉特一步步逼近赫尔曼。
-薇奥莉特：我和父亲用名下所有的家族股份做赌注，赌这份血盟契约的真伪。如果我赢了，赫尔曼，把你手里那30%的股份，全、部、交、出、来！ Violet: My father and I will stake all our family share on whether this Blood Pact is real. If I win, Herman, all the thirty percent of your shares HAND, OVER, TO, US!
-赫尔曼（被薇奥莉特的气场逼退半步，随即恼羞成怒）：赌就赌！我还不信你一个野丫头能通天！ Herman: Fine, let’s bet! I’d love to see what great achievement a brat can really make! 
-塞琳娜（用羽毛扇掩嘴尖笑）：真是不见棺材不掉泪，野丫头，你输定了，准备好滚出诺斯费拉图吧！ Selina: Still refusing to give up? You’ve already lost, brat. Get ready to leave Nosferatu! 
-△薇奥莉特没有理会这对跳梁小丑。她微微侧过头，目光平静地看向古堡紧闭的大门。
-薇奥莉特（轻声，却异常笃定）：它们已经来了。 Violet: They are already here.
-△话音刚落。
-△“轰隆——！”
-△沉重无比的黄铜大门仿佛被一股无形的力量猛地向两侧撞开。一阵夹杂着浓郁魔力的夜风灌入大厅，吹得满堂烛火疯狂摇曳。
-△全场贵族大惊失色，齐刷刷转头看去。
-△【全景】大门外，克劳利家族的首席总管身穿繁复的礼服，带领着一队整齐划一的血仆。血仆们两人一组，抬着足足十口沉甸甸的红木大箱子，鱼贯而入。
-克劳利总管（走到大厅中央，单膝跪地，声音洪亮如钟）：克劳利家主特派鄙人，恭贺诺斯费拉图与克劳利两家结为永恒盟友！特送上极品暗夜宝石十箱、银质圣杯一百对，作为贺礼！ Crowley Steward: Patriarch Crowley sent me to congratulate Nosferatu and Crowley on becoming eternal allies! As a gift, he offers ten chests of premium Night Gems and one hundred pairs of silver chalices! 
-△大厅内一片死寂，只有箱子被打开时，那些璀璨夺目的财宝折射出的光芒。
-△总管站起身，双手恭敬地高高托起一份散发着强大威压的羊皮卷宗。
-克劳利总管：此外，奉上正式版血盟契约！ Crowley Steward: And with them, the official Blood Pact!
-△【特写】卷宗展开，上面不仅盖着克劳利家族的黑色血印，旁边还赫然烙印着一枚散发着幽幽紫光的徽章——那是暗影议会的双重血印！
-△阿尔德里克猛地从王座上站起，甚至因为激动踢翻了脚边的酒杯。他快步走下台阶，双手颤抖着接过那份契约，布满皱纹的眼眶瞬间泛红。
-阿尔德里克（声音发颤）：是真的……暗影议会的印章……我们拿下了整个北方的控制权！ Aldric: It's real... the Shadow Council's seal... we have taken control of the entire North!
-△赫尔曼如遭雷击，双腿一软，瘫倒在地。
-△塞琳娜的羽毛扇掉在地上，面如死灰。塞西莉亚更是嫉妒得发狂，尖锐的指甲深深掐进掌心，鲜血直流。
-△伦纳德此时虽然满身酒气和伤痕，却强撑着坐回到轮椅上。他的腰背笔挺，宛如一位真正的王者。
-△薇奥莉特走过去，轻轻握住伦纳德布满老茧的手。
-薇奥莉特（柔声）：父亲，我们赢了。 Violet: Father, we won.
-△阿尔德里克转过身，大步走到两人面前。这位不可一世的铁血大公，竟张开双臂，将伦纳德和薇奥莉特紧紧拥入怀中。
-阿尔德里克（举起权杖，向全场大声宣布）：从今天起！伦纳德全面恢复家族第一顺位继承人的资格！而薇奥莉特，将是我诺斯费拉图家族，唯一的、最尊贵的纯血千金！谁敢不敬，杀无赦！ Aldric: From this day forth! Leonard is fully restored as the family's first heir! And Violet is the one and only most honored pureblood daughter of Nosferatu! Show disrespect, and you die!
-△【远景转场】镜头缓缓拉远，升向古堡高耸的穹顶。
-△巨大的彩绘玻璃窗外，血月高悬。猩红的月光如瀑布般倾泻而下，将薇奥莉特与伦纳德相互依偎的剪影笼罩在一层神圣的光晕中。而在他们身后的阴影里，是瘫坐在地、瑟瑟发抖的赫尔曼一家，如同绝望的蝼蚁。
-
-
-第十一集
-场11-1 赫尔曼密室 夜 内
-出场人物 赫尔曼 血棘会使者
-△密室中光线幽暗，墙壁上悬挂着无数干瘪的血奴干尸。
-△赫尔曼面色阴鸷，双手撑在黑曜石长桌上，盯着对面藏在兜帽阴影里的血棘会使者。
-赫尔曼（咬牙）：五十名精英血咒刺客，我要让他们在认亲宴后，彻底在这个世界上蒸发！ Herman: Fifty elite blood-curse assassins. After the recognition banquet, I want them erased from this world!
-血棘会使者（声音沙哑低沉）：没问题，亲王殿下。但代价是，您上位后，诺斯费拉图家族三分之一的血石矿脉收益，将归我方所有。 Bloodthorn Envoy: No problem, Your Highness. But the price is, once you take power, one-third of the Nosferatu family's Bloodstone vein profits belong to us.
-△【特写】一张刻满暗红符文的血契推到赫尔曼面前，契约表面仿佛有血管在跳动。
-△赫尔曼眼中闪过一丝挣扎，但随之被疯狂的嫉恨取代。他猛地咬破指尖，将猩红的血印狠狠按在契约上。
-赫尔曼：成交！ Herman: Deal!
-
-场11-2 暗塔书房 夜 内
-出场人物 薇奥莉特 伦纳德 克劳利总管
-△炉火摇曳。克劳利总管单膝跪地，神色恭敬。
-克劳利总管：大小姐，亲王殿下。暗影议会传来绝密消息，北部禁区的“诅咒矿脉”即将解封。 Crowley Steward: My Lady, Your Highness. The Shadow Council sent a top-secret report: the Cursed Mine in the northern forbidden zone is about to be unsealed.
-△【特写】一张破旧的羊皮地图铺开，标注着骷髅标志的矿脉深处，隐隐有一团紫金色的光芒。
-克劳利总管：传闻深处封印着始祖级别的血能结晶。但那里……盘踞着远古血兽，根本是块死地。 Crowley Steward: Rumor says a Progenitor-grade blood-energy crystal is sealed deep inside. But that place is crawling with ancient blood beasts. It's a death zone.
-薇奥莉特（指尖抚过地图，冷笑）：好极了。我那位二叔的线人，也该收到这个“好消息”了。 Violet: Perfect. My dear uncle's informant should be getting this “good news” too.
-伦纳德（眉头紧锁）：莉特，你是想用这个做诱饵？ Leonard: Litt, you're using this as bait?
-薇奥莉特（眼神深邃）：贪婪会让人自掘坟墓。父亲，我们要做的，是送他最后一程。 Violet: Greed makes men dig their own graves. Father, all we have to do is send him to his.
-
-
-场11-3 家族议事厅 日 内
-出场人物 阿尔德里克 赫尔曼 伦纳德 薇奥莉特 众长老
-△阳光透过彩色长窗，在大理石地面上投下斑驳的光影。
-△赫尔曼红光满面，手中挥舞着一份情报，在长桌旁大声喧哗。
-赫尔曼：父亲！诸位长老！这是千载难逢的机会！只要拿下诅咒矿脉的始祖结晶，我们就能凌驾于所有家族之上！ Herman: Father! Elders! This is a once-in-a-thousand-years chance! With the Progenitor Crystal from the Cursed Mine, we'll stand above every family!
-伦纳德（站起身，声音沉稳）：大兄，诅咒矿脉废弃千年，古籍记载那里有远古诅咒，贸然开采，只会让战士们白白送死。 Leonard: Brother, the Cursed Mine has been abandoned for a thousand years. The old records say it's cursed. Mining it recklessly will only send our warriors to die.
-△【特写】赫尔曼面露鄙夷，发出一声嗤笑。
-赫尔曼：懦夫！你废了这么多年，连胆子也废了吗？你怕死，我可不怕！ Herman: Coward! You've been crippled for years. Did your courage cripple too? You fear death. I don't!
-薇奥莉特OS：咬钩了。 Violet O.S.: He took the bait.
-△赫尔曼猛地转身面向阿尔德里克，神色狂热。
-赫尔曼：父亲，我申请调动我名下所有的资产，甚至变卖南方矿脉的收益权，全力竞标诅咒矿脉！ Herman: Father, I request permission to mobilize every asset under my name, even sell the southern mine's profit rights, to bid for the Cursed Mine!
-△阿尔德里克沉默不语，目光在赫尔曼和伦纳德之间游移。
-△赫尔曼高举双手，向全场宣告。
-赫尔曼（狂妄大喊）：这一次，我要让所有人看看，谁才是家族真正的支柱！ Herman: This time, I'll show everyone who the real pillar of this family is!
-
-
-第十二集
-场12-1 地下暗夜赌坊 夜 内
-出场人物 拉杜 维克多 赌坊老板 妖娆女吸血鬼
-△空气中弥漫着廉价血酒与汗水的腥甜气味，无数低阶血族在大声嘶吼。
-△【全景】拉杜双眼通红，将面前最后一堆血晶推了出去。
-拉杜（粗暴）：再开！ Radu: Again!
-△骰盅打开，一片惨绿。拉杜瞬间瘫软在椅子上。
-拉杜：该死……又输了。 Radu: Damn it... lost again.
-△一名衣着暴露、身材妖娆的女吸血鬼摇曳着身姿走到维克多身边，将一杯血酒递到他唇边，吐气如兰。
-女吸血鬼：维克多少爷，旁边地下血斗场有场好戏，人狼厮杀。我这儿有内部消息，只要下一注，保准您连本带利翻回来。 Female Vampire: Young Lord Victor, there's a real show next door at the underground blood arena. Man versus werewolf. I've got inside word. Place one bet and you'll win it all back, plus interest.
-维克多（咽了口口水，眼神迷离）：当真？ Victor: Is that true?
-△【快切镜头】暗室里，人狼与血族野兽疯狂撕咬，鲜血四溅。维克多在女吸血鬼的娇嗔中疯狂下注，神色癫狂。
-△【特写】账簿上，拉杜和维克多的名字下，赤红色的数字已经累计到了“两百万血晶”。
-
-
-场12-2 赌坊贵宾室 夜 内
-出场人物 拉杜 维克多 赌坊老板
-△两名鼻青脸肿的兄弟被丢在沙发上，赌坊老板（薇奥莉特的暗线）冷笑着摩挲着指环。
-赌坊老板：两位少爷，两百万血晶。今晚要是填不上，按规矩，只能用你们的本源血核来抵债了。 Casino Boss: Young lords, two million blood crystals. If you can't cover it tonight, by the rules, your core blood nuclei will pay the debt.
-拉杜（浑身发抖）：不……不要！我们可是赫尔曼亲王的亲侄子！ Radu: No... please! We're Prince Herman's own nephews!
-赌坊老板（意味深长地笑）：我有个主意。赫尔曼大人在境外不是有个小金库吗？先挪用一下，过三天有个“血晶增值项目”，稳赚不赔，到时候把窟窿补上，谁也发现不了。 Casino Boss: I have an idea. Lord Herman has an offshore reserve, doesn't he? Borrow from it first. In three days, there's a “blood-crystal growth project”. Guaranteed returns. Patch the hole then, and no one will know.
-△维克多和拉杜对视一眼，维克多在女吸血鬼的抚摸下，颤抖着从怀里掏出赫尔曼的境外密钥。
-维克多：好……就，就用这一次！ Victor: Fine... just this once!
-
-
-场12-3 赫尔曼书房 夜 内
-出场人物 赫尔曼 血棘会使者 密报仆从
-△赫尔曼正与血棘会使者商讨刺杀细节，一名仆从急匆匆走入，递上一封密信。
-密报仆从（低声）：大人，境外小金库有大额资金流动的迹象…… Informant Servant: My lord, there are signs of major movement from the offshore reserve...
-血棘会使者（冷冷打断）：亲王殿下，我们集结的精锐已经到位，竞标资金若是出了差错，血棘会可不会讲情面。 Bloodthorn Envoy: Your Highness, our elite forces are already in position. If the bidding funds go wrong, the Bloodthorn Society won't show mercy.
-△赫尔曼不耐烦地将密信揉成一团，扔进壁炉。
-赫尔曼：知道了！不过是境外那几个商行例行结算。现在，全力应付明天的竞标！ Herman: I heard you! It's just routine settlement from those offshore firms. Now focus everything on tomorrow's bid!
-
-
-第十三集
-场13-1 暗影议会竞标大厅 日 内
-出场人物 赫尔曼 伦纳德 薇奥莉特 拍卖官 众贵族
-△穹顶高耸，四周悬挂着各大家族的徽章。
-拍卖官（高声）：北部禁区“诅咒矿脉”开采权，起拍价八十万血晶！ Auctioneer: Mining rights for the northern forbidden zone's Cursed Mine. Opening bid: eight hundred thousand blood crystals!
-赫尔曼（挑衅地看了伦纳德一眼，直接举牌）：一百五十万！ Herman: One and a half million!
-△全场哗然。
-伦纳德闭目养神，根本没有出价的意思。
-赫尔曼（冷笑）：两百万！谁敢与我争！ Herman: Two million! Who dares challenge me!
-血棘会使者在角落里微微点头，赫尔曼在怂恿下近乎疯狂。
-拍卖官：两百四十万一次……两百四十万三次！成交！恭喜赫尔曼亲王！ Auctioneer: Two point four million once... two point four million, sold! Congratulations, Prince Herman!
-△【特写】赫尔曼站起身，傲慢地走到伦纳德面前，居高临下。
-赫尔曼：没种的废物。看着吧，等我拿到始祖结晶，你们父女就等着被贬为最低贱的血奴！ Herman: Gutless failure. Just watch. Once I claim the Progenitor Crystal, you and your daughter will be reduced to the lowest blood slaves!
-△薇奥莉特微微仰头，精致的小脸上绽放出一抹天真却令人毛骨悚然的微笑。
-薇奥莉特（轻声）：二叔，你高兴得太早了。我打赌，三天内，你会跪着求我父亲接手这个烂摊子。 Violet: Uncle, you're celebrating too soon. I bet within three days, you'll be on your knees begging my father to take this mess off your hands.
-赫尔曼（怒极反笑）：做你的白日梦去吧！ Herman: Dream on!
-
-
-场13-2 诅咒矿脉外/矿洞深处 夜 内/外
-出场人物 赫尔曼 战士甲 蚀骨兽若干
-△黑雾缭绕，矿洞口宛如一头巨兽的血盆大口。
-△赫尔曼挥舞着重剑，率领着一百名全副武装的家族战士踏入矿洞。
-赫尔曼（咆哮）：给我搜！掘地三尺也要找到始祖结晶！ Herman: Search everything! Tear this place apart until you find the Progenitor Crystal!
-△地面突然剧烈震动。
-△【特写】岩壁缝隙中，渗出无数黑色黏稠的脓液，伴随着令人牙酸的嘶吼声，一只只浑身没有皮肤、骨骼外露的恶鬼状巨兽——蚀骨兽，如潮水般涌出。
-战士甲（惨叫）：啊！我的手！这东西的爪子有毒，伤口无法愈合！ Warrior A: Ah! My hand! Its claws are poisoned. The wound won't heal!
-△【慢镜头】一头巨型蚀骨兽高高跃起，带起腥臭的狂风，尖锐的利齿在半空中闪烁着惨绿的光芒。
-△赫尔曼大惊失色，慌乱中举剑格挡，却被巨兽一爪拍飞重剑。
-△【特写】巨兽一口狠狠咬在赫尔曼的右臂上，骨裂声伴随着黑色的毒素迅速顺着他的静脉蔓延，整条手臂瞬间变得焦黑溃烂。
-赫尔曼（发出凄厉的惨叫）：退！快退！救我——！ Herman: Fall back! Fall back now! Save me!
-
-
-第十四集
-场14-1赫尔曼卧室 夜 内
-出场人物 赫尔曼 塞琳娜 拉杜 维克多
-△房间里弥漫着腐肉的恶臭。
-△赫尔曼瘫在床上，右臂用白布缠绕，不断有黑血渗出。塞琳娜正颤抖着将一瓶金色圣药倾倒在伤口上，发出刺耳的“嗤嗤”声。
-赫尔曼（痛得浑身痉挛）：啊——！暗影议会那边怎么说？！ Herman: Ah! What does the Shadow Council say?!
-塞琳娜（脸色惨白）：议会……议会刚刚发布了通告，将诅咒矿脉列为“高危禁区”，所有合同……全部作废，开采金，一分不退。 Selina: The Council... the Council just issued a notice. The Cursed Mine is now a high-risk forbidden zone. All contracts... void. Mining fees will not be refunded.
-赫尔曼（一口鲜血喷出）：噗！该死的疯子！那我们投入的资金…… Herman: Damn lunatics! Then all the money we put in...
-△还没等他缓过气，门外传来血棘会标志性的骨笛声。
-塞琳娜（绝望）：血棘会的人在外面，他们说……因为开采中止，我们要赔偿五倍的违约金，否则今晚就血洗我们的别苑。 Selina: The Bloodthorn Society is outside. They said... because mining was halted, we owe five times the breach penalty, or they'll slaughter our estate tonight.
-△赫尔曼目眦欲裂，猛地看向缩在角落里瑟瑟发抖的拉杜和维克多。
-赫尔曼（怒吼）：你们两个！立刻去调集境外小金库的资金！快去！ Herman: You two! Pull funds from the offshore reserve now! Go!
-△【特写】拉杜和维克多扑通一声跪倒在地，痛哭流涕。
-拉杜：叔叔……金库里，一分钱都没有了。 Radu: Uncle... there's not a single coin left in the reserve.
-维克多：我们……我们被人做局，两百万血晶，都被一个投资项目卷走了…… Victor: We... we were set up. Two million blood crystals got swallowed by an investment project...
-△赫尔曼如遭雷击。他死死盯着两个侄子，脸上的肌肉因极度愤怒而扭曲。
-赫尔曼（嘶吼）：你们这两个畜生！ Herman: You two bastards!
-△【特写】赫尔曼用完好的左手，一巴掌狠狠扇在拉杜脸上，将他整个人扇飞出去，撞碎了旁边的古董花瓶。
-塞琳娜（哭喊）：赫尔曼，去求大公吧！去求老爷子！ Selina: Herman, beg the Grand Duke! Beg the old patriarch!
-赫尔曼（惨笑）：求他？一旦他知道我把家底败光，还勾结血棘会，继承权就彻底没了！ Herman: Beg him? Once he knows I lost everything and colluded with the Bloodthorn Society, my inheritance is gone for good!
-△赫尔曼眼中闪过一丝毒辣。
-赫尔曼：去把我的股权书拿来。我手里还有30%的家族股份……抵押出去！我就不信我翻不了盘！ Herman: Bring me my share certificates. I still hold thirty percent of the family shares... Put it up as collateral! I can still turn this around!
-
-
-第十五集
-场15-1 废弃大教堂 夜 内
-出场人物 伦纳德 薇奥莉特 马尔科姆议员
-△血月之光透过破碎的彩绘玻璃，将大教堂斑驳的地面染成猩红。
-△伦纳德拄着纯黑手杖，虽然步伐微跛，却每一步都走得极其沉稳。薇奥莉特安静地跟在身侧。
-△废弃的布道台前，一个身穿紫色长袍的中年血族正背对手立。
-马尔科姆议员（缓缓转过身）：伦纳德，你竟然还活着。说吧，你们父女今天找我，带了什么筹码？ Malcolm: Leonard, can’t believe you’re still alive. Tell me, what leverage did you and your daughter bring today?
-△【慢镜头】伦纳德走到台前，突然卸下全身的魔力防备，以血族最古老、最庄重的单膝下跪礼，向马尔科姆致敬。
-伦纳德（声音低沉而有力）：议员阁下。我以诺斯费拉图第一继承人的名义，向您，以及您代表的暗影议会中立派，寻求庇护。 Leonard: Councilor. As the first heir of Nosferatu, I seek protection from you and the neutral faction of the Shadow Council.
-马尔科姆（挑眉）：庇护？代价呢？ Malcolm: Protection? At what price?
-薇奥莉特（上前一步，稚嫩的声音在空旷的教堂内回荡）：未来，克劳利与诺斯费拉图共同开发的所有血月矿脉，收益的两成，将直接进入您的私库。 Violet: In the future, twenty percent of all profits from the Blood Moon Mines jointly developed by Crowley and Nosferatu will go straight into your private coffers.
-△马尔科姆的呼吸微微一滞，深邃的眼中爆发出贪婪的光芒。
-马尔科姆：你们怎么保证赫尔曼不会阻挠？ Malcolm: How do you guarantee Herman won't interfere?
-薇奥莉特（甜甜一笑）：二叔手里的股份，今晚过后，就不再属于他了。 Violet: After tonight, the shares in my uncle's hands won't belong to him anymore.
-△马尔科姆沉默片刻，突然放声大笑。他伸出右手，掌心处一枚繁复的紫色魔法徽章闪烁起耀眼的光芒。
-马尔科姆：成交。 Malcolm: Deal.
-△【特写】两只手在虚空中交握，紫色的契约光环在三人头顶一闪而过，随后没入虚无。
-
-
-场15-2 教堂深处 夜 内
-出场人物 薇奥莉特 伦纳德
-△伦纳德和马尔科姆在一旁低声交谈后续细节。
-△薇奥莉特独自走到教堂最深处的阴影中。这里伫立着一尊高大、古老、布满蛛网的雕像——诺斯费拉图始祖的雕像。
-△薇奥莉特伸出小手，轻轻抚摸着冰冷的石刻基座。
-薇奥莉特OS：爷爷，前世你为了家族利益，冷眼旁观我被塞西莉亚吸干。这一世，我要用你最看重的利益，将你从那个王座上，一点一点拉下来。 Violet O.S.: Grandfather, in my last life, you watched Cecilia drain me dry for the family's benefit. In this life, I’ll use the profits you worship to drag you off that throne, piece by piece.
-△薇奥莉特抬起头，猩红的眼眸在黑暗中闪烁着冰冷而决绝的光芒。
-薇奥莉特（轻声细语，宛如呢喃）：对不住了，大公阁下。这游戏，才刚刚开始。 Violet: My apologies, Your Grace. This game has only just begun.
-
-
-第十六集
-场16-1 废弃酒馆 密室 夜 内
-出场人物 赫尔曼 傀儡买家 
-△昏暗的油灯在墙壁上投下扭曲的阴影，空气中弥漫着发霉的木头和劣质血酒的味道。
-△赫尔曼右臂缠着厚厚的黑绷带，脸色蜡黄，急不可耐地将一份古旧的羊皮股份契约推到桌子中央。
-赫尔曼（声音沙哑，带着一丝癫狂）：诺斯费拉图家族30%的股份！按照市价，至少值八百万血晶！今天，我只要三成，两百四十万！ Herman: Thirty percent of the Nosferatu family shares! At market price, they're worth at least eight million blood crystals! Today, I only want thirty percent of that: two point four million!
-△坐在对面的傀儡买家（身穿血棘会斗篷，兜帽遮面）发出一声低沉的冷笑，枯瘦的手指拉过契约，仔细端详。
-傀儡买家（声音刻意伪装得沙哑）：成交。亲王殿下，我们血棘会最喜欢急需用钱的盟友。 Puppet Buyer: Deal. Your Highness, the Bloodthorn Society loves allies who need money fast.
-△傀儡买家拍了拍手。两名黑衣仆从抬着一口沉重的黑木箱子走上前，当着赫尔曼的面轰然打开。
-△【特写】箱子里整整齐齐地码放着散发着幽蓝色光芒的高阶血晶，将赫尔曼贪婪扭曲的脸映照成诡异的蓝色。
-△赫尔曼猛地扑上去，用完好的左手疯狂地抓起血晶，指尖颤抖地数着，甚至将脸贴在冰冷的晶石上，发出神经质的笑声。
-赫尔曼（狂笑，眼底满是血丝）：有了这笔钱……有了这笔钱我就能补上血棘会的窟窿！我还能买下雇佣兵，伦纳德，薇奥莉特，你们这两个野种给我等着，我还能翻盘！ Herman: With this money... with this money, I can cover what I owe the Bloodthorn Society! I can hire mercenaries too. Leonard, Violet, you two bastards, just wait. I can still turn this around!
-△傀儡买家静静地看着他，兜帽下的嘴角勾起一抹嘲弄的弧度。
-傀儡买家OS：愚蠢的家伙，你数着的每一颗血晶，都是大小姐送你上路的冥币。 Puppet Buyer O.S.: You fool. Every Blood Crystal you count is another step toward the grave she dug for you.
-
-
-场16-2 阿尔德里克书房 夜 内
-出场人物 阿尔德里克 薇奥莉特（投影/回忆）
-△书房内寂静无声。巨大的彩绘玻璃窗外，血月的光芒被黑夜撕碎。
-△阿尔德里克大公面无表情地坐在宽大的黑曜石书桌后。他的面前，整整齐齐地摆放着一叠厚厚的羊皮卷宗。
-△【特写】羊皮卷上清晰地记录着：拉杜与维克多在地下赌坊挪用家族资金的签字画押、赫尔曼与血棘会签署的秘密刺杀协议，以及刚刚完成的股份贱卖交易书。
-△每一张纸的右下角，都盖着暗影议会和克劳利家族联合认证的魔法印章。
-△阿尔德里克干枯的手指缓缓抚过那些字迹，眼底的暴风雨正在疯狂凝聚。他的呼吸变得沉重，周围的空气因他身上散发出的恐怖威压而隐隐扭曲。
-阿尔德里克OS：赫尔曼……我的亲儿子。你竟然为了继承权，把家族的根基卖给了外人。 Aldric O.S.: Herman... my own son. You sold the family's foundation to outsiders, all for the inheritance.
-
-场16-3 阿尔德里克书房 夜 内
-出场人物 阿尔德里克 赫尔曼 守卫若干
-△书房大门被猛地推开。
-△赫尔曼满脸红光，甚至还换了一件华丽的红天鹅绒礼服，大步走进来。
-赫尔曼（躬身行礼，强装镇定）：父亲，您深夜召见我，是不是关于北方矿脉…… Herman: Father, you summoned me this late. Is this about the northern mine...
-△“啪！”
-△【慢镜头】一叠羊皮卷重重地砸在赫尔曼的脸上。锋利的纸边在赫尔曼苍白的脸上划出一道血痕。
-△羊皮卷散落一地，那张盖着血棘会印章的贱卖契约正好落在赫尔曼的脚边。
-△赫尔曼看清地上的内容，膝盖一软，差点直接跪倒。
-阿尔德里克（猛地站起身，声音冰冷得如同万载不化的寒冰，威压如排山倒海般压下）：你告诉我，这是怎么回事？ Aldric: Explain this.
-
-
-第十七集
-场17-1 阿尔德里克书房 夜 内
-出场人物 赫尔曼 阿尔德里克 塞琳娜守卫若干
-△赫尔曼“扑通”一声重重跪倒在地，膝盖在地板上撞出沉闷的响声。他浑身剧烈颤抖，冷汗瞬间湿透了后背。
-赫尔曼（痛哭流涕，疯狂叩头）：父亲！冤枉啊！这都是拉杜和维克多那两个畜生干的！是他们挪用了金库，我……我是为了保全家族名誉，才不得不出此下策啊！我对您、对家族忠心耿耿啊！ Herman: Father! I was framed! Radu and Victor, those bastards did all of this! They embezzled  my money. I... I only did this to protect the family's name! I have always been loyal to you and to this family!
-△阿尔德里克冷冷地看着他，眼中没有一丝温度，缓缓抬起右掌，指尖血芒吞吐。
-阿尔德里克：背叛者，唯有死。 Aldric: A traitor’s only sentence is death.
-赛琳娜：不要——！ Selina: No--!
-△尖锐的哭喊声中，书房大门被粗暴撞开。塞琳娜披头散发地冲了进来，毫无平日里贵妇的优雅。
-△【特写】塞琳娜冲到赫尔曼身前，猛地拔出腰间一柄闪烁着寒光的纯银匕首，死死抵在自己雪白的喉咙上，鲜血瞬间渗出。
-塞琳娜（面色惨白，歇斯底里）：大公！你若要杀了赫尔曼，我今天就死在这里！塞壬家族绝对不会放过诺斯费拉图！南方的海港贸易，你们休想再拿到一滴血石的运入权！ Selina: Grand Duke! If you kill Herman, I'll die right here today! The Siren family will never spare Nosferatu! And the southern harbor trade? You will never get another drop of Bloodstone shipped in!
-△阿尔德里克的身形微微一滞，深邃的眼眸中闪过复杂的权衡。
-△【特写】大公捏紧了银色权杖，指节因用力而泛白。
-△空气死一般寂静，只有塞琳娜沉重的喘息声。
-阿尔德里克（收回手，闭上眼，声音疲惫而冰冷）：免去赫尔曼一切职务，剥夺其军权。即日起，软禁于古堡地牢。至于塞琳娜……回你的房间，无令不得出。 Aldric: Strip Herman of every post and all military command. From today on, he is confined to the castle dungeon. As for Selina... go back to your room. You do not leave without my order.
-△赫尔曼脱水般瘫软在地上，塞琳娜手中的匕首掉落，发出刺耳的声响。
-
-
-场17-2 古堡长廊 夜 内
-出场人物 薇奥莉特 伦纳德
-△长廊幽暗，月光拉长了父女两人的身影。
-伦纳德（眉头紧锁，拄着拐杖走在薇奥莉特身侧）：莉特，赫尔曼犯下如此滔天大罪，父亲竟然只是软禁他？塞壬家族的威胁就那么大吗？我们就这样放过他？ Leonard: Lit, Herman committed a such massive crime and Father only locked him up? Is the Siren family really that much of a threat? Are we just letting him go?
-薇奥莉特（双手交叠在身前，步伐平稳，嘴角挂着一抹冰冷的笑意）：放过？不，父亲。爷爷还在犹豫，是因为他觉得，即使没有了我们，诺斯费拉图靠着底蕴依然能撑得住。 Violet: Let him go? No, Father. Grandfather is still hesitating because he thinks Nosferatu can survive on its old foundation, even without us.
-△薇奥莉特停下脚步，转过头，猩红的眼眸在黑暗中闪烁。
-薇奥莉特：那就让他亲眼看看。没有了我们，这个庞大而古老的家族，会在多短的时间内崩溃。 Violet: Then let him see it for himself. Let him see how fast this vast, ancient family collapses without us.
-
-
-场17-3 古堡外 吊桥 夜 外
-出场人物 薇奥莉特 伦纳德
-△夜风呼啸，吹得两人的斗篷猎猎作响。
-△薇奥莉特推着伦纳德的轮椅（伦纳德故意示人以弱），悄无声息地穿过黑雾。
-△【远景】巍峨的古堡在他们身后逐渐模糊，而前方的道路，通往未知的黑暗。
-薇奥莉特OS：今夜之后，诺斯费拉图，再无宁日。 Violet O.S.: After tonight, Nosferatu will have no peace.
-
-
-第十八集
-场18-1 克劳利古堡宴会厅 夜 内
-出场人物 薇奥莉特伦纳德 老克劳利 十二骑士
-△猩红色的巨型吊灯下，长达十米的黑石长桌上摆满了散发着热气的血食。
-△大厅两侧，十二名身穿玄铁重甲的克劳利骑士一言不发地矗立，冰冷的目光死死锁定着刚进门的父女二人。
-老克劳利坐在首位，手中端着盛满魔力血酒的黄金杯，皮笑肉不笑。
-老克劳利：伦纳德，小丫头。你们深夜造访，连个随从都不带，胆子倒是不小。 Old Crowley: Leonard. Little girl. You come here at night without a single guard. Bold of you.
-△薇奥莉特拉开长椅，优雅地坐下，双手交叠放在膝盖上，气场竟隐隐压过在场所有人。
-薇奥莉特（开门见山，声音清脆却带着不容置疑的威严）：克劳利家主。我们今晚来，是给你们送上一场真正能让克劳利家族崛起的造化。我们要组建一个独立于诺斯费拉图之外的——血月同盟。 Violet: Lord Crowley. We came tonight to offer you a real chance to raise the Crowley family. We are forming an alliance beyond Nosferatu's control: the Bloodmoon Alliance.
-△老克劳利摇晃酒杯的手猛地一顿，周围的骑士们发出一阵低沉的骚动。
-薇奥莉特：血月矿脉，我们占三成，克劳利占三成，暗影议会占两成，剩下两成，分给依附我们的北方中小家族。 Violet: The Bloodmoon Mine: we take thirty percent, Crowley takes thirty, the Shadow Council takes twenty, and the last twenty goes to the northern minor families loyal to us.
-老克劳利（猛地将酒杯砸在桌上，狂笑出声）：狂妄！小丫头，你手里连一兵一卒都没有，凭什么让我相信，你们能赢过阿尔德里克那个老怪物？ Old Crowley: Arrogant! Little girl, you don't have a single soldier. Why should I believe you can beat that old freak Aldric?
-
-场18-2 克劳利古堡宴会厅 夜 内
-出场人物 薇奥莉特 伦纳德 老克劳利 众骑士
-△老克劳利的笑声在空旷的大厅里回荡，带着上位者的蔑视。
-△一直沉默不语的伦纳德，突然缓缓站起身。
-△【特写】他将手杖随手扔在一旁。原本微微弯曲的脊背在这一刻挺得笔直，一股排山倒海般的高阶血魔法波动轰然爆发！
-△大厅内的烛火瞬间熄灭，只剩下伦纳德双眼中那璀璨夺目的暗红血光。
-伦纳德（冷哼）：凭我。 Leonard: Because of me.
-△【慢镜头】伦纳德右手并指如刀，轻描淡写地朝着大厅中央挥出。
-△一道无声的暗红色血刃在半空中一闪而逝。
-△大厅中央，那尊历经百年、由金刚石雕刻而成的三米高历代家主石像，在瞬间被平平切成两半。
-△【特写】切口处光滑如镜，甚至连一丝石屑都没有落下。
-△整个宴会厅内瞬间陷入死一般的寂静。十二名重甲骑士甚至本能地倒退了一步。
-△老克劳利呆呆地看着石像，眼中的轻蔑在瞬间化为极度的震撼与狂喜。
-老克劳利（猛地站起身，举起酒杯，大声道）：高阶血刃斩！伦纳德，你这个疯子，你竟然恢复了！ Old Crowley: High Bloodblade Slash! Leonard, you madman, you've recovered!
-老克劳利（大笑）：好！这杯酒，我敬血月同盟！成交！ Old Crowley: Good! To the Bloodmoon Alliance! Deal!
-
-
-第十九集
-场19-1 暴雨峡谷 夜 外
-出场人物 克劳利骑士诺斯费拉图运输队 蚀骨兽
-△狂风暴雨中，数辆满载着高阶血石的蒸汽重卡艰难地在峡谷中穿行。车身上印着诺斯费拉图的蝙蝠族徽。
-△突然，峡谷上方落石如雨。
-△【全景】两旁山崖上，无数身穿黑甲的克劳利骑士如神兵天降，伴随着暴虐的嘶吼，狠狠冲入运输队中。
-△重剑挥舞，鲜血在雨水中迅速晕染开来。
-运输队长（惨叫）：有伏击！是克劳利家族！快发求救信号！ Transport Captain: Ambush! It's the Crowley family! Send the distress signal, now!
-△然而，信号弹还没升空，便被半空中飞过的一只巨大血蝠一口吞噬。
-△不到一刻钟，整条运输线化为一片废墟，所有血石被洗劫一空。
-
-场19-2 诺斯费拉图南方哨站 夜 外
-出场人物 伦纳德 守卫若干
-△暴雨洗刷着古老的哨塔。
-△伦纳德身披黑色雨衣，立于哨塔顶端。他的脚下，横七竖八地躺着几十名哨所守卫，胸口皆有着恐怖的血刃伤痕。
-△伦纳德摘下兜帽，冷冷地俯瞰着下方燃起熊熊烈火的军火库。
-伦纳德：第一处，拔除。 Leonard: First site, removed.
-
-场19-3 诺斯费拉图议事厅 日 内
-出场人物 阿尔德里克 塞琳娜 众长老
-△大理石地面上，堆满了紧急送达的红色战报。
-△【特写】墙壁上悬挂的家族股价（血晶兑换率）图标上，代表家族资产的红线正以近乎垂直的角度一路狂跌。
-塞琳娜（脸色焦急，在长桌旁尖叫）：大公！三天了！三条主运输线全断，南方的矿脉哨站被拔了五个！现在整个家族的血石贸易全部瘫痪！那些依附我们的中小家族已经开始倒戈了！ Selina: Your Grace! It's been three days! All three main transport routes are cut, five southern mine outposts are gone! The family's entire Bloodstone trade is paralyzed! The smaller families under us are already switching sides!
-大长老（叹气）：大公，我们无兵可用。主力军权之前一直握在赫尔曼手里，现在军心大乱。 Grand Elder: Your Grace, we have no troops to use. The main army was under Herman's command, and now morale is in chaos.
-塞琳娜（急切）：放赫尔曼出来吧！只有他能稳住南方的残部，去和克劳利 negotiations（谈判）！ Selina: Release Herman! Only he can rally the southern remnants and negotiate with Crowley!
-阿尔德里克（猛地一拍桌子，震碎了面前的茶杯，怒吼）：闭嘴！ Aldric: Shut up!
-△全场瞬间鸦雀无声。
-△就在这时，一名信使神色慌张地跑进来，双手呈上一封用无名黑泥封口的信件。
-信使（声音发颤）：大公……刚才古堡门外，发现了一封匿名信，指名……指名给您。 Messenger: Your Grace... an anonymous letter was found outside the castle gate. It is addressed... addressed to you.
-△阿尔德里克扯开信封，上面只有一行凌厉的小字。
-△【特写】字迹清晰：“想救诺斯费拉图，今夜，单独来血月同盟总部。——薇奥莉特。”Want to save Nosferatu? Come to the Blood Moon Alliance headquarters alone tonight. — Violet
-
-
-第二十集
-场20-1 迷雾森林 夜 外
-出场人物 阿尔德里克 狼人杀手 赫尔曼残部
-△浓雾弥漫。阿尔德里克大公独自一人，手持银色权杖，在枯死的树木间疾行。
-△突然，周围亮起无数双幽绿色的眼睛。
-△伴随着凄厉的狼嚎，几十头体型巨大的黑狼从浓雾中猛扑而出。而在它们身后，还跟着一队身穿诺斯费拉图制服、蒙着面的叛军。
-叛军首领（沙哑咆哮）：老家伙，你活得太久了！赫尔曼大人得不到的，你也别想留给那两个野种！ Rebel Leader: Old man, you've lived too long! If Lord Herman can't have it, don't think you can leave it to those two bastards!
-阿尔德里克（怒极反笑，白发狂舞）：就凭你们这些杂碎，也配弑神？ Aldric: Filth like you thinks it can kill a god?
-△【慢镜头】大公手中权杖猛地顿地，一道狂暴的血色涟漪呈环形扩散，将冲在最前方的三头巨狼瞬间震成血雾。
-△然而，更多的狼人悍不畏死地扑上。一头老狼人从侧翼偷袭，尖锐的狼爪在阿尔德里克肩膀上撕开深可见骨的伤口，带有抑制血族自愈能力的银毒迅速蔓延。
-△阿尔德里克半跪在地，喘着粗气，周围已被十几头巨狼彻底包围。
-
-
-场20-2 迷雾森林 夜 外
-出场人物 阿尔德里克 伦纳德 薇奥莉特 狼人
-△一头巨狼高高跃起，长满獠牙的血盆大口直奔阿尔德里克的咽喉。
-△就在这千钧一发之际！
-△一道恐怖的金色雷霆（混杂着血魔法的变异雷电）从天而降，将空中的巨狼瞬间轰成焦炭！
-△狂风大作，将浓雾撕开。
-△【全景】伦纳德身着暗银色立领战袍，双腿稳稳地站在大地上。在他的身后，十岁的薇奥莉特静静伫立，黑发在风中飞扬，猩红的眼眸冷酷如神明。
-△伦纳德身形一晃，带起一串残影，瞬间出现在狼人首领面前。
-△【特写】伦纳德一拳轰出，狂暴的力量直接击穿了狼人首领的胸膛，脊椎骨应声碎裂。
-△残存的狼人与叛军见势不妙，哀嚎着四散奔逃。
-△森林重归寂静。阿尔德里克捂着伤口，震惊地看着面前站立如山的儿子。
-阿尔德里克（声音颤抖，布满皱纹的眼眶瞬间泛红）：伦纳德……你的腿……你体内的血毒…… Aldric: Leonard... your legs... the blood poison in your body...
-伦纳德（缓缓转过身，神色平静，将大公扶起）：治好了。但父亲，现在不是叙旧的时候。 Leonard: Cured. But Father, this is not the time to catch up.
-薇奥莉特（走上前，嘴角挂着一抹看似天真的微笑）：爷爷，走吧，去看看我们的“新家”。 Violet: Grandfather, let’s go and visit our "new home."
-
-场20-3 血月同盟总部 大厅 夜 内
-出场人物 阿尔德里克 伦纳德 薇奥莉特 众贵族 
-△宏伟程度远超诺斯费拉图古堡的黄金大厅内，灯火辉煌。
-△克劳利家主、暗影议会马尔科姆议员，以及数十位北方中小家族的族长，齐刷刷地在大厅两侧垂首站立。
-△大厅正前方的王座上方，高高悬挂着一面崭新的盟旗——那上面，赫然印着伦纳德那一脉的暗银色蝙蝠徽章。
-△阿尔德里克迈入大厅，看着眼前这甚至凌驾于整个暗夜世界之上的恐怖势力，整个人彻底呆立在原地。
-薇奥莉特（走到王座旁，转身，俯瞰着震惊的祖父，声音在空旷的大厅内回荡）：爷爷，现在，您觉得诺斯费拉图，还能撑几天？ Violet: Grandfather, now tell me. How many days can Nosferatu still last?
-
-
-第二十一集
-场21-1 血月同盟总部 密室 夜 内
-出场人物 阿尔德里克 伦纳德 薇奥莉特
-△密室门轰然关闭，将外界的喧嚣彻底隔绝。
-△墙壁上，由魔力维持的幽蓝色火焰静静燃烧，将三人的影子拉得极长。
-△阿尔德里克大公仿佛瞬间苍老了十岁，他无力地扶着黑曜石椅背，看着面前腰背挺直的儿子，和眼神深邃得可怕的孙女。
-阿尔德里克（喉咙沙哑，长叹一声）：你们……到底想要什么？诺斯费拉图的毁灭，对你们有什么好处？ Aldric: What... do you really want? What do you gain from Nosferatu’s downfall?
-△薇奥莉特神色平静，从怀中抽出一份散发着淡淡血光的羊皮契约，顺着冰凉的石桌桌面，缓缓推到阿尔德里克面前。
-△【特写】契约表面，由暗影议会中立派盖上的紫色魔法印章若隐若现。
-薇奥莉特（声音冷清，不带一丝温度）：爷爷，我们不想毁灭家族，我们是在拯救它。签了它，诺斯费拉图整体并入血月同盟。 Violet: Grandfather, we do not want to destroy the family. We are saving it. Sign it, and Nosferatu joins the Bloodmoon Alliance as a whole.
-阿尔德里克（猛地抬头，眼中余威仍在）：并入？那老夫算什么？ Aldric: Absorbed? Then what am I?
-薇奥莉特：您依然是高高在上的大公，保留您所有的尊荣。但……家族的实际掌控权、军权、财政权，必须全部移交给我的父亲，伦纳德亲王。 Violet: You remain the Grand Duke above all, with every honor intact. But… the real control of the family, the army, and the treasury must all pass to my father, Prince Leonard.
-△【特写】阿尔德里克捏紧了手中的银色权杖，由于用力，指节发出不堪重负的酸涩声。
-阿尔德里克（咬牙，看向伦纳德）：你要夺你父亲的位？ Aldric: You want to take your father's seat?
-伦纳德（迎上大公的目光，眼神坦荡而坚定）：父亲，您老了。您的妥协和权衡，已经让家族沦为旁人分食的腐肉。我拿回权力，是为了让诺斯费拉图真正站起来。 Leonard: Father, you’re old. Your compromises and trade-off have turned this family into carrion for others to carve up. I’m taking back power so Nosferatu can truly rise again.
-薇奥莉特（补充，语气冰冷）：还有，赫尔曼、塞琳娜、塞西莉亚一系，必须全部逐出家族核心层，贬为旁支。 Violet: And Herman, Selina, Cecilia, and their entire Lin must be removed from the family core and demoted to a branch line.
-阿尔德里克（深吸一口气，连连摇头）：荒谬！塞琳娜不会同意的！她背后的塞壬家族掌控着南方海港，如果逼急了他们，切断了血石和海运，诺斯费拉图立刻就会瘫痪！ Aldric: Ridiculous! Selina will never agree! The Siren family behind her controls the southern harbors. Push them too far, and if they cut off Bloodstone and sea transport, Nosferatu collapses at once!
-△薇奥莉特仿佛早就料到他会这么说，嘴角勾起一抹嘲讽的冷笑。
-△她伸出细嫩的手指，轻轻敲了敲桌面。
-薇奥莉特：爷爷，您精明了一辈子，怎么偏偏在那个女人身上犯了糊涂？您真的以为，塞壬家族现在还是我们的盟友吗？ Violet: Grandfather, you were sharp your whole life. How did you lose your judgment over that woman? Do you really think the Siren family is still our ally?
-△薇奥莉特从袖中甩出一本厚厚的黑色账册，“啪”的一声砸在大公面前。
-薇奥莉特：这是克劳利家族和暗影议会联合查到的账目。早在三年前，塞琳娜就私下与塞壬家族签署了密约，将我们南方大片矿脉的运入权折价卖给了他们。 Violet: The Crowleys and the Shadow Council found these records. Three years ago, Selina cut a secret deal with the Siren Family and sold them our southern mine access for cheap. 
-△【特写】阿尔德里克颤抖着翻开账册，上面密密麻麻的塞壬家族特有水纹印章和塞琳娜的私人血印，刺痛了他的双眼。
-阿尔德里克（满脸震惊，自言自语）：这……这不可能……她怎么敢…… Aldric: This... this is impossible... How dare she...
-薇奥莉特（逼近一步，字字诛心）：她有什么不敢的？她用家族的利益，去填塞壬家族的胃口，换取他们对赫尔曼的支持。爷爷，您一直视若珍宝的继妻，早就把您的棺材本卖得一干二净了！ Violet: What wouldn't she dare? She fed the family's interests to the Siren family in exchange for their support of Herman. Grandfather, that precious second wife of yours has sold your last safety net clean away!
-△阿尔德里克如遭雷击，整个人委顿在椅子上。他死死盯着那份并入协议，又看了看满眼失望的伦纳德。
-△终于，他颤抖着咬破指尖，将一抹猩红的血迹，狠狠按在了协议的签名处。
-阿尔德里克（声音仿佛是从牙缝里挤出来的）：三天后……例行长老会。我会亲自宣布，伦纳德为家族唯一的、不可动摇的继承人。 Aldric: In three days... at the regular elders' council. I will personally announce Leonard as the family's sole and unshakable heir.
-△薇奥莉特收回协议，满意地微微躬身。
-薇奥莉特：明智的选择，爷爷。 Violet: A wise choice, Grandfather.
-
-第二十二集
-场22-1 塞琳娜寝殿 夜 内
-出场人物 塞琳娜 赫尔曼（虚弱状） 密报仆从
-△寝殿内一片狼藉。名贵的瓷器和水晶杯碎了一地。
-△塞琳娜脸色狰狞，双手揪住一名跪在地上的密报仆从的衣领。
-塞琳娜（尖叫）：你说什么？！那个老东西竟然在密室里和他们签了协议？！ Selina: What did you say?! That old bastard signed an agreement with them in the secret chamber?!
-仆从（浑身发抖）：是……是的，王妃殿下。大公身边的侍卫亲信传出消息，大公准备在三天后的长老会上，正式宣布剥夺赫尔曼大人的继承权，由伦纳德接任…… Servant: Y-yes, Your Highness.  The Grand Duke’s men leaked the words. In three days, at the elders’ meeting, he’ll strip Lord Herman of his heirship and name Leonard as successor…
-△躺在软榻上、右臂缠满黑绷带的赫尔曼闻言，吓得脸色惨白，一口气没上来，剧烈地咳嗽起来。
-赫尔曼（惊恐）：完了……全完了……母亲，那个老不死的是要把我们往死里逼啊！ Herman: It's over... all over... Mother, that old bastard is leaving us no way out! 
-△塞琳娜缓缓松开手，眼中的惊慌逐渐被一股歇斯底里的疯狂和阴毒取代。
-塞琳娜（咬牙切齿）：既然那个老东西不给我们活路，那就别怪我心狠手辣了。 Selina: If that old bastard leaves us no way to live, then he can blame himself for what comes next.
-△塞琳娜走到墙壁旁的暗格前，连打几个繁复的印记。暗门打开，里面摆放着一只散发着腐朽气息的黑木箱子。
-△【特写】箱子打开，里面静静躺着三件散发着上古魔力波动的圣器：枯萎圣杯、噬魂骨匕、爆裂血晶。
-△塞琳娜抚摸着这些圣器，对一旁的阴影处冷冷开口。
-塞琳娜：用这三件上古圣器作为代价，去联系血棘会。我要雇佣“夜刃”组织里最顶尖的杀手，那位初代血族——“暗翼”。 Selina: Use these three ancient relics as payment and contact the Bloodthorn Society. I want the best assassin in Nightblade: the first-generation vampire, Darkwing.
-△阴影中，一个沙哑的声音低低应了一声，随后消失不见。
-△塞琳娜转头看向赫尔曼，眼神狠辣。
-塞琳娜：明天一早，大公要乘坐马车前往暗影议会签署联合声明。我已经让人在马车底座上刻下了“爆裂血咒”。 Selina: Tomorrow morning, the Grand Duke will take a carriage to the Shadow Council to sign the joint declaration. I've already had the Explosive Blood Curse carved into the carriage base.
-赫尔曼（倒吸一口凉气）：母亲，您这是要……弑父？ Herman: Mother, are you trying to... kill Father?
-塞琳娜（冷笑）：是他先抛弃我们的！ Selina: He abandoned us first!
-
-场22-2 阿尔德里克卧室 夜 内
-出场人物 阿尔德里克 塞琳娜
-△夜深。阿尔德里克正坐在床边，看着手中的权杖发呆。
-△房门轻轻被推开，塞琳娜红着眼眶，只穿着一身素白的内衫，跪行到大公脚边，死死抱住他的双腿。
-塞琳娜（梨花带雨，哭声哀戚）：大公……我的亲爱的主人。您真的要抛弃我和孩子们吗？赫尔曼虽然犯了错，但他都是为了家族啊！ Selina: Grand Duke... my beloved lord. Are you truly throwing me and the children away? Herman made mistakes, but he did it all for the family!
-△阿尔德里克看着这个陪伴了自己数白年的女人，眼中闪过一丝复杂与犹豫。他弯下腰，轻轻抚摸着她的金发。
-阿尔德里克（叹气）：塞琳娜，收手吧。你做过的那些事，老夫可以不追究。只要你和赫尔曼安分守己，老夫保你们一世衣食无忧。 Aldric: Selina, stop this. I can overlook what you’ve done. As long as you and Herman stay in line, I'll keep you comfortable for the rest of your lives.
-△塞琳娜伏在大公膝头，乖顺地点头，然而在大公看不见的角度，她的双眼里闪烁着野兽般歹毒的光芒。
-塞琳娜（低声道）：臣妾……遵命。 Selina: At once, my lord.
-
-场22-3 古堡外 山道 夜 外
-出场人物 暗翼
-△狂风大作，血月被乌云遮挡了大半。
-△古堡沉重的铁门缓缓打开，大公那辆由两匹梦魇马拉着的黑色马车，缓缓驶出，朝着远处的山道疾驰而去。
-△【全景】不远处的悬崖峭壁上。
-△一个身穿漆黑重铠、背部长着一对遮天蔽日般巨大蝠翼的男子——暗翼，正静静地伫立在风中。
-△他缓缓睁开双眼，露出一双不带任何人类情感的暗金色瞳孔，死死锁定了下方山道上的马车。
-
-第二十三集
-场23-1 悬崖山道 日/雨 外
-出场人物 阿尔德里克 伦纳德 薇奥莉特 暗翼
-△暴雨如注，山道两侧悬崖峭壁，乱石嶙峋。
-△大公的马车在雨泥中艰难前行。
-△突然，马车底座底部的暗红符文骤然亮起，爆发出刺目的血光！
-△伴随着一声惊天动地的巨响，狂暴的爆炸魔力将整辆马车掀飞到半空中，车轮碎裂，马匹惊恐哀鸣。
-△【慢镜头】马车在空中四分五裂，阿尔德里克大公狼狈地被甩出车厢，朝着下方的万丈深渊坠落下去。
-△半空中，暗翼化作一道黑色闪电，尖锐的利爪直取坠落中的大公，试图彻底终结他的生命。
-△就在这千钧一发之际！
-△一道比暗翼更快的血红身影，撕裂了雨幕！
-△伦纳德不知何时早已潜伏在侧。他双腿微曲，猛地在崖壁上一蹬，整个人如同离弦之箭般弹射而出，在半空中一把抱住了阿尔德里克！
-△伦纳德（怒吼）：起——！ Leonard: Up——!
-△伦纳德在空中强行扭转身体，将自己的脊背朝下，用自己的肉身充当盾牌。
-△两人重重坠落到崖底的乱石滩上。一根尖锐的石锥，直接穿透了伦纳德的右肩胛骨，鲜血瞬间如泉涌般喷洒在湿冷的碎石上。
-△暗翼见一击未中，而周围隐隐有高阶血魔法的波动在凝聚，他冷哼一声，双翼一展，瞬间消失在迷雾与暴雨深处。
-△【全景】雨水冲刷着血迹。
-△阿尔德里克大公挣扎着从地上爬起来。他看着为了保护自己而被石锥死死钉在地上、浑身是血的伦纳德，布满皱纹的眼眶瞬间泛红。
-阿尔德里克（声音颤抖，不可置信）：伦纳德……你……你为什么要做这种蠢事？！老夫以前那样对你，你为什么要救老夫？！ Aldric: Leonard... you... why would you do something so stupid?! After everything I did to you, why would you save me?!
-伦纳德（脸色惨白，嘴角挂着血迹，却虚弱地笑了一声）：因为……不管您做了什么……您都是我的父亲。我不能……看着您死在卑鄙小人的暗算下。 Leonard: Because... whatever you've done... you're still my father. I couldn't... watch you die to a coward's dirty plot.
-△大公浑身剧烈颤抖，眼泪终于混着雨水夺眶而出。
-△一阵轻微的脚步声在碎石滩上响起。
-△薇奥莉特撑着一把黑伞，缓缓从阴影中走出来。雨水顺着伞骨滑落，她的脸色平静得像是一潭死水。
-薇奥莉特（走到两人身前，居高临下地看着大公）：爷爷，您现在看清楚了吗？您拼死想要护着的那个继室和二叔，送给您的，是一场粉身碎骨的爆炸。 Violet: Grandfather, do you realize it now? The second wife and son you fought so hard to protect gave you a blast meant to tear you to pieces.
-薇奥莉特（冷声）：您，还要继续护着他们吗？ Violet: Will you still protect them?
-
-第二十四集
-场24-1 古堡医疗室 日 内
-出场人物 塞琳娜 赫尔曼 塞西莉亚 众长老 守卫若干
-△医疗室的大门被重兵把守。
-△塞琳娜站在病榻前，看着假装昏迷不醒、脸色铁青的阿尔德里克（实际上被塞琳娜下了迷药），转头面向门外聚集的家族长老们。
-塞琳娜（用丝帕擦着没有眼泪的眼角，声音哀切）：大公在路上遭遇了叛匪的袭击，血脉受到了严重的诅咒反噬，现在神志不清，需要闭关长期沉睡。 Selina: The Grand Duke was attacked by rebels on the road. His bloodline curse backfired badly, and now he’s delirious. He needs to enter a long sleep to recover.
-大长老（眉头紧锁）：那家族的大局由谁主持？三天后的继承人宣布仪式又该如何？ Grand Elder: Then who oversees the family? And what about the heir announcement ceremony in three days?
-△塞琳娜冷笑一声，从怀中掏出一份盖有大公私人印章的羊皮纸。
-塞琳娜（高声道）：这是大公昏迷前亲笔写下的手谕！在老人家醒来之前，由赫尔曼亲王代掌大公之位，主持家族一切事务！ Selina: This is the Grand Duke's handwritten decree before he lost consciousness! Until he wakes, Prince Herman will act as Grand Duke and govern all family affairs!
-△大门被推开。已经从地牢里被放出来的赫尔曼，身穿一件宽大的家主长袍走了进来。
-△他右臂的焦黑伤口虽然用白布缠着，但依然隐隐渗出黑血，可他脸上的狂喜却怎么也掩盖不住。
-赫尔曼（走到大堂中央，高举双手）：诸位长老！父亲遭此毒手，一定是伦纳德和那个野种勾结外人所为！我赫尔曼在此发誓，定要带领家族揪出内贼，重振诺斯费拉图！ Herman: Elders! Father was struck down by Leonard and that bastard conspiring with outsiders! I, Herman, swear I will lead this family, root out the traitors, and restore Nosferatu!
-△塞西莉亚在人群中煽风点火。
-塞西莉亚：没错！我亲眼看到伦纳德和克劳利家的人勾勾搭搭，大公这次出行，只有他们知道路线！凶手就是他们！ Cecilia: Exactly! I saw Leonard sneaking around with the Crowleys. Only they knew the Grand Duke's route! They're the killers!
-△一时间，贵族们议论纷纷，部分长老虽然怀疑，但看着手谕和大公的私人印章，一时间也不敢反驳。
-
-场24-2 医疗室门外 日 内
-出场人物薇奥莉特 伦纳德 守卫若干
-△伦纳德肩膀缠着绷带，坐在轮椅上，由薇奥莉特推着来到医疗室门口。
-△十多名守卫瞬间拔出重剑，拦住去路。
-领头守卫（面无表情）：二叔有令，大公静养期间，任何人不得探视。违者，格杀勿论！ Lead Guard: Lord Herman's orders: while the Grand Duke recovers, no one may visit him. Violators die on sight!
-△伦纳德眼中闪过一丝怒火，正要动手，薇奥莉特却轻轻拍了拍他的肩膀，示意他冷静。
-△薇奥莉特抬起头，猩红的眼眸微微眯起，冷冷地扫视了那些守卫一眼。
-薇奥莉特（轻声，语气幽凉）：既然他们不让我们走门，那我们就用别的方法。 Violet: If they won't let us go through the front gate, we'll find another way in.
-
-第二十五集
-场25-1 暗塔密室 夜 内
-出场人物 薇奥莉特 伦纳德 马尔科姆 亡灵法师（首席治疗师）
-△幽暗的密室中，魔法阵的纹路在大理石地面上散发着微弱的光芒。
-△马尔科姆议员带着一位身穿宽大黑袍、浑身散发着冰冷死亡气息的老者——暗影议会首席治疗师，悄无声息地出现在密室中。
-马尔科姆（低声）：大小姐，这位是活了三千年的莫尔斯大师。如果连他也查不出大公的异样，那这世上就没人能查出来了。 Malcolm: My Lady, this is Morse, a sage who has lived for three thousand years. If even he can't find what's wrong with the Grand Duke, no one in this world can.
-△莫尔斯走到桌旁，桌上摆放着一管薇奥莉特暗中派血仆偷出来的大公的毒血。
-△莫尔斯用枯骨般的手指沾了一点毒血，放在鼻尖闻了闻，又用一根骨针在血中搅动。
-△【特写】骨针接触到血液的瞬间，立刻化为一片焦黑，冒出刺耳的“嗤嗤”声和惨绿色的烟雾。
-莫尔斯（声音沙哑，如同两块砂纸在摩擦）：这不是袭击造成的伤。这是“暗夜凋零”，一种极罕见的慢性毒药。 Morse: These wounds weren't caused by an attack. This is Darknight Wither, an extremely rare slow poison.
-薇奥莉特（眼神一凝）：慢性毒药？ Violet: A slow poison?
-莫尔斯：是的。此毒在体内至少积累了三年。每一次饮用高阶血酒，毒素就会加深一分，直到最后血脉枯竭。而这毒药的药引……需要塞壬家族特有的“深海银沙”。 Morse: Yes. It has been building in his body for at least three years. Every cup of high-grade blood wine deepened the toxin, until his bloodline dried out. And the catalyst... requires Deep-Sea Silver Sand, found only in the Siren family.
-△【闪回】
-△前世的家族宴会上，塞琳娜打扮得花枝招展，得意洋洋地向周围的贵妇炫耀着一瓶散发着银色光芒的药剂。
-△塞琳娜（娇笑）：这可是我们塞壬家族的秘药，能助大公永葆青春呢。 Selina: This is my Siren family's secret elixir. It will keep Your Grace young forever.
-△【闪回结束】
-
-△薇奥莉特紧握双拳，眼中杀意如实质般爆发。
-薇奥莉特：原来三年前，那个贱人就已经在给爷爷下毒了。 Violet: So that bitch started poisoning Grandfather three years ago.
-薇奥莉特（转头看向莫尔斯）：大师，能解吗？ Violet: Sage, could it be cured?
-莫尔斯：我可以施展古老法术暂时压制毒素，并提取出塞壬家族的毒素证据。但要让他在三天内彻底清醒并恢复实力……需要庞大的、纯净的高阶血魔法能量作为引子，强行冲开他的血脉封锁。 Morse: I can use an ancient spell to hold back the poison and extract proof of the Sirens’ toxin. But to fully wake him in three days and restore his power… we need pure, high-level blood magic to force open his sealed bloodline.
-△伦纳德闻言，没有丝毫犹豫，直接推着轮椅上前一步。
-伦纳德：用我的。我的血魔法已经完全恢复。 Leonard: Use mine. My blood magic has fully recovered.
-薇奥莉特（看着父亲，眼中闪过一丝担忧）：父亲，您身上的伤还没好，如果强行引导魔力，您的血脉可能会受损。 Violet: Father, your wounds haven't healed. If you force your magic now, your bloodline could be damaged.
-伦纳德（慈爱地看着薇奥莉特，拍了拍她的手）：傻孩子，如果不让那个老家伙亲眼看看谁才是真正的幕后黑手，我们在长老会上就无法名正言顺。只要能保住你和我们的未来，这点损伤算什么？ Leonard: Silly child. If that old man doesn't see the real hand behind this with his own eyes, the Elder Council will never accept us. If it protects you and our future, a little damage doesn’t matter
-△薇奥莉特深吸一口气，重重点头。
-△她走到魔法阵中央，双手开始结出繁复的暗黑法印。
-△【特写】魔法阵的线条瞬间变成刺目的血红色。伦纳德合上双眼，双手张开，一股庞大得令人窒息的暗红血能，化作一道实质般的能量洪流，疯狂地涌入魔法阵中，汇聚到那颗准备用来唤醒大公的血色结晶上。
-△伦纳德的脸色以肉眼可见的速度变得苍白，但他咬紧牙关，没有一丝退缩。
-薇奥莉特（死死盯着结晶，在心中默念）：塞琳娜，赫尔曼。三天后的长老会，就是你们母子的葬礼。 Violet: Selina. Herman. In three days, the Elder Council will be your funeral.
-
-第二十六集
-场26-1 家族议事厅 日 内
-出场人物 塞琳娜 赫尔曼 塞西莉亚 众长老 守卫
-△大理石长桌旁座无虚席。气氛压抑而凝重，数十位家族长老正襟危坐，低声交头接耳。
-△【全景】塞琳娜一袭黑金相间的华丽礼服，神色傲然地伫立在空置的骨雕王座旁。她手中高举着一份散发着淡淡魔法波动的羊皮手谕。
-塞琳娜（高声宣布，声音响彻大厅）：诸位长老！大公如今因伤重陷入沉睡，但他昏迷前留下了这道最高手谕！ Selina: Elders! The Grand Duke has fallen into deep sleep from his grave wounds, but before he lost consciousness, he left this supreme decree!
-△塞琳娜猛地展开羊皮纸，露出上方鲜红的阿尔德里克私人血印。
-塞琳娜：因大公身体抱恙，即日起，由赫尔曼·诺斯费拉图代理家主之位，终身有效！ Selina: Due to the Grand Duke's failing health, from this day forward, Herman Nosferatu shall act as head of the family for life!
-△【特写】赫尔曼身穿大公宽大的家主长袍，脸上带着难以抑制的狂喜。他快步走上高台，单膝跪地，故意做出一副悲恸而恭敬的模样。
-赫尔曼（声音颤抖）：父亲，我定不负您的重托，誓死保卫诺斯费拉图！ Herman: Father, I will not fail your trust. I swear to defend Nosferatu with my life!
-△台下，塞西莉亚身穿盛装，得意洋洋地扫视着四周，眼神中满是讥讽与轻蔑。
-塞西莉亚OS：薇奥莉特，我的好姐姐。现在整个古堡都是我父亲的了，你和那个死瘸子，连进这道门的资格都没有！ Cecilia O.S.: Violet, my dear sister. The whole castle belongs to my father now. You and that damn cripple do not even deserve to enter this door!
-△【慢镜头】大厅厚重的黑曜石大门被一股恐怖的血色巨力蛮横地轰开，碎石四溅。
-△烟尘散去，伦纳德一袭暗银色战袍，面无表情地推着一辆纯黑轮椅，缓缓步入大厅。
-△【特写】全场瞬间死寂。所有人的目光全部死死钉在轮椅上坐着的人身上——那赫然是本该“昏迷不醒”的阿尔德里克大公！
-△大公面色有些苍白，但脊背挺直，那双深邃的眼眸中，正跳动着令人胆寒的冰冷杀意。
-△塞琳娜手中的手谕“啪嗒”一声掉落在地，脸色在瞬间褪去所有血色。
-赫尔曼（吓得猛地瘫坐在地，浑身剧烈颤抖）：不……不可能！父亲他明明…… Herman: No... impossible! Father clearly...
-△【特写】阿尔德里克缓缓扶着轮椅扶手，竟在众目睽睽之下，一步一步，沉稳地站起身来。他从怀中取出一枚晶莹剔透的暗红影像水晶，冷冷地俯视着台下的母子二人。
-阿尔德里克（声音沙哑而威严，带着无尽的怒意）：你想说，我明明该死透了？ Aldric: You mean I should be dead?
-
-
-第二十七集
-场27-1 家族议事厅 日 内
-出场人物 阿尔德里克 塞琳娜 赫尔曼 塞西莉亚 伦纳德 众长老
-△【特写】大公枯槁的手指猛地捏紧影像水晶。刹那间，一道庞大的血魔法注入其中，水晶升空，投射出巨大的全息半透明画面。
-△画面一：幽暗的寝殿内，塞琳娜面色狰狞，将一管散发着惨绿荧光的“暗夜凋零”毒药，缓缓滴入阿尔德里克的红酒杯中。
-△画面二：密室里，塞琳娜与血棘会使者的对话清晰回荡。
-塞琳娜的声音（冷酷）：五十万血晶，我要薇奥莉特和伦纳德死无葬身之地。 Selina: Five hundred thousand Blood Crystals. Make Violet and Leonard disappear permanently.
-△画面三：马车出发前的深夜，塞琳娜的亲信在马车底座上，一笔一画刻下代表爆裂血咒的禁忌符文。
-△画面四：塞琳娜模仿大公笔迹，在伪造的代理手谕上按下血印的全部过程。
-△【全景】一桩桩、一件件，每一段画面都伴随着无可辩驳的魔法印记，将塞琳娜彻底钉死在耻辱柱上。
-△“不……这不是真的！这是幻觉！是大伯伪造的！No… This can’t be real! It’s a trick! Lenoard forged it!”塞琳娜发疯般地尖叫起来，双腿一软，重重地瘫跪在地上，大口喘着粗气。
-△塞西莉亚脸色惨白，惊恐地看着台上的画面。她趁着众人不注意，悄悄提起裙摆，弓着身子朝大厅侧门挪去。
-△赫尔曼面色狰狞，眼底闪过一丝疯狂，他猛地弹射起步，运起全身血能，直奔半空中的影像水晶夺去！
-赫尔曼（咆哮）：给我碎——！ Herman: Shatter——!
-△伦纳德身形一闪，宛如一道暗银色的闪电，瞬间挡在赫尔曼面前。
-△【特写】伦纳德一拳轰出，狂暴的暗红魔力直接击穿了赫尔曼的护体结界，狠狠砸在他的膝盖骨上。
-△△骨裂声在死寂的大厅内异常刺耳。赫尔曼发出一声凄厉的惨叫，双膝一软，重重地跪倒在大公脚边，右腿扭曲成一个诡异的角度。
-△阿尔德里克俯视着脚下颤抖的塞琳娜，眼中的痛楚一闪而逝，取而代之的是无尽的冰冷。
-阿尔德里克（声音颤抖）：塞琳娜，你我夫妻两百余年，我对你不薄。你为何……要置我于死地？ Aldric: Selina, we’ve been husband and wife for over two hundred years. I never treated you poorly. Why... did you try to kill me?
-塞琳娜（眼看事情败露，突然神经质地大笑起来，笑得眼泪流下）：对我不薄？哈哈哈哈！阿尔德里克，你心里装的，永远只有宋棠那个贱人和她的儿子！我和我的孩子，在你眼里，不过是稳固你大公之位的工具！ Selina: Never treated me poorly? Hahahaha! Aldric, your heart only ever held your first wife and her son! My children and I were nothing to you but tools to secure your position as Grand Duke!
-△【特写】大公闭上双眼，不愿再看她一眼。他缓缓抬起右手，在半空中挥了挥。
-阿尔德里克：拿下。 Aldric: Take her down.
-
-
-第二十八集
-场28-1家族议事厅/走廊 日 内
-出场人物 塞琳娜 赫尔曼 塞西莉亚 薇奥莉特 伦纳德 阿尔德里克 守卫
-△数十名身穿重甲的家族守卫蜂拥而上，粗暴地将瘫软的塞琳娜和断腿的赫尔曼死死按在地上，冰冷的锁链穿透他们的琵琶骨。
-△【全景】走廊尽头，塞西莉亚慌不择路地奔跑着，华丽的礼服在惊慌中被撕扯得破烂不堪。
-△就在她即将触及城堡后门的那一刻，一道娇小的黑色身影，悄无声息地挡在了她的去路前。
-△薇奥莉特双手交叠在身前，神色平静，猩红的眼眸在幽暗的走廊里散发着幽微的光。
-薇奥莉特（语气平静得令人发指）：姐姐，外面雨大，你要去哪？ Violet: Sister, it's pouring outside. Where do you think you're going?
-△塞西莉亚被吓得尖叫一声，猛地靠在墙壁上。她看着眼前这个只有十岁、却气场如深渊般的妹妹，绝望之下，猛地从袖中拔出一柄闪烁着毒光的银匕首，歇斯底里地朝薇奥莉特刺去！
-塞西莉亚（尖叫）：你去死吧！ Cecilia: Go die!
-△【特写】薇奥莉特身形未动，在匕首逼近面颊的千钧一发之际，她侧头避开。同时，她细嫩的小手如毒蛇出洞，反手精准地扣住塞西莉亚的手腕，猛地一折。
-薇奥利特：啊——！ Violet: Ah!
-△骨折声中，匕首掉落，被薇奥莉特稳稳接住。下一秒，冰冷的锋刃已经死死抵在塞西莉亚雪白的喉咙上，溢出一缕黑色的毒血。
-薇奥莉特（贴在塞西莉亚耳边，吐气如兰，声音低得只有两人能听见）：上一世，你将我吊在地牢，让万蝠吸干我的血，把我推下深渊。这一世，我不会让你死得那么痛快。我会让你，慢慢地、一点一点地，尝遍失血枯竭的滋味。 Violet: In my last life, you hung me in the dungeon, let ten thousand bats drain my blood, then pushed me into the abyss. In this life, I won't let you die so easily. I’ll make you feel your blood drain away, slowly, drop by drop.
-△塞西莉亚双眼圆睁，眼中写满了极致的恐惧，仿佛看着一个地狱归来的恶鬼。
-△几名追赶而来的守卫赶到，齐刷刷跪地。
-薇奥莉特（松开手，丢掉匕首，冷声）：带下去，关进最深处的死牢，每天割腕放血，别让她死了。 Violet: Take her away. Lock her in the deepest death cell. Cut her wrists and bleed her every day. Don't let her die.
-守卫（齐声）：是！ Guards: Yes!
-△【转场】家族大厅内。
-△阿尔德里克重新坐在骨雕王座上，伦纳德和薇奥莉特立于他身侧。大公手持羊皮遗嘱，声音洪亮地向全场宣告。
-阿尔德里克：大公诏令！从即日起，伦纳德·诺斯费拉图为诺斯费拉图家族唯一、神圣不可侵犯的继承人！薇奥莉特，为第二顺位继承人！ Aldric: By decree of the Grand Duke! From this day forward, Leonard Nosferatu is the sole and sacred heir of the Nosferatu family! Violet is second in line!
-阿尔德里克：赫尔曼一系，剥夺一切爵位、资产与血脉权利，永世流放极北荒原！塞琳娜，移交暗影议会，受永恒火刑审判！ Aldric: Herman's line is stripped of all titles, assets, and bloodline rights, and exiled forever to the Far Northern Wasteland! Selina is to be handed to the Shadow Council for judgment by eternal flame!
-△台下，被锁链拖走的赫尔曼突然疯狂地挣扎起来，他满脸是血，死死盯着台上的薇奥莉特，发出野兽般的咆哮。
-赫尔曼（凄厉大喊）：阿尔德里克！你被骗了！薇奥莉特这个野种根本不是我生的！她根本没有诺斯费拉图的血脉！她是…… Herman: Aldric! You've been fooled! That bastard Violet isn't even mine! She doesn't have Nosferatu blood at all! She is...
-
-第二十九集
-场29-1 大公书房 夜 内
-出场人物 阿尔德里克 薇奥莉特 伦纳德（门外OS）
-△书房内一片死寂。阿尔德里克坐在桌前，看着面前神色冰冷的薇奥莉特。
-阿尔德里克（缓缓叹了一口气）：赫尔曼说得没错。你，确实不是赫尔曼的女儿。你身上，也没有诺斯费拉图一族的血脉。 Aldric: Herman is right. You are not Herman's daughter. And there is no Nosferatu blood in you.
-薇奥莉特（长袖中的双手微微颤抖，面上却依旧冷静）：那我是谁？ Violet: Then who am I?
-阿尔德里克（眼中浮现出一抹追忆与敬畏）：三百年前，东方的血族皇室发生巨变。你的生母，那位高贵无比的东方血族公主，被仇家追杀至西方。临终前，她将尚在襁褓中的你托付给我。为了保护你体内的东方皇血不被仇家感知，我用秘法封印了你的血脉，并宣称你是赫尔曼在人类世界的私生女。 Aldric: Three hundred years ago, the Eastern vampire royals were overthrown. Your birth mother, a noble eastern vampire princess, was hunted by her enemies all the way west. Before she died, she entrusted the infant you to me. To keep her enemies from sensing your royal blood, I sealed your bloodline with a secret art and claimed you were Herman's illegitimate daughter from the human world.
-△阿尔德里克从抽屉里取出一个散发着古老金色符文的密封吊坠，递给薇奥莉特。
-△【特写】吊坠在接触到薇奥莉特指尖的瞬间，爆发出极其温润、高贵而神圣的金色光芒。
-阿尔德里克：你身上流淌的，是比我们更古老、更高贵的始祖皇血。等你成年，去东方吧，去寻找你的根。 Aldric: Your vein carries the Progenitor royal blood, older and nobler than ours. When you come of age, go east. Find your roots.
-△薇奥莉特握紧吊坠，那股温暖的能量瞬间涌遍全身。她看着眼前的老人，最终缓缓跪下，行了一个标准的家族礼仪。
-薇奥莉特（一字一顿）：不管我的血来自哪里。这一世，诺斯费拉图，永远是我的家。 Violet: No matter where my blood comes from, in this life, Nosferatu will always be my home.
-△书房的大门被轻轻推开。伦纳德一直站在门外，此时走了进来。
-△【中景】他没有多问一个字，只是走到薇奥莉特身前，弯下腰，将这个十岁的女孩紧紧地抱在怀里，力道大得仿佛要将她融入自己的骨血。
-伦纳德（声音有些沙哑，却无比坚定）：不管你是谁的女儿，你，永远是我伦纳德唯一的女儿。 Leonard: No matter whose daughter you are, you will always be my only daughter.
-
-第三十集
-场30-1 古堡天台/大堂 夜 外/内
-出场人物 伦纳德 薇奥莉特 阿尔德里克 众贵族 盟友
-△【全景】血月高悬，今夜的血月比以往任何时候都要圆、都要猩红。
-△巍峨的古堡每一座尖塔上，都燃起了百米高的暗红长命火，将整座大山照耀得如同白昼。成千上万只蝙蝠在夜空中疯狂飞舞，在血月的背景下，竟然凝聚成了一个遮天蔽日的暗银色巨型蝙蝠族徽！
-△古堡大堂内，灯火辉煌，乐声大作。
-△伦纳德身披黑红相间、边缘绣着金丝的大公爵斗篷，手持象征着至高无上权力的银色权杖，步伐沉稳地走上高台。
-△【特写】阿尔德里克双手托着始祖留下来的黑金王冠，神色庄重地戴在伦纳德的头上。
-阿尔德里克（高呼）：诺斯费拉图第十八代大公——伦纳德！ Aldric: The eighteenth Grand Duke of Nosferatu, Leonard!
-△大堂内，三千名全副武装的精锐血族战士齐刷刷单膝跪地，重剑顿地，发出震耳欲聋的轰鸣。
-众战士（齐声高呼，声震苍穹）：参见大公！参见大公！ Warriors: Hail the Grand Duke! Hail the Grand Duke!
-△薇奥莉特身着一袭精致的黑色哥特礼服裙，站在伦纳德身后半步的位置。她的胸前，佩戴着代表“第一纯血千金”的九龙蝙蝠双徽章，气场清冷而尊贵。
-△大堂一侧，克劳利家主、马尔科姆议员，以及新加入的五个北方大豪族的代表齐齐端起盛满魔力血酒的黄金杯，向着高台致敬。
-△【特写】伦纳德缓缓转过身，看着身侧这个陪伴自己历经生死、心智近妖的女儿。他的眼中满是自豪，缓缓向她伸出右手掌心。
-伦纳德（温柔而坚定）：准备好了吗，我的女儿？未来的暗夜世界，将由我们来书写。 Leonard: Are you ready, my daughter? The future of the dark world will be written by us.
-△薇奥莉特看着伦纳德，小脸上终于冰雪消融，绽放出了重生以来，第一个毫无保留、明媚如阳光般的笑容。
-△她伸出小手，坚定地搭在父亲宽大的掌心里。
-薇奥莉特：一直都是，父亲。 Violet: Always, Father.
-△【远景转场】镜头缓缓拉远，越过穹顶，飞向高空。
-△血月的光芒洒下，在大殿斑驳的古墙上，父女二人手拉着手依偎在一起的剪影，竟然投射出了一对遮天蔽日、几乎将整个暗夜世界笼罩在内的巨大蝠翼。
-△【定格】巨翼挥舞，新时代的大幕，轰然拉开。

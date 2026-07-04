@@ -1,78 +1,129 @@
 # 自动化编剧
 
-这是一个**海外短剧洗稿 workflow 项目**。
+这是一个在 Codex 里使用的短剧改写产品原型。目标是把一个已验证或值得参考的短剧源本，改写成新壳下仍然好看、能追、能付费的新短剧剧本。
 
-当前阶段不是工程实现，也不是网页产品开发阶段。现在做的事很明确：把“已验证源本的有效性”稳定迁移到新壳里，并验证 workflow 跑完后，产物是否真的更像能追、能付费的短剧。
+当前不是网页 App，也不是命令行工具。用户在 Codex 里打开本仓库，用自然语言和主控 agent 对话。
 
-## 当前定位
+## 快速开始
 
-- 这是一个 **workflow / skill chain / 样本验证** 项目
-- 不是从零原创剧本生成器
-- 不是 reviewer 驱动的返修机器
-- 不是视频分镜工程仓库
+1. 把源本放进 `input/`。
+2. 在 Codex 里打开仓库根目录。
+3. 直接说你想怎么改写。
 
-## 当前主入口
+示例：
 
-先看这些文件：
+```text
+源本在 input/my-source-script.txt。
+请按当前主链，把它改写成海外女频短剧。
+新壳方向：豪门医疗复仇。
+正文语言：English。
+先做标准首批 1-10 集。
+先做源本导入、洗稿方向和创作蓝图确认，不要直接写正文。
+```
 
-1. [AGENTS.md](./AGENTS.md)
-2. [v2-restart/当前工作入口.md](./v2-restart/当前工作入口.md)
-3. [v2-restart/项目基础说明.md](./v2-restart/项目基础说明.md)
-4. [v2-restart/PRD_v4.md](./v2-restart/PRD_v4.md)
-5. [v2-restart/specs/PRD_v4_产品契约_spec_v2.md](./v2-restart/specs/PRD_v4_产品契约_spec_v2.md)
-6. [docs/决策与变更.md](./docs/决策与变更.md)
-7. [v2-restart/workflow_spec_v20_产品契约编译候选版_2026-07-03.md](./v2-restart/workflow_spec_v20_产品契约编译候选版_2026-07-03.md)
-8. [v2-restart/skill_chain_spec_v3_产品契约链候选版_2026-07-03.md](./v2-restart/skill_chain_spec_v3_产品契约链候选版_2026-07-03.md)
+更详细的上手说明见 [QUICKSTART.md](./QUICKSTART.md)。
 
-## 目录说明
+## 当前产品入口
 
-- `v2-restart/`
-  - 当前有效的产品定义、产品契约 spec、workflow 候选版、入口文档
-- `v2-restart/支撑审计/`
-  - 仍可能会查，但不再作为当前第一入口的审计、对账、外部接线材料
+当前入口是项目内主控：
+
+```text
+shortdrama-remix/skills/shortdrama-main-controller/SKILL.md
+```
+
+Codex 应先通过 [AGENTS.md](./AGENTS.md) 进入主控，再由主控调度生产链。
+
+用户不需要手动掌握内部命令。自然语言是默认入口。高级用户也可以使用这些别名：
+
+```text
+/rewrite-start
+/rewrite-blueprint
+/rewrite-write
+/rewrite-polish
+/rewrite-review
+/rewrite-continue
+/rewrite-export
+/rewrite-status
+```
+
+这些是用户层命令。底层仍由 `source-import`、`short-drama-write`、`dialogue-polish`、clean reviewer 和 `batch-state` 执行。
+
+## 当前主链
+
+当前唯一生产链在：
+
+```text
+shortdrama-remix/
+```
+
+生产层文件：
+
+- `shortdrama-remix/skills/source-import/SKILL.md`
+- `shortdrama-remix/skills/short-drama-write/SKILL.md`
+- `shortdrama-remix/contracts/short_drama_form_lock_v1.md`
+
+内部默认链路：
+
+```text
+source-import
+-> short-drama-write(/write-from-source /plan /characters /outline /episode)
+-> /dialogue-polish
+-> /review
+-> clean reviewer
+-> /batch-state 或 /export
+```
+
+## 产品原则
+
+- 先做完整短剧项目，再分批交付。即使用户只要 1-10 集，也不能把首批当孤立样片。
+- 用户确认的是源本理解、洗稿方向、创作蓝图和最终成稿，不是内部工位。
+- 创作蓝图必须是用户可读的小 draft，同时也是 writer 的主上游。
+- 正文必须像短剧：有可见冲突、当场代价、人物反应链、追看债务和付费压力。
+- clean reviewer 必须保持干净视角，不能先读主控结论或作者自检。
+- 任何声称“按当前主链执行”的运行都必须留下 `run_log.md`。
+
+## 不要从这里开始
+
+以下内容已经从当前 main 工作树清出，或降级为历史证据，不是当前入口：
+
+- `v3-executor-first/`
+- `v2-restart/workflow_spec_v20_产品契约编译候选版_2026-07-03.md`
+- `v2-restart/skill_chain_spec_v3_产品契约链候选版_2026-07-03.md`
 - `v2-restart/archive/`
-  - 明确降级的旧 PRD、旧 workflow、旧提纲和废案
-- `input/`
-  - 本地样本源本
-- `docs/`
-  - 决策记录与项目说明
-- `research/`
-  - 外部参考与调研
-- `analysis/`
-  - 分析产物与早期验证材料
-- `archive/`
-  - 历史废案和不再作为当前方案的旧材料
+- `archive/do-not-use-as-product-design-2026-06-28/`
 
-## 当前工作方式
+它们只能从 Git 历史或本地归档追溯失败模式、对比样本和历史判断，不能复活成当前方案。
 
-- 优先修 workflow，不优先磨某一版剧本
-- 样本验证是证据，不是最终交付
-- `docs/决策与变更.md` 记录阶段判断和重要调整
-- 没有验证过的 workflow 不能直接升默认
+## 产物位置
 
-## 当前已知状态
+源本库：
 
-- `PRD_v4_产品契约_spec_v2` 是当前 PRD 编译源
-- `v20` 是当前最新候选 workflow，但尚未通过样本验证升默认
-- `v19` 是重要反查对象，但不能继续作为当前直跑源头
-- 飞书三星样本与阿尔法样本都已经跑出重要证据
-- 当前根因已从“中间层不成戏”上移到“PRD 到 workflow 的编译层会变形，导致用户产物、内部产物和质量责任混在一起”
+```text
+shortdrama-remix/源本库/{源本名}/
+```
 
-## 仓库治理约定
+新剧项目：
 
-- 项目默认使用 `main` 作为稳定分支
-- 新的 workflow / 样本验证 / 重构尝试，优先走分支
-- 不要把本地 session 噪音、临时上下文或 hook 日志提交进仓库
-- 重要判断先写进 `docs/决策与变更.md`
+```text
+shortdrama-remix/新剧/{新剧名}/
+```
 
-## 现在最重要的问题
+用户交付稿：
 
-不是“能不能写出戏”。
+```text
+shortdrama-remix/新剧/{新剧名}/export/
+```
 
-而是：
+## 当前状态
 
-> workflow 已经能把中间层接成戏了，但还没有稳定把不同源本的首批 1-10 集都拉到足够想让用户继续追、继续付费的强度下限。
+`shortdrama-remix` 已经成为当前主链。V68 clean run 证明主链底盘可以产出过线的 EP1-10 短剧样本。之后新增了项目级 `/dialogue-polish` 环节；它已接入主链，但如需宣称该环节也已 clean-run 验证，需要另跑一次干净样本。
 
-进一步收口后，当前先解决：
+## 仓库治理状态
 
-> PRD 写的是产品形态和创作能力，但编译到 spec / workflow 时容易变成内部字段、gate、reviewer、打回和 S 编号执行合同。当前已编译出 `workflow_spec_v20` 和 `skill_chain_spec_v3`，下一步是先跑飞书三星样本验证。
+当前 main 候选只保留新用户运行产品所需的入口、PRD、主控、生产 skill、短剧契约和冻结来源。运行输入与生成产物默认不入 Git：
+
+- 源本放入 `input/`
+- 源本导入产物写入 `shortdrama-remix/源本库/`
+- 新剧项目写入 `shortdrama-remix/新剧/`
+
+历史样本、旧 workflow、旧审计和旧输入脚本已从当前工作树清出。本地保全位置见 [docs/仓库治理_2026-07-04.md](./docs/仓库治理_2026-07-04.md)。

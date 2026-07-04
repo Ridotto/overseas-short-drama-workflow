@@ -2,90 +2,144 @@
 
 默认中文交流。这个项目当前仍在产品流程验证阶段，不是工程实现阶段。
 
-## 当前主入口
+## 当前唯一主链
 
-进入项目后，先看：
+当前不要再直跑 `v20`、`v3-executor-first`、`V63`，也不要继续把外部短剧方法抽成摘要、检查项或 workflow 字段。
+
+当前主链已经切到：
+
+```text
+shortdrama-remix/
+```
+
+用户在 Codex 里跑本项目时，普通入口不是旧 workflow，也不是手动记内部 slash command。短剧改写、源本导入、蓝图、首批正文、续批、导出或状态查询请求，先进入项目内主控：
+
+```text
+shortdrama-remix/skills/shortdrama-main-controller/SKILL.md
+```
+
+进入项目后，先按顺序读：
 
 1. `v2-restart/当前工作入口.md`
 2. `v2-restart/项目基础说明.md`
 3. `v2-restart/PRD_v4.md`
-4. `v2-restart/specs/PRD_v4_产品契约_spec_v2.md`
-5. `docs/决策与变更.md`
-6. `v2-restart/workflow_spec_v20_产品契约编译候选版_2026-07-03.md`
-7. `v2-restart/skill_chain_spec_v3_产品契约链候选版_2026-07-03.md`
-8. `v2-restart/workflow_execution_protocol_v1.md`
-9. `v2-restart/thread_handoff_2026-07-02/`
-10. `v2-restart/支撑审计/`
-11. `v2-restart/样本验证/`
+4. `shortdrama-remix/README.md`
+5. `shortdrama-remix/skills/shortdrama-main-controller/SKILL.md`
+6. `shortdrama-remix/contracts/short_drama_form_lock_v1.md`
+7. `shortdrama-remix/skills/source-import/SKILL.md`
+8. `shortdrama-remix/skills/short-drama-write/SKILL.md`
+9. `shortdrama-remix/vendor/short-drama/SKILL.md`
+10. `shortdrama-remix/vendor/short-drama/references/`
+11. `docs/产品架构与主控路由_v1.md`
+12. `docs/仓库治理_2026-07-04.md`
+13. `docs/决策与变更.md`
 
-`v2-restart/设计提纲_v8.md` 只作为参考文档、设计推演和规则池。只有当 `PRD_v4.md` 和当前 workflow 来源不够细、需要追溯设计原因时才看。
-
-## 不要默认继承的旧方向
-
-不要把以下内容当当前产品方案：
-
-- `v2-restart/archive/history-pre-v19-2026-07-03/` 下的旧 PRD / 旧 workflow / 旧设计提纲 / 旧盲测
-- `archive/do-not-use-as-product-design-2026-06-28/`
-
-这些只作历史线索，除非任务明确要求追溯。
+`shortdrama-remix/skills/shortdrama-main-controller/SKILL.md`、`shortdrama-remix/skills/source-import/SKILL.md` 和 `shortdrama-remix/skills/short-drama-write/SKILL.md` 是当前可执行文件，不是参考材料。
 
 ## 当前产品判断
 
-当前主文档是 `v2-restart/PRD_v4.md`。
+当前主文档仍是 `v2-restart/PRD_v4.md`。产品目标没有变：
 
-当前 PRD 编译源是 `v2-restart/specs/PRD_v4_产品契约_spec_v2.md`。它以 `PRD_v4.md` 为主上游、以 `项目基础说明.md` 为地基约束，取代 `PRD_v4_执行系统_spec_v1.md`。
+```text
+把一个已被市场验证或值得参考的短剧源本，
+洗成一个新壳下仍然好看、能追、能付费的新剧本。
+```
 
-当前没有已通过验证的正式候选执行细则。
+最新根因判断：
 
-`workflow_spec_v20_产品契约编译候选版_2026-07-03.md` 是当前最新候选 workflow，但尚未正式化。
+```text
+v20/v3 这类 workflow 能把文件跑齐，也能局部增强短剧感，
+但它们仍会把外部短剧方法编译成字段、协议、检查项和 reviewer 口径。
+真正缺的不是更多 workflow，而是直接执行短剧写作 skill：
+源本导入 -> 源本赚钱力账本 -> 新壳迁移 -> 商业项目包 -> 分集目录 -> 分集正文 -> 台词精修。
+```
 
-`skill_chain_spec_v3_产品契约链候选版_2026-07-03.md` 是当前配套工位链说明。
+因此当前主链直接使用 `shortdrama-remix`：
 
-当前最新根因判断：不是缺短剧概念，也不是只缺某个 paywall / reviewer 规则，而是 `PRD_v4 -> spec -> workflow` 的编译层会把产品契约变形成内部字段、gate、reviewer、打回和 S 编号执行合同。v20 已从 `PRD_v4_产品契约_spec_v2.md` 重新编译，并反查吸收 v19 / skill_chain_v2 的有效能力。
+- `shortdrama-main-controller` 负责接用户自然语言和 `/rewrite-*` 用户层命令，选择模式、推进确认点、调度生产链和归因返修；
+- `source-import` 负责把源本拆成可迁移账本、爽点钩子账本、付费压力、禁抄边界和写稿交接包；
+- `short-drama-write` 负责直接按短剧 skill 产出商业项目包、角色、分集目录、分集正文、台词精修和 review；
+- `short_drama_form_lock_v1` 负责锁定最终产物必须是短剧，不得滑成电视剧、网剧、小说或泛型 screenplay；
+- `vendor/short-drama` 原样保留外部短剧 skill 和 references，后续执行以本地冻结文件为准。
 
-`v2-restart/archive/superseded-v19-2026-07-03/` 中的 v19 和 skill_chain_v2 现在只作为反查对象，不作为当前直跑入口。
+用户层高级命令统一使用：
 
-`v2-restart/支撑审计/` 里的文件仍然有价值，但已经降级为支撑审计，不再作为第一入口。
+```text
+/rewrite-start
+/rewrite-blueprint
+/rewrite-write
+/rewrite-polish
+/rewrite-review
+/rewrite-continue
+/rewrite-export
+/rewrite-status
+```
 
-任何 agent 只要声称“跑 workflow / 重跑 / 按流程产出”，必须同时遵守 `v2-restart/workflow_execution_protocol_v1.md`，为本次运行留下轻量 `run_log`。没有 run log，只能说“有产物”，不能声称“按 workflow 完整执行”。
+这些只是用户层别名。底层内部命令仍保留 `/write-from-source`、`/plan`、`/characters`、`/outline`、`/episode`、`/dialogue-polish`、`/review`、`/batch-state`、`/export`。
 
-如果使用某个实验 workflow，run log 步骤以该 workflow 自身编号为准，并在 run log 里明确写出使用的 workflow spec。
+## 降级为历史证据的旧链路
 
-如果入口文档、PRD、workflow spec 或用户指令之间出现冲突，不能自行选择一个继续跑；必须先报告冲突并说明会影响哪些步骤。
+以下内容仍有证据价值，但不再作为当前直跑入口：
 
-产品目标是：把一个已被市场验证或值得参考的短剧源本，洗成一个新壳下仍然好看、能追、能付费的新剧本。
+- `v3-executor-first/`
+- `v2-restart/workflow_spec_v20_产品契约编译候选版_2026-07-03.md`
+- `v2-restart/skill_chain_spec_v3_产品契约链候选版_2026-07-03.md`
+- `v2-restart/archive/superseded-v19-2026-07-03/`
+- `v2-restart/archive/history-pre-v19-2026-07-03/`
+- `archive/do-not-use-as-product-design-2026-06-28/`
 
-第一阶段先验证 skill / workflow 原型，不先做网页 App，不先写工程 spec。
-
-## Agent 分工原则
-
-- 主控 agent 可以按需主动调用临时 sub-agent，尤其用于独立审稿、并行查资料、交叉核对散落材料；但方向、范围、优先级和最终拍板必须回到主控。
-- 主控 agent：负责和用户对齐、拍板、汇总。
-- 主创 agent：负责源本分析、事件载体拆解、变量迁移、新事件载体迁移、单集写作包、写新本、短剧化返修；分析和写作不要拆成两个互不相干的 agent。主创写完并返修后必须先做作者自检。
-- Reviewer：每个剧本或每个首批版本单开干净临时 sub-agent，不做长期固定工位，避免上下文污染。Reviewer 第一轮不要读取主创自检，先独立审。
-
-固定的是 reviewer 协议和审稿标准，不固定 reviewer 实例。
-
-主控最后对比作者自检和 reviewer 意见，再决定是否改稿、等用户/导演反馈，或继续下一批。
-
-主控不能只看最终剧本。主控必须看本次 `run_log`，确认每一步是否有产物、交接是否脏、writer 是否吃了不该吃的东西。run log 不做质量证明，不能替代剧本质量判断。
-
-注意：旧样本 V7 的执行记录 complete 只证明旧 workflow 被执行，不证明剧本质量合格。旧样本 V7 不能作为合格样本或导演可送审基准，只能作为旧执行记录误导质量判断的证据。
+这些已经从当前 main 工作树清出或降级为历史证据，只能从 Git 历史 / 本地归档追溯失败模式、对比样本和验证旧判断，不能复活成当前方案。
 
 ## 当前下一步
 
-当前不要继续修样本文本，也不要继续扩写规则。
+当前不要继续修样本文本，不要继续扩 workflow，不要再把外部方法写成“请参考”。
 
 当前下一步：
 
-1. 不改 PRD；
-2. 不把 v19 直接复活；
-3. 先认 `workflow_spec_v20_产品契约编译候选版_2026-07-03.md` 和 `skill_chain_spec_v3_产品契约链候选版_2026-07-03.md`；
-4. 按 v20 先跑飞书三星样本；
-5. 飞书三星样本通过后，再跑阿尔法样本；
-6. 若不通过，回到最小必要链路层修，不在同一轮继续长规则。
+1. 以 `shortdrama-remix/skills/shortdrama-main-controller/SKILL.md` 作为产品入口；
+2. 用自然语言或 `/rewrite-*` 用户层命令触发项目；
+3. 主控按需调用 `skills/source-import/SKILL.md` 和 `skills/short-drama-write/SKILL.md`；
+4. 正文默认按 `/episode -> /dialogue-polish -> /review` 跑，不跳过台词精修；
+5. 每批完成后如需续写，先生成或刷新 `batch-state.md`；
+6. 若正文仍弱，必须回到对应可执行步骤或本地 skill 文件本身修改，不得在外层再堆 workflow 摘要。
 
-旧 checkpoint / goal 文件只作历史记录，不作为当前下一步。
+当前已有验证证据：
+
+```text
+V68 clean run 证明新版主链底盘可以产出过线的 EP1-10 短剧样本。
+```
+
+具体运行样本不进入新 main；本地保全在 `.local-archive/pre-main-replacement-2026-07-04/shortdrama-runtime/`，GitHub 上以文档证据为准。
+
+## 运行记录规则
+
+任何 agent 只要声称“按当前主链执行”，必须留下本次 `run_log.md`。
+
+run log 至少写清：
+
+- 使用的入口 skill 文件；
+- 源本库路径；
+- 新剧项目路径；
+- 执行到哪个命令；
+- 产出了哪些文件；
+- 哪些步骤没有做。
+
+没有 run log，只能说“有产物”，不能声称“按当前主链完整执行”。
+
+## Reviewer 原则
+
+Reviewer 仍然每次单开干净临时 agent，不做长期固定工位。
+
+Reviewer 第一轮只读正文和必要的源本 / 洗稿边界，不读作者自检，不读主控结论。
+
+Reviewer 首要问题不是“格式是否齐”，而是：
+
+```text
+这是不是短剧？
+有没有保住源本让人追、让人付费的能力？
+新壳是否洗开？
+强刺激有没有被证据、系统、文件、听证会稀释？
+```
 
 ## 记录规则
 
