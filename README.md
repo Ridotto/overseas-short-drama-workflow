@@ -1,16 +1,30 @@
 # 自动化编剧
 
-这是一个在 Codex 里使用的短剧改写产品原型。
+一个在 Codex 里运行的短剧改写工作流。
 
-它的目标很简单：把一部已被市场验证或值得参考的短剧源本，改写成新壳下仍然好看、能追、能付费的新短剧剧本。
+它的目标是把一部已被市场验证、或者值得参考的短剧源本，改写成一个新壳下仍然好看、能追、能付费的新短剧项目。
 
-当前形态不是网页 App，也不是命令行工具。用户在 Codex 里打开这个仓库，然后用自然语言和主控 agent 对话。
+当前版本面向海外短剧 / 女频短剧 / 竖屏短剧这类强情绪、强钩子、强付费压力的内容生产。它不是普通润色工具，也不是简单把人名、地点和设定换掉；它会先分析源本为什么能吸引观众，再把这些商业功能迁移到新的故事壳里。
+
+## 它能做什么
+
+- 导入源本，拆出源本的爽点、钩子、压迫关系、付费按钮和洗稿风险。
+- 生成新壳方向，并在正式写正文前给出可确认的创作蓝图。
+- 产出角色设定、分集目录、当前批正文、台词精修稿、审稿意见和最终交付稿。
+- 支持首批 `1-10` 集，也支持后续继续写 `11-20`、`21-30` 等批次。
+- 保持当前剧本是短剧，而不是滑成电视剧、小说、泛型 screenplay 或普通剧情梗概。
+
+## 适合谁
+
+适合想用 Codex 辅助做短剧改写、短剧出海、短剧项目开发的人。
+
+你需要准备一个源本，最好是完整剧本。如果只有梗概、片段、链接或题材方向，也可以先做诊断和蓝图，但不要期待它直接产出完整质量的改写剧本。
 
 ## 快速开始
 
 1. 把源本放进 `input/`。
-2. 在 Codex 里打开仓库根目录。
-3. 直接告诉 Codex 你想怎么改写。
+2. 在 Codex 里打开这个仓库根目录。
+3. 直接用自然语言告诉 Codex 你想怎么改。
 
 示例：
 
@@ -23,37 +37,16 @@
 先做源本导入、改写方向和创作蓝图确认，不要直接写正文。
 ```
 
+如果还没想好新壳，可以这样说：
+
+```text
+源本在 input/my-source-script.txt。
+我还没想好新壳。请先分析源本为什么好看，并给我 3 个可改写方向。
+```
+
 更完整的使用说明见 [QUICKSTART.md](./QUICKSTART.md)。
 
-如果要报告问题或提改进建议，请使用 GitHub issue 模板。当前仓库只接受面向 `shortdrama-remix` 主链的反馈；旧 workflow 和旧样本路线不再作为产品入口。
-
-## 产品入口
-
-Codex 会从项目入口说明进入主控：
-
-```text
-AGENTS.md
-shortdrama-remix/skills/shortdrama-main-controller/SKILL.md
-```
-
-用户不需要记内部命令。自然语言是默认入口。
-
-高级用户也可以使用这些别名：
-
-```text
-/rewrite-start
-/rewrite-blueprint
-/rewrite-write
-/rewrite-polish
-/rewrite-review
-/rewrite-continue
-/rewrite-export
-/rewrite-status
-```
-
-## 工作流
-
-默认生产链：
+## 默认工作流
 
 ```text
 源本导入
@@ -66,7 +59,22 @@ shortdrama-remix/skills/shortdrama-main-controller/SKILL.md
 -> 续批或反馈返修
 ```
 
-首批默认是 `1-10` 集，但产品会把它当成完整短剧的一部分来设计，而不是孤立样片。
+默认首批是 `1-10` 集，但系统会把它当成完整短剧的一部分来设计，而不是孤立样片。
+
+## 可选命令
+
+自然语言是默认入口。高级用户也可以使用这些别名：
+
+```text
+/rewrite-start       开始一个新改写项目，导入源本，确认方向
+/rewrite-blueprint   生成或刷新创作蓝图
+/rewrite-write       写当前批正文，默认 1-10
+/rewrite-polish      台词精修和去 AI 味
+/rewrite-review      审稿
+/rewrite-continue    继续下一批，比如 11-20
+/rewrite-export      导出用户交付稿
+/rewrite-status      查看当前项目进度和产物位置
+```
 
 ## 产物位置
 
@@ -82,7 +90,7 @@ shortdrama-remix/源本库/{源本名}/
 shortdrama-remix/新剧/{新剧名}/
 ```
 
-用户交付稿：
+最终交付稿：
 
 ```text
 shortdrama-remix/新剧/{新剧名}/export/
@@ -93,25 +101,26 @@ shortdrama-remix/新剧/{新剧名}/export/
 ## 项目结构
 
 ```text
-AGENTS.md
-QUICKSTART.md
-docs/
-  PRD.md
-  产品架构与主控路由_v1.md
-input/
-shortdrama-remix/
-  contracts/
-  skills/
-  源本库/
-  新剧/
+AGENTS.md                         Codex 入口说明
+QUICKSTART.md                     上手指南
+docs/                             产品说明和发布流程
+input/                            放源本的地方
+shortdrama-remix/contracts/       短剧形态边界
+shortdrama-remix/skills/          当前可执行工作流
+shortdrama-remix/源本库/           源本分析产物
+shortdrama-remix/新剧/             新剧项目产物
 ```
 
 运行输入和生成产物默认不提交到 Git。
 
-## 开发分支
+## 当前边界
 
-`main` 是用户正式版，只保留使用产品需要的内容。
+这个仓库当前是 Codex 工作流，不是网页 App，也不是独立命令行软件。
 
-开发素材、历史审计、旧实验和后续治理放在 `codex/next` 分支或本地归档中，不放在 `main` 的当前文件树里。
+它适合做短剧项目开发和改写验证，但最终质量仍取决于源本质量、改写方向、用户确认和后续审稿。不要把单次样本的人工修稿结果当成完整链路能力证明。
+
+## 反馈问题
+
+如果要报告问题或提改进建议，请使用 GitHub issue 模板。当前仓库只接受面向 `shortdrama-remix` 主链的反馈；旧 workflow 和旧样本路线不再作为产品入口。
 
 Issue、修复分支和发布检查规则见 [docs/issue与发布流程.md](./docs/issue与发布流程.md)。
