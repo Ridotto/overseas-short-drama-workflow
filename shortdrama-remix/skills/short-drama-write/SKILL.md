@@ -478,6 +478,7 @@ graph TD
 
 如果任一项缺失，不得临场发明正文桥段；必须回到 `/outline` 补齐该集目录。
 每场戏写前必须执行 performance-dialogue-brief.md 的 6 个问题。问题不需要输出给用户，但正文必须体现：谁想要什么、谁阻挡、改变了什么、代价如何可见、压迫后反应链、场尾钩子。
+`episode-directory.md` 里的钩子、爽点、付费点是内部施工锚点；`/episode` 最终正文不得输出 `钩子：`、`本集钩子`、`下集预告`、`End Hook`、`> Next:` 这类生产标签。必须把本集钩子写成最后一个可见动作、台词、声音或物件变化。
 
 **支持格式：**
 - `/episode 1` — 写第1集
@@ -532,10 +533,7 @@ graph TD
 ## 场次三
 ...
 
----
-
-> 🎣 本集钩子：{悬念描述}
-> 📺 下集预告：{下一集核心看点，1句}
+{用最后一个可见动作、台词、声音或物件变化制造本集钩子，不输出“钩子/下集预告”等生产标签。}
 ```
 
 **单集剧本格式（出海模式 / English）：**
@@ -575,10 +573,7 @@ CLOSE-UP - {key detail}
 
 ♪ Music cue: {atmosphere description}
 
----
-
-> 🎣 End Hook: {cliffhanger}
-> 📺 Next: {next episode preview}
+{End on a visible action, line, sound, or object change that creates the cliffhanger. Do not output production labels such as "End Hook" or "> Next:".}
 ```
 
 **质量要求：**
@@ -587,6 +582,7 @@ CLOSE-UP - {key detail}
 - 景别提示：全景、中景、近景、特写（至少使用3种）
 - 台词带语气或动作指示
 - 每集结尾必须有悬念钩子（参考 hook-design.md）
+- 悬念钩子必须写成正文里的最后一个可见动作、台词、声音或物件变化；不得在最终正文里输出 `钩子：`、`本集钩子`、`下集预告`、`End Hook`、`> Next:` 等生产标签
 - 第1集必须在前30秒（约前3段）抓住观众（参考 opening-rules.md）
 - 付费卡点集（💰）结尾必须制造强悬念
 - 必须落实 `episode-directory.md` 的源本功能映射，但换成新壳事件载体
