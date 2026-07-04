@@ -14,7 +14,7 @@ Use this controller before touching `source-import` or `short-drama-write` whene
 Read these files before running a production request:
 
 1. `AGENTS.md`
-2. `v2-restart/PRD_v4.md`
+2. `docs/PRD.md`
 3. `shortdrama-remix/README.md`
 4. `shortdrama-remix/contracts/short_drama_form_lock_v1.md`
 5. `shortdrama-remix/skills/source-import/SKILL.md`

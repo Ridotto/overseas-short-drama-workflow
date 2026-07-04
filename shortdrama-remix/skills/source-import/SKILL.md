@@ -1,9 +1,7 @@
 ---
 name: shortdrama-source-import
-version: 0.1.0
 description: "导入已验证或值得参考的短剧源本，把原剧拆成可被洗稿写作消费的源本库、事件账本、爽点钩子账本、禁抄边界和写稿交接包。触发方式：/source-import、/shortdrama-source-import、「导入短剧源本」「拆源本」「吸稿源本」。"
 metadata:
-  derived_from: "https://github.com/worldwonderer/oh-story-claudecode/tree/main/skills/story-import"
   local_role: "source engineering for shortdrama-remix"
 ---
 # shortdrama-source-import：短剧源本导入与吸稿账本
