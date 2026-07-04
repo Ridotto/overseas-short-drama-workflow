@@ -25,6 +25,8 @@
 
 更完整的使用说明见 [QUICKSTART.md](./QUICKSTART.md)。
 
+如果要报告问题或提改进建议，请使用 GitHub issue 模板。当前仓库只接受面向 `shortdrama-remix` 主链的反馈；旧 workflow 和旧样本路线不再作为产品入口。
+
 ## 产品入口
 
 Codex 会从项目入口说明进入主控：
@@ -111,3 +113,5 @@ shortdrama-remix/
 `main` 是用户正式版，只保留使用产品需要的内容。
 
 开发素材、历史审计、旧实验和后续治理放在 `codex/next` 分支或本地归档中，不放在 `main` 的当前文件树里。
+
+Issue、修复分支和发布检查规则见 [docs/issue与发布流程.md](./docs/issue与发布流程.md)。

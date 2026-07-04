@@ -1,0 +1,71 @@
+name: 主链运行问题
+description: 报告源本导入、蓝图、写稿、台词精修、review、导出或续批中的具体问题。
+title: "[bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请只填当前可复现的问题。旧 workflow、旧样本和本地归档不作为当前主链入口。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题是什么
+      description: 用一句话说清哪里不对。
+      placeholder: 例如：/rewrite-export 导出的稿子还带着状态增量。
+    validations:
+      required: true
+  - type: dropdown
+    id: layer
+    attributes:
+      label: 发生在哪一层
+      options:
+        - 不确定
+        - 用户入口 / main controller
+        - source-import
+        - plan / creative-plan
+        - characters
+        - outline / episode-directory
+        - episode
+        - dialogue-polish
+        - review / clean reviewer
+        - batch-state
+        - export
+        - README / QUICKSTART / docs
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你期望发生什么
+      placeholder: 例如：最终交付稿只保留用户可读剧本文字，不包含内部执行字段。
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际发生了什么
+      placeholder: 贴最小片段即可，不要贴完整源本或完整剧本。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 证据路径
+      description: 优先给本地文件路径和 run_log.md 里的相关步骤。
+      placeholder: |
+        shortdrama-remix/新剧/{项目名}/run_log.md
+        shortdrama-remix/新剧/{项目名}/episodes/ep001.md
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已经确认这是当前 shortdrama-remix 主链的问题，不是旧 v20 / v3 / V63 路线。
+          required: true
+        - label: 如果问题涉及“按当前主链执行”，我已经检查是否存在 run_log.md。
+          required: true
+        - label: 我没有粘贴不该公开的完整源本、完整剧本或敏感内容。
+          required: true

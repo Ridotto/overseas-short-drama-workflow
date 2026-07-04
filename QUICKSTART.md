@@ -89,3 +89,12 @@ shortdrama-remix/新剧/{project-name}/export/
 ```
 
 If a run claims it followed the current chain, it must include a `run_log.md`.
+
+## 7. Report Problems
+
+Use the GitHub issue templates:
+
+- `主链运行问题` for reproducible problems in the current `shortdrama-remix` chain.
+- `产品反馈 / 改进建议` for workflow, quality, continuation, export, or documentation feedback.
+
+If a problem claims the current chain was followed, include the relevant `run_log.md` path. Do not paste full private source scripts or complete generated scripts into public issues.
