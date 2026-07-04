@@ -101,6 +101,7 @@
 | satisfaction-matrix.md | 5大爽点类型矩阵 | /plan, /episode |
 | villain-design.md | 4层反派体系设计 | /characters |
 | hook-design.md | 5种钩子类型 | /episode |
+| overseas-localization-brief.md | 出海/平台本地化保守复核、证据化建议、目标语境承载和误伤检查 | /plan 必读；/outline, /episode, /review 只执行或验收已确认策略 |
 | series-state-brief.md | 全剧追踪骨架、本集速记、状态增量、批次续写 | /plan, /characters, /outline, /episode, /batch-state |
 | performance-dialogue-brief.md | 视听表演、反应链、台词议程、轻 polish、review 归因 | /episode, /review |
 | dialogue-polish-brief.md | 表层话/真实目标、声线差异、潜台词、去 AI 味、台词层权限 | /dialogue-polish, /review |
@@ -158,12 +159,13 @@
 
 4. 确认以下配置：
    - **目标受众：** 男频 / 女频 / 全年龄
+   - **目标平台/地区：** 国内平台 / ReelShort / DramaBox / TikTok / Facebook / 北美 / 东南亚 / 其他 / 未定
    - **故事基调：** 爽燃 / 甜虐 / 搞笑 / 暗黑 / 温情
    - **结局类型：** 大团圆 / 开放式 / 反转式 / 悲剧
    - **集数规模：** 默认 50-80 集；首批默认写 1-10 集
    - **输出语言：** 中文（国内标准格式）/ English（好莱坞行业标准）
 
-5. 如用户选择 English，自动切换为出海模式（等同 /overseas）
+5. 如用户选择 English，或目标市场/平台为出海、欧美、北美、东南亚、ReelShort、DramaBox、TikTok/Facebook 投放，自动切换为出海模式（等同 /overseas）。后续进入“保守本地化复核”口径：先保护现稿有效点，`/plan` 读取 `overseas-localization-brief.md` 给证据化建议，用户确认后再让 `/outline`、`/episode`、`/review` 执行和验收。不要只在本步骤换格式或英文名，也不要自动深改。
 
 6. 复制源本交接包为当前项目的 `source-handoff.md`，保存状态到 `.drama-state.json`，提示进入下一步 `/plan`
 7. 创建或更新 `run_log.md`，记录源本库、读取文件、确认配置、缺口和下一步。
@@ -177,6 +179,7 @@
 - **新壳方向：** {新壳}
 - **题材组合：** {题材}
 - **目标受众：** {受众}
+- **目标平台/地区：** {平台/地区}
 - **故事基调：** {基调}
 - **结局类型：** {结局}
 - **集数规模：** {集数}集
@@ -219,7 +222,7 @@
 
 **前置条件：** 已完成 /start
 
-**加载参考：** opening-rules.md, paywall-design.md, rhythm-curve.md, satisfaction-matrix.md, series-state-brief.md, source-handoff.md, 04_爽点钩子账本.md, 05_付费点与追更压力.md, 06_可迁移结构.md, 07_禁抄边界.md
+**加载参考：** opening-rules.md, paywall-design.md, rhythm-curve.md, satisfaction-matrix.md, series-state-brief.md, source-handoff.md, 04_爽点钩子账本.md, 05_付费点与追更压力.md, 06_可迁移结构.md, 07_禁抄边界.md。出海/平台适配项目还必须读取 `overseas-localization-brief.md` 和 `genre-guide.md` 的出海题材指南。
 
 **生成内容：**
 
@@ -238,7 +241,15 @@
 1. **剧名备选**（3个），每个附短剧卖点
 2. **项目销售句**：一句话说清谁被压、谁反杀、观众为什么追
 3. **信息流承诺**：前 10 集每集释放什么、压什么、继续扣住什么、吊什么
-4. **源本赚钱功能对照表**：
+4. **本地化适配复核与策略**（仅出海/平台适配项目必填，国内项目可省略）：
+   - 用户已确认的目标市场、目标平台、目标受众和目标题材
+   - 必须保留的现稿有效点：哪些本地化处理、付费债务、关系压力和源本赚钱功能已经成立，不得洗掉
+   - 证据化建议：每条建议必须包含文本证据、判断、推理链路、建议级别、置信度、预期收益、误伤风险和是否需要用户确认
+   - 本地化承载方案：仅对用户确认或高置信需要调整的节点，说明源本赚钱功能由什么关系、动作、场景和可见代价承载
+   - 改写不足风险：只换英文名、海外符号或场景，但底层关系压力仍不被目标观众理解
+   - 过度改写风险：为了本地化洗掉源本已成立的情绪债、付费机制或强节点
+   - 暂不建议改的位置：证据不足或现稿已经有效时，明确写“保留/暂不建议改”
+5. **源本赚钱功能对照表**：
    - 源本强节点
    - 源本为什么让观众追/付费
    - 禁止复刻表层
@@ -246,31 +257,31 @@
    - 当场可见损失
    - 本集信息释放 / 继续扣住
    - 角色状态压力
-5. **新壳承载压力测试**：
+6. **新壳承载压力测试**：
    - 原剧最强羞辱/压迫/反杀/火葬场分别是什么
    - 当前新壳是否能承载同等级刺激
    - 如果只能承载制度、证据、流程或说明，必须更换事件载体
    - 如果观众需要先理解规则才知道发生了什么损失，必须更换成一眼可懂动作
-6. **新壳变量表**：
+7. **新壳变量表**：
    - 源本功能
    - 新壳事件载体
    - 保留的情绪效果
    - 替换掉的表层表达
-7. **时空背景**：时代、地点、社会环境、阶层关系
-8. **一句话故事线** + **核心冲突**
-9. **三幕结构拆解**：
+8. **时空背景**：时代、地点、社会环境、阶层关系
+9. **一句话故事线** + **核心冲突**
+10. **三幕结构拆解**：
    - 第一幕（建置）：集数范围、核心事件、人物关系建立
    - 第二幕（对抗）：集数范围、冲突升级、转折点
    - 第三幕（高潮/结局）：集数范围、终极对决、结局处理
-10. **全剧节奏波形图**（用文字描述）：标注高潮点、低谷点、付费卡点位置
-11. **首批 1-10 集商业密度表**：每集开场钩子、源本赚钱功能、新壳刺激动作、一眼可懂代价、反派新伤害、兑现、下集债务、集尾钩子
-12. **当前批集纲小 draft**：前 10 集每集 3-6 句，必须已经像戏，能看到人物动作、关系变化、情绪压力和追看债务
-13. **当前批状态与禁区**：角色本批状态线、关系位置、已释放信息、继续扣住信息、不可提前消费项、禁用外形
-14. **全剧追踪骨架**：按 series-state-brief.md 写进自然语言蓝图，包含全剧核心卖点、主/副情绪、长期真相账本、关系状态账本、角色状态账本、伏笔/债务账本、爽点兑现账本；不能只做厚表格
-15. **付费卡点规划**：用户确认的收费边界优先；源本付费/追更节奏次之；平台经验只作校验，不得强行指定固定集数
-16. **爽点矩阵**：按 satisfaction-matrix.md 规划全剧爽点分布，但必须落到动作和现场损失
-17. **结局设计**：主线结局 + 感情线结局 + 伏笔回收
-18. **禁抄边界落地**：明确哪些高识别源本组合不能出现在新剧里；常见人名、通用短句、短剧套路句不作为单独硬禁
+11. **全剧节奏波形图**（用文字描述）：标注高潮点、低谷点、付费卡点位置
+12. **首批 1-10 集商业密度表**：每集开场钩子、源本赚钱功能、新壳刺激动作、一眼可懂代价、反派新伤害、兑现、下集债务、集尾钩子
+13. **当前批集纲小 draft**：前 10 集每集 3-6 句，必须已经像戏，能看到人物动作、关系变化、情绪压力和追看债务
+14. **当前批状态与禁区**：角色本批状态线、关系位置、已释放信息、继续扣住信息、不可提前消费项、禁用外形
+15. **全剧追踪骨架**：按 series-state-brief.md 写进自然语言蓝图，包含全剧核心卖点、主/副情绪、长期真相账本、关系状态账本、角色状态账本、伏笔/债务账本、爽点兑现账本；不能只做厚表格
+16. **付费卡点规划**：用户确认的收费边界优先；源本付费/追更节奏次之；平台经验只作校验，不得强行指定固定集数
+17. **爽点矩阵**：按 satisfaction-matrix.md 规划全剧爽点分布，但必须落到动作和现场损失
+18. **结局设计**：主线结局 + 感情线结局 + 伏笔回收
+19. **禁抄边界落地**：明确哪些高识别源本组合不能出现在新剧里；常见人名、通用短句、短剧套路句不作为单独硬禁
 
 **输出：** 保存为 `creative-plan.md`
 
@@ -285,6 +296,7 @@
 - `creative-plan.md` 必须能回答：每集释放什么、继续扣什么、下一集欠什么。
 - `creative-plan.md` 必须能回答：主要角色在首批如何被压、反击、破防、误判或改变关系位置。
 - `creative-plan.md` 必须能回答：全剧长期真相、关系状态、角色状态、伏笔债务和爽点兑现如何被首批承接；首批不是孤立样片。
+- 出海/平台适配项目的 `creative-plan.md` 必须能回答：哪些现稿有效点被保护，哪些调整建议有文本证据和推理链路，哪些需要用户确认，已确认节点如何用目标语境的关系、动作、场景和可见代价承载源本赚钱功能。
 - 如果新壳只能提供合理性、制度性、证据性或说明性推进，不能进入 `/characters`；必须先换事件载体。
 - 如果新壳动作需要解释规则才能让观众懂代价，不能进入 `/characters`；必须换成更直观的身体、身份、关系、权力、体面或亲情代价。
 - 如果商业句、信息流、付费压力写不出来，停在 `/plan` 返工，不进入 `/characters`。
@@ -378,7 +390,7 @@ graph TD
 
 **前置条件：** 已完成 /characters
 
-**加载参考：** paywall-design.md, rhythm-curve.md, series-state-brief.md, creative-plan.md, characters.md, source-handoff.md, `02_集级事件账本.md`, `05_付费点与追更压力.md`
+**加载参考：** paywall-design.md, rhythm-curve.md, series-state-brief.md, creative-plan.md, characters.md, source-handoff.md, `02_集级事件账本.md`, `05_付费点与追更压力.md`。出海/平台适配项目还必须继承 `creative-plan.md` 中用户确认过的本地化适配策略；如需核对边界，读取 `overseas-localization-brief.md`。
 
 **生成内容：**
 
@@ -391,6 +403,7 @@ graph TD
 - 上一集状态承接：
 - 源本赚钱功能：
 - 新壳可见刺激动作：
+- 本地化承载方式：（出海/平台适配项目按已确认策略填写；国内项目可省略）
 - 一眼可懂代价：
 - 本集释放的信息：
 - 本集继续扣住的信息：
@@ -423,6 +436,7 @@ graph TD
 - 🔥 / 💰 根据用户收费边界和源本节奏标注，不硬凑固定比例
 - 目录必须体现三幕结构的节奏变化
 - 每集必须标明“源本功能映射”和“新壳事件载体”，但不得出现源本具体桥段复刻
+- 出海/平台适配项目每集必须标明“本地化承载方式”：本集刺激动作如何按用户确认策略落在目标观众能理解的权力关系、羞辱场域、情感表达或可见代价里；不能只写海外地点、英文名或文化符号，也不能临场扩大未确认的改写范围。
 - 证据、文件、系统记录、会议、鉴定只能作为触发物；如果没有当场可见损失，不能算作本集刺激动作
 
 **输出：** 保存为 `episode-directory.md`
@@ -440,6 +454,7 @@ graph TD
 - 如果某集只能写出“调查、确认、递交、公布、解释”，而写不出“谁当场失去什么、谁被迫行动、谁反咬、下一集欠什么”，该集不能进入 `/episode`。
 - 如果某集主刺激需要解释背景规则才能懂，该集不能进入 `/episode`。
 - 如果某集只有剧情推进，没有人物状态变化或关系位置变化，该集不能进入 `/episode`。
+- 出海/平台适配项目如果某集只完成表层欧美化，或执行了未被用户确认的方向性本地化，该集不能进入 `/episode`。
 
 **结束提示：** `分集目录已保存。请先通读目录确认节奏，然后输入 /episode 1 开始写第一集。`
 
@@ -451,14 +466,14 @@ graph TD
 
 **前置条件：** 已完成 /outline
 
-**加载参考：** opening-rules.md（第1集时重点参考）, rhythm-curve.md, satisfaction-matrix.md, hook-design.md, series-state-brief.md, performance-dialogue-brief.md, creative-plan.md, characters.md, episode-directory.md, source-handoff.md, `07_禁抄边界.md`
+**加载参考：** opening-rules.md（第1集时重点参考）, rhythm-curve.md, satisfaction-matrix.md, hook-design.md, series-state-brief.md, performance-dialogue-brief.md, creative-plan.md, characters.md, episode-directory.md, source-handoff.md, `07_禁抄边界.md`。出海/平台适配项目必须执行本集已确认的“本地化承载方式”；如发现缺失，不得临场发明，回 `/outline`。
 
 **写作前动作链检查：**
 
 写第 N 集前，先按 series-state-brief.md 从 `creative-plan.md`、`characters.md`、`episode-directory.md`、已有正文和状态增量中抽出本集速记；再从 `episode-directory.md` 抽取并落实本集动作链：
 
 ```text
-上一集状态 -> 本集必须推进的关系/真相/债务 -> 源本赚钱功能 -> 本集释放/继续扣住 -> 不可提前消费 -> 新壳可见刺激动作 -> 一眼可懂代价 -> 开场第一拍 -> 人物状态 beat -> 反派新伤害/反咬 -> 本集兑现 -> 本集结束新状态 -> 下集债务 -> 结尾按钮
+上一集状态 -> 本集必须推进的关系/真相/债务 -> 源本赚钱功能 -> 本集释放/继续扣住 -> 不可提前消费 -> 新壳可见刺激动作 -> 本地化承载方式（出海/平台适配项目） -> 一眼可懂代价 -> 开场第一拍 -> 人物状态 beat -> 反派新伤害/反咬 -> 本集兑现 -> 本集结束新状态 -> 下集债务 -> 结尾按钮
 ```
 
 如果任一项缺失，不得临场发明正文桥段；必须回到 `/outline` 补齐该集目录。
@@ -531,6 +546,7 @@ graph TD
 > Key Words: {3 keywords}
 > Commercial Function: {why the audience keeps watching/paying}
 > Visible Stimulus Action: {what happens on screen}
+> Target-Market Localization: {confirmed local carrier for this action, if applicable}
 > One-Glance Cost: {what the audience instantly sees as lost}
 > Info Release: {what this episode reveals / withholds}
 > Character State Beat: {who is pressured, breaks, resists, masks, or changes position}
@@ -701,7 +717,7 @@ CLOSE-UP - {key detail}
 
 **前置条件：** 目标集数已完成；默认应先完成 `/dialogue-polish`。如果尚未执行，review 必须标注“未完成台词精修”，但不能把台词问题误判为蓝图失败。
 
-**加载参考：** performance-dialogue-brief.md, dialogue-polish-brief.md, series-state-brief.md, short_drama_form_lock_v1.md, creative-plan.md, characters.md, episode-directory.md, source-handoff.md, `07_禁抄边界.md`
+**加载参考：** performance-dialogue-brief.md, dialogue-polish-brief.md, series-state-brief.md, short_drama_form_lock_v1.md, creative-plan.md, characters.md, episode-directory.md, source-handoff.md, `07_禁抄边界.md`。出海/平台适配项目还必须读取 `overseas-localization-brief.md`，但只能用于验收已确认策略和误伤风险，不得重新选题。
 
 **支持格式：**
 - `/review 5` — 检查第5集
@@ -758,6 +774,15 @@ CLOSE-UP - {key detail}
 - 是否允许一次返修：
 - 不能在下游硬补的原因：
 
+## 本地化复核（出海/平台适配项目必填）
+
+- 已保护的现稿有效点：
+- 有证据支持的本地化问题：
+- 推理链路是否写清：
+- 是否存在未确认的方向性重构：
+- 是否存在为了本地化洗掉源本赚钱功能：
+- 责任层：source-import / plan / outline / episode / dialogue-polish / 无需返修
+
 ## 修改建议
 
 {按优先级排列的具体修改方案}
@@ -768,6 +793,7 @@ CLOSE-UP - {key detail}
 - 80-98：良好，建议微调
 - 60-79：及格，需要修改后重新自检
 - 60以下：不合格，建议重写
+- 出海/平台适配项目不新增单独大评分；若本地化复核发现“无证据改写、未确认方向性重构、洗掉源本赚钱功能、只做表层符号替换”，即使总分达标，也不能声称已完成目标市场适配。
 
 **禁抄自检口径：**
 - 不得用字面字符串扫描替代洗稿判断。
@@ -779,6 +805,7 @@ CLOSE-UP - {key detail}
 - reviewer 不负责把短剧感生产出来，也不负责逐句重写。
 - 如果问题只在台词 AI 味、废话、反应链薄，最多进入 `dialogue-polish` 或当前集轻修；不能回蓝图大改。
 - 如果问题来自蓝图薄、分集执行包弱、新壳承载不够，必须回对应上游；不能要求正文临场发明商业逻辑。
+- 如果出海/平台适配项目只是表层欧美化、无证据改写、未确认方向性重构，或为了本地化洗掉源本有效点，先判断责任层：源本适配质量复核缺失则回 `source-import`，蓝图未做证据化策略或未保护有效点则回 `/plan`，单集承载缺失或扩大范围则回 `/outline`，台词/表达问题才回 `/dialogue-polish`。
 - 如果本集缺状态增量、状态承接或关键反应链，但商业任务和分集执行包成立，优先回当前 `/episode` 或 `/dialogue-polish`；不要直接回 `/plan`。
 - 同一问题最多允许一次上游返修。返修后仍不过线，主控必须停下来说明风险，不能无限 review。
 
@@ -945,7 +972,7 @@ CLOSE-UP - {key detail}
 
 **功能：** 切换为出海模式，针对海外市场创作。
 
-**可在任意阶段调用。** 切换后：
+**可在任意阶段调用，但如果项目目标市场/平台已确定为出海，应在 `/start` 后、`/plan` 前自动生效。** 切换后：
 
 1. **格式切换：** 自动使用好莱坞行业标准格式（INT./EXT.、WIDE SHOT/CLOSE-UP 等）
 2. **语言切换：** 默认英文输出，台词避免中式英语
@@ -956,6 +983,13 @@ CLOSE-UP - {key detail}
    - 文化符号本地化（黑卡、家族信托、律师函）
    - 情感表达本地化
 5. **已验证爆款元素：** Billionaire、Werewolf/Alpha、Flash Marriage、Secret Baby 等
+
+注意：
+
+- `/overseas` 不是只改格式、英文名和社交场景的开关。
+- 题材映射只决定目标赛道入口，不能替代证据化本地化复核。
+- 出海项目默认保守：先保护现稿有效点；`/plan` 读取 `overseas-localization-brief.md` 给少量高置信建议；`/outline` 写已确认的本地化承载方式；`/episode` 执行；`/review` 检查表层替换、过度改写和未确认重构。
+- 用户明确指定目标赛道时，以用户方向为准；用户未指定时，只给 2-3 个建议并等待确认，不自动拍板。
 
 **切换确认：**
 ```

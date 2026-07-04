@@ -76,6 +76,7 @@ For a new project, collect or infer:
 - source path or pasted source text;
 - target new shell, or permission to propose options;
 - target market;
+- target platform/region when known, such as ReelShort, DramaBox, TikTok/Facebook ads, North America, Southeast Asia, or domestic platforms;
 - output language for the final script;
 - desired mode: blueprint only, standard first batch, multi-batch continuation, or local rewrite;
 - total series scale if known;
@@ -84,6 +85,8 @@ For a new project, collect or infer:
 - what the user wants to avoid.
 
 If the source is only a summary, fragment, link, or title, do not run the formal script-writing chain. Use blueprint/diagnosis mode and state the limitation.
+
+If the target market, platform, or output language indicates overseas work, set overseas mode as an internal state from the start. Do not add a separate user-facing gate; use the conservative localization policy: protect existing effective material first, require evidence for every localization suggestion, and let the user confirm direction or depth unless they explicitly delegate that decision.
 
 ## Mode Routing
 
