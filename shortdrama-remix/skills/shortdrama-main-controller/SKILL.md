@@ -76,6 +76,7 @@ For a new project, collect or infer:
 - source path or pasted source text;
 - target new shell, or permission to propose options;
 - target market;
+- target platform/region when known, such as ReelShort, DramaBox, TikTok/Facebook ads, North America, Southeast Asia, or domestic platforms;
 - output language for the final script;
 - desired mode: blueprint only, standard first batch, multi-batch continuation, or local rewrite;
 - total series scale if known;
@@ -84,6 +85,8 @@ For a new project, collect or infer:
 - what the user wants to avoid.
 
 If the source is only a summary, fragment, link, or title, do not run the formal script-writing chain. Use blueprint/diagnosis mode and state the limitation.
+
+If the target market, platform, or output language indicates overseas work, set overseas mode as an internal state from the start. Do not add a separate user-facing gate; use the conservative localization policy: protect existing effective material first, require evidence for every localization suggestion, and let the user confirm direction or depth unless they explicitly delegate that decision.
 
 ## Mode Routing
 
@@ -120,6 +123,7 @@ Do not silently rewrite upstream artifacts when the user asked for a local fix.
 ## Production Rules
 
 - Every claim that a run followed the current chain must be backed by `run_log.md`.
+- The controller must check or create `run_log.md` as soon as a production project starts. If generated files exist but `run_log.md` is missing or incomplete, report that as a validation gap instead of treating the run as fully proven.
 - User-visible blueprint and writer input must describe the same story. Do not create separate hidden剧情.
 - The final script cannot include internal tags such as `Commercial Function`, `Visible Stimulus Action`, `One-Glance Cost`, `State Delta Goal`, `## 状态增量`, `Dialogue Polish Notes`, review scores, or callback notes.
 - Common names, short dramatic lines, and genre tropes are allowed. Only high-recognition surface combinations are hard rewrite risks.
@@ -141,6 +145,7 @@ For `/rewrite-status`, report:
 - current mode;
 - source library path;
 - new project path;
+- `run_log.md` status;
 - latest confirmed gate;
 - completed files;
 - next recommended action;
