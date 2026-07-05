@@ -38,8 +38,10 @@ Default product flow:
 -> 商业项目包 / 创作蓝图包
 -> 当前批正文
 -> 台词精修
--> clean reviewer
+-> internal review / 自检返修
+-> clean reviewer 内容验收
 -> 导出交付稿
+-> delivery QA / export lint
 -> 用户反馈 / 续批
 ```
 
@@ -63,9 +65,9 @@ Support natural language first. Also accept these product-level slash commands a
 | `/rewrite-blueprint` | Generate or refresh creative blueprint | `/plan -> /characters -> /outline` |
 | `/rewrite-write` | Write the current batch, default 1-10 | `/episode {range}`; default product flow continues to polish/review unless user says draft only |
 | `/rewrite-polish` | Dialogue polish and AI-flavor cleanup | `/dialogue-polish {range}` |
-| `/rewrite-review` | Clean quality review | internal `/review {range}` plus clean reviewer when a pass claim is needed |
+| `/rewrite-review` | Content quality review | internal `/review {range}` plus clean reviewer for content acceptance when a pass claim is needed |
 | `/rewrite-continue` | Continue next batch, such as 11-20 | `/batch-state` then next-batch outline/write/polish/review |
-| `/rewrite-export` | Export user-facing deliverable | `/export` |
+| `/rewrite-export` | Export user-facing deliverable | `/export` then `/delivery-qa` |
 | `/rewrite-status` | Show current project progress and file locations | inspect project files and latest run logs |
 
 Do not rename the internal commands. The `/rewrite-*` commands are user-facing aliases.
@@ -127,6 +129,10 @@ Do not silently rewrite upstream artifacts when the user asked for a local fix.
 - Source import has its own `_import_log.md`; the new-drama project has `run_log.md`. The controller must link them: `run_log.md` should name the source library and `_import_log.md` path. If either side is missing, report the exact evidence gap instead of treating the whole chain as fully proven.
 - The controller must check or create `run_log.md` as soon as a production project starts. If generated files exist but `run_log.md` is missing or incomplete, report that as a validation gap instead of treating the run as fully proven.
 - User-visible blueprint and writer input must describe the same story. Do not create separate hidden剧情.
+- If the source library was imported with the current contract, `09_源本留存锚点.md` must be present and `/plan` must include a strong-node adaptation audit. If an older source library lacks it, route back to `source-import` for a retention-anchor backfill before claiming the current chain is complete.
+- Strong source nodes cannot disappear between source-import, blueprint, outline, episode, and review. If they are merged, delayed, downgraded, or deleted, the reason and user-confirmation status must be explicit.
+- Clean reviewer is a content-acceptance gate before `/export`. It judges whether the polished script is actually good enough; it is not an export formatter and should not be used to re-review delivery packaging.
+- After `/export`, run delivery QA / export lint. It checks only final-file integrity, ordering, missing episodes, metadata, and internal-field leakage; it must not rewrite or re-judge the story.
 - `episodes/` are production working drafts; the user-facing final deliverable is `/export`. The final script cannot include internal tags such as `Commercial Function`, `Visible Stimulus Action`, `One-Glance Cost`, `State Delta Goal`, `Hook Type`, `Next Debt`, `Previously`, `## 状态增量`, `Dialogue Polish Notes`, review scores, run logs, or callback notes.
 - Common names, short dramatic lines, and genre tropes are allowed. Only high-recognition surface combinations are hard rewrite risks.
 - If a failure has a responsible layer, return once to that layer. Do not create invisible infinite callback loops before the user sees a blueprint or script.

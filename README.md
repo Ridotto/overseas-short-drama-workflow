@@ -55,8 +55,9 @@
 -> 创作蓝图
 -> 当前批正文
 -> 台词精修
--> 审稿
+-> internal review / clean reviewer 内容验收
 -> 导出交付稿
+-> delivery QA / export lint
 -> 续批或反馈返修
 ```
 
@@ -71,9 +72,9 @@
 /rewrite-blueprint   生成或刷新创作蓝图
 /rewrite-write       写当前批正文，默认 1-10
 /rewrite-polish      台词精修和去 AI 味
-/rewrite-review      审稿
+/rewrite-review      内容质量验收
 /rewrite-continue    继续下一批，比如 11-20
-/rewrite-export      导出用户交付稿
+/rewrite-export      导出用户交付稿并做 delivery QA
 /rewrite-status      查看当前项目进度和产物位置
 ```
 
@@ -114,7 +115,7 @@ shortdrama-remix/新剧/             新剧项目产物
 
 运行输入和生成产物默认不提交到 Git。
 
-`episodes/` 是生产工作稿，可以保留内部锚点；真正交给用户的是 `export/` 里的干净剧本文字。
+`episodes/` 是生产工作稿，可以保留内部锚点；真正交给用户的是 `export/` 里的干净剧本文字。导出后应运行 `/delivery-qa`，只检查漏集、乱序、元信息和内部字段泄漏，不重新审剧情。
 
 ## 当前边界
 

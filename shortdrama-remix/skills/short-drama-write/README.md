@@ -1,98 +1,51 @@
-# Short Drama Screenplay Skill
+# short-drama-write 本地执行副本
 
-> 专业的短剧剧本创作 AI 技能包，适用于各类 AI 编程助手的一站式微短剧编剧工具。
+这是 `自动化编剧` 项目里的本地写作 skill，不是上游 `short-drama` 的全局安装说明，也不是从零选题工具。
 
-从选题立项到分集撰写、质量自检、合规审核、海外出海，覆盖短剧剧本生产全流程。
+用户入口在仓库根目录和主控：
+
+```text
+AGENTS.md
+shortdrama-remix/skills/shortdrama-main-controller/SKILL.md
+```
+
+本文件只在主控确认用户要进入短剧改写生产链后执行。
+
+## 当前链路
+
+```text
+source-import
+-> /write-from-source
+-> /plan
+-> /characters
+-> /outline
+-> /episode
+-> /dialogue-polish
+-> /review
+-> clean reviewer 内容验收
+-> /batch-state 或 /export
+-> /delivery-qa
+```
+
+## 当前职责
+
+- `/write-from-source`：读取 `handoff_to_short_drama_write.md`，确认源本库完整；缺少 `09_源本留存锚点.md` 时回 `source-import` 补锚点。
+- `/plan`：生成用户可确认的商业项目包 / 创作蓝图包，并完成强节点适配审计。
+- `/characters`：生成角色功能、欲望、关系反应、阶段状态和声线倾向。
+- `/outline`：生成当前批分集执行包，锁住每集赚钱功能、强节点落点、可见代价、信息释放和下一债务。
+- `/episode`：写生产工作稿，可保留内部锚点和 `## 状态增量`，但不得把已确认强动作写软。
+- `/dialogue-polish`：只做台词、声线、解释压缩、反应拍和去 AI 味，不改剧情事实。
+- `/review`：做内部质量归因，不负责生产剧情；通过后再进入 clean reviewer 内容验收。
+- `/export`：生成用户交付稿，必须清理内部施工字段、状态增量、台词精修记录、review 痕迹、run log 摘要和 callback 记录。
+- `/delivery-qa`：只查导出交付稿是否漏集、乱序、元信息错误或泄漏内部字段，不重新审剧情。
+
+## 上游来源
+
+本地执行副本来自 `shortdrama-remix/vendor/short-drama/`，但当前产品只执行本目录下的 `SKILL.md` 和 references。不要从 vendor 原入口启动当前项目。
 
 ---
 
-## 目录
-
-- [功能概览](#功能概览)
-- [安装方式](#安装方式)
-- [快速上手](#快速上手)
-- [命令手册](#命令手册)
-- [工作目录结构](#工作目录结构)
-- [参考知识库](#参考知识库)
-- [质量评分体系](#质量评分体系)
-- [示例输出](#示例输出)
-- [技术细节](#技术细节)
-- [致谢](#致谢)
-- [许可协议](#许可协议)
-
----
-
-## 功能概览
-
-| 能力 | 说明 |
-|------|------|
-| 13种题材模板 | 霸道总裁、甜宠、复仇、穿越、重生、悬疑、宫斗、都市、玄幻、末日、校园、职场、古装言情 |
-| 四层反派体系 | 小反派 → 中反派 → 大反派 → 隐藏反派，递进式对抗设计 |
-| 五种钩子类型 | 悬念钩、反转钩、情绪钩、信息钩、危机钩，每集结尾抓住观众 |
-| 节奏曲线系统 | 起势段(15%) → 攀升段(30%) → 风暴段(35%) → 决战段(20%) |
-| 付费卡点设计 | 科学布局付费墙，10-15%的集数设为付费卡点 |
-| 爽感矩阵 | 8类爽感要素配比，匹配不同题材的观众期待 |
-| 双语支持 | 国内格式（△镜头 + ♪配乐）和海外格式（INT./EXT. + WIDE SHOT） |
-| 合规审查 | 红线检测、高风险内容扫描、正能量价值观校验 |
-
----
-
-## 安装方式
-
-### 全局安装（推荐）
-
-将本仓库克隆到 AI 编程助手的技能目录：
-
-```bash
-# macOS / Linux
-git clone https://github.com/0xsline/short-drama.git ~/.claude/skills/short-drama
-
-# Windows (Git Bash)
-git clone https://github.com/0xsline/short-drama.git "$USERPROFILE/.claude/skills/short-drama"
-```
-
-安装完成后，在任意目录启动你的 AI 编程助手即可使用。
-
-### 项目级安装
-
-如果只想在特定项目中使用：
-
-```bash
-cd your-project
-git clone https://github.com/0xsline/short-drama.git .claude/skills/short-drama
-```
-
-### 验证安装
-
-启动 AI 编程助手后输入 `/start`，如果出现选题引导界面，说明安装成功。
-
----
-
-## 快速上手
-
-一个典型的短剧创作流程：
-
-```
-/start          → 选择题材、受众、调性、集数
-/plan      → 生成完整故事骨架
-/characters      → 设计角色档案和关系图
-/outline          → 生成分集目录（含钩子和标记）
-/episode 1        → 撰写第1集剧本
-/review 1        → 对第1集进行质量审查
-/episode 2-5      → 批量撰写第2-5集
-/review all      → 全集质量审查
-/compliance          → 合规审核
-/export          → 导出完整剧本
-```
-
-### 海外模式
-
-如果目标市场在海外：
-
-```
-/overseas          → 切换为英文 + 好莱坞格式
-/episode 1        → 按 INT./EXT. 格式撰写
-```
+以下内容保留为上游参考说明；当前项目执行时以上面的本地职责为准。
 
 ---
 

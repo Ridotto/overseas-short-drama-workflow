@@ -62,9 +62,9 @@ Natural language is the default. These commands are shortcuts:
 /rewrite-blueprint   生成或刷新创作蓝图
 /rewrite-write       写当前批正文，默认 1-10
 /rewrite-polish      台词精修和去 AI 味
-/rewrite-review      审稿
+/rewrite-review      内容质量验收
 /rewrite-continue    继续下一批，比如 11-20
-/rewrite-export      导出用户交付稿
+/rewrite-export      导出用户交付稿并做 delivery QA
 /rewrite-status      查看当前项目进度和产物位置
 ```
 
@@ -87,6 +87,8 @@ The final user-facing export should be under:
 ```text
 shortdrama-remix/新剧/{project-name}/export/
 ```
+
+After export, delivery QA only checks file integrity, episode order, metadata, and internal-field leakage. It does not re-review the story.
 
 If a run claims it followed the current chain, it must include a `run_log.md`.
 

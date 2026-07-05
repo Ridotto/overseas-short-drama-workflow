@@ -43,8 +43,9 @@ source-import
 -> /episode
 -> /dialogue-polish
 -> /review
--> clean reviewer when needed
+-> clean reviewer 内容验收
 -> /batch-state or /export
+-> /delivery-qa
 ```
 
 ## 运行产物
@@ -73,7 +74,9 @@ source-import
 
 - 最终产物必须是短剧剧本，不是电视剧、网剧、小说、故事梗概或泛型 screenplay。
 - 用户可见蓝图和 writer 输入必须讲同一个故事，不能拆成两套剧情。
+- 源本强节点从 `09_源本留存锚点.md` 进入蓝图、分集和 review；不得在下游静默降级、删除或改成证据/流程/说明。
 - 正文必须有可见冲突、当场代价、人物反应链、追看债务和付费压力。
 - 台词精修只能压解释、补反应拍、调整声线和去 AI 味，不得改剧情事实、人物关系、付费窗口或真相释放顺序。
-- reviewer 负责质量判断和返修归因，不负责新写剧情。
+- internal reviewer 负责质量判断和返修归因，不负责新写剧情；clean reviewer 负责 export 前内容验收。
+- `/delivery-qa` 只检查导出交付稿是否漏集、乱序、元信息错误或泄漏内部字段，不重新审剧情。
 - callback 只能回到明确责任层；不要在用户看到蓝图或正文前无限循环。

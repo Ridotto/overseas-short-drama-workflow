@@ -51,13 +51,14 @@ shortdrama-remix/skills/shortdrama-main-controller/SKILL.md
 - 先把项目当成完整短剧设计，再分批交付。
 - 默认首批是 `1-10` 集，但不能把首批当孤立样片。
 - 正式写正文前，必须先完成源本导入、改写方向和创作蓝图确认。
-- 正文默认经过 `/episode -> /dialogue-polish -> /review`，不要跳过台词精修。
+- 源本导入必须把强节点压成 `09_源本留存锚点.md`；蓝图、分集和 review 不能让这些强节点静默降级。
+- 正文默认经过 `/episode -> /dialogue-polish -> /review -> clean reviewer -> /export -> /delivery-qa`，不要跳过台词精修、内容验收或交付检查。
 - 每批完成后如需续写，先生成或刷新 `batch-state.md`。
 - 任何声称“按当前链路执行”的运行，都必须留下 `run_log.md`。
 
 ## Reviewer 原则
 
-需要质量判断时，reviewer 要保持干净视角。
+需要质量判断时，reviewer 要保持干净视角。clean reviewer 的位置在 `/dialogue-polish` 和 `/export` 之间，用来做内容验收；`/export` 之后只做 delivery QA，不重新审剧情。
 
 第一轮 reviewer 按 `shortdrama-remix/contracts/clean_reviewer_protocol_v1.md` 执行，只读正文和必要的源本 / 洗稿边界，不先读作者自检、主控结论、历史 verdict 或赞美性判断。
 
@@ -68,6 +69,7 @@ reviewer 首要判断：
 有没有保住源本让人追、让人付费的能力？
 新壳是否洗开？
 强刺激有没有被解释、证据、系统或文件流程稀释？
+源本强节点有没有完成同级或更优适配，而不是在蓝图、分集或正文里变软？
 ```
 
 ## 分支原则
