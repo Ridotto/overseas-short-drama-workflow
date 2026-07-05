@@ -30,6 +30,7 @@ skills/
 - `skills/source-import/SKILL.md`：源本导入、赚钱力账本、禁抄边界和写稿交接包。
 - `skills/short-drama-write/SKILL.md`：创作蓝图、角色、分集目录、正文、台词精修、review、续批状态和导出。
 - `contracts/short_drama_form_lock_v1.md`：短剧形态锁。
+- `contracts/clean_reviewer_protocol_v1.md`：clean reviewer 的读取边界和 verdict 分层。
 
 ## 默认链路
 

@@ -17,8 +17,9 @@ shortdrama-remix/skills/shortdrama-main-controller/SKILL.md
 3. `shortdrama-remix/README.md`
 4. `shortdrama-remix/skills/shortdrama-main-controller/SKILL.md`
 5. `shortdrama-remix/contracts/short_drama_form_lock_v1.md`
-6. `shortdrama-remix/skills/source-import/SKILL.md`
-7. `shortdrama-remix/skills/short-drama-write/SKILL.md`
+6. `shortdrama-remix/contracts/clean_reviewer_protocol_v1.md`
+7. `shortdrama-remix/skills/source-import/SKILL.md`
+8. `shortdrama-remix/skills/short-drama-write/SKILL.md`
 
 `shortdrama-main-controller`、`source-import` 和 `short-drama-write` 是当前可执行文件，不是参考材料。
 
@@ -58,7 +59,7 @@ shortdrama-remix/skills/shortdrama-main-controller/SKILL.md
 
 需要质量判断时，reviewer 要保持干净视角。
 
-第一轮 reviewer 只读正文和必要的源本 / 洗稿边界，不先读作者自检、主控结论或赞美性判断。
+第一轮 reviewer 按 `shortdrama-remix/contracts/clean_reviewer_protocol_v1.md` 执行，只读正文和必要的源本 / 洗稿边界，不先读作者自检、主控结论、历史 verdict 或赞美性判断。
 
 reviewer 首要判断：
 
