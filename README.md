@@ -63,6 +63,7 @@ shortdrama-remix/
 - `shortdrama-remix/skills/source-import/SKILL.md`
 - `shortdrama-remix/skills/short-drama-write/SKILL.md`
 - `shortdrama-remix/contracts/short_drama_form_lock_v1.md`
+- `shortdrama-remix/contracts/clean_reviewer_protocol_v1.md`
 
 内部默认链路：
 
@@ -81,7 +82,7 @@ source-import
 - 用户确认的是源本理解、洗稿方向、创作蓝图和最终成稿，不是内部工位。
 - 创作蓝图必须是用户可读的小 draft，同时也是 writer 的主上游。
 - 正文必须像短剧：有可见冲突、当场代价、人物反应链、追看债务和付费压力。
-- clean reviewer 必须保持干净视角，不能先读主控结论或作者自检。
+- clean reviewer 必须保持干净视角，不能先读主控结论、作者自检或历史 verdict。
 - 任何声称“按当前主链执行”的运行都必须留下 `run_log.md`。
 
 ## 不要从这里开始

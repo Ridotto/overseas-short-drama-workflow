@@ -74,6 +74,7 @@
 
 - 项目目录：
 - 源本库 / handoff：
+- 源本导入日志：`源本库/{源名}/_import_log.md` 或缺失原因
 - 当前链路版本：
 - 输出语言 / 市场：
 - 当前批次：
@@ -898,9 +899,11 @@ CLOSE-UP - {key detail}
 
 ### /export
 
-**功能：** 将完成的剧本导出为专业排版的完整文件。
+**功能：** 将完成的生产稿导出为用户可交付的干净剧本文字。
 
 **前置条件：** 至少完成部分集数
+
+`episodes/` 里的单集文件是生产工作稿，可以保留本集赚钱功能、状态增量、台词精修记录等内部锚点。`export/` 才是用户交付稿，必须剥离所有施工层、审稿层和状态层信息。
 
 **导出内容：**
 
@@ -943,7 +946,9 @@ CLOSE-UP - {key detail}
 
 **导出清理要求：**
 
-- 必须移除内部执行字段：`Commercial Function`、`Visible Stimulus Action`、`One-Glance Cost`、`State Delta Goal`、`## 状态增量`、`## Dialogue Polish Notes`、review 分数和 callback 记录。
+- 必须移除内部执行字段：`本集关键词`、`本集赚钱功能`、`新壳刺激动作`、`一眼可懂代价`、`本集信息释放`、`人物状态 beat`、`反派新伤害/反咬`、`本集兑现`、`下一债务`、`本集爽点`、`前情提要`、`上一集状态承接`、`本集状态增量目标`、`Key Words`、`Commercial Function`、`Visible Stimulus Action`、`Target-Market Localization`、`One-Glance Cost`、`Info Release`、`Character State Beat`、`Villain Pressure/Reversal`、`Payoff`、`Next Debt`、`Hook Type`、`Previously`、`Previous State`、`State Delta Goal`。
+- 必须移除内部段落：`## 状态增量`、`## Dialogue Polish Notes`、review 分数、callback 记录、质量自检报告、clean reviewer verdict、run log 摘要。
+- 必须移除生产标签：`钩子：`、`本集钩子`、`下集预告`、`End Hook`、`> Next:`。如果发现这些标签，只删除标签，不删除已经写成剧情动作的最后一拍。
 - 保留用户真正需要看的剧本文字、场景、人物、台词、音效和必要动作。
 - 不得在导出时改剧情、台词、真相释放或人物关系；导出只清理呈现层。
 
@@ -964,11 +969,13 @@ CLOSE-UP - {key detail}
 
 ---
 
-### /overseas
+### /overseas（内部模式标记）
 
-**功能：** 切换为出海模式，针对海外市场创作。
+**功能：** 标记当前项目按出海/平台适配口径执行。它不是额外用户流程，也不是必须让用户手动调用的开关。
 
-**可在任意阶段调用，但如果项目目标市场/平台已确定为出海，应在 `/start` 后、`/plan` 前自动生效。** 切换后：
+如果项目目标市场、平台或输出语言已经指向出海、欧美、北美、东南亚、ReelShort、DramaBox、TikTok/Facebook 或 English，主控应在 `/start` 后、`/plan` 前自动设置 overseas mode，不再单独问“是否切换 /overseas”。如果用户直接输入 `/overseas`，只把它理解为“用户确认目标是出海”，然后回到当前生产步骤，不新增一轮流程。
+
+内部生效后：
 
 1. **格式切换：** 自动使用好莱坞行业标准格式（INT./EXT.、WIDE SHOT/CLOSE-UP 等）
 2. **语言切换：** 默认英文输出，台词避免中式英语
@@ -987,14 +994,14 @@ CLOSE-UP - {key detail}
 - 出海项目默认保守：先保护现稿有效点；`/plan` 读取 `overseas-localization-brief.md` 给少量高置信建议；`/outline` 写已确认的本地化承载方式；`/episode` 执行；`/review` 检查表层替换、过度改写和未确认重构。
 - 用户明确指定目标赛道时，以用户方向为准；用户未指定时，只给 2-3 个建议并等待确认，不自动拍板。
 
-**切换确认：**
+**内部状态提示：**
 ```
-🌏 已切换为出海模式
+已进入出海适配模式
 
 - 输出语言：English
 - 剧本格式：Hollywood Standard
-- 文化背景：Western/International
-- 参考平台：ReelShort / DramaBox
+- 目标语境：按用户确认的平台/地区执行
+- 本地化策略：保护现稿有效点；只执行证据充分且已确认的承载修正
 
 继续当前创作流程，所有后续输出将使用英文格式。
 ```

@@ -51,7 +51,7 @@ codex/issue-{issue-number}-{short-slug}
 - 主控路由：做冷启动演练，确认能停在正确确认点。
 - 写作链或台词精修：必须跑干净样本，留下 `run_log.md`。
 - `batch-state`：至少跑一个 11-20 续批最小链路，检查状态不漂。
-- 导出：检查用户交付稿不含内部字段，例如 `Commercial Function`、`Visible Stimulus Action`、`One-Glance Cost`、`State Delta Goal`、`## 状态增量`、`## Dialogue Polish Notes`、review 分数和 callback 记录。
+- 导出：检查用户交付稿不含内部字段，例如 `Commercial Function`、`Visible Stimulus Action`、`Info Release`、`Hook Type`、`Next Debt`、`Previously`、`State Delta Goal`、`## 状态增量`、`## Dialogue Polish Notes`、review verdict、run log 摘要、callback 记录和钩子/下集预告标签。
 
 验证结论要区分：
 

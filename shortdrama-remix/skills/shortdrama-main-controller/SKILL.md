@@ -17,8 +17,9 @@ Read these files before running a production request:
 2. `v2-restart/PRD_v4.md`
 3. `shortdrama-remix/README.md`
 4. `shortdrama-remix/contracts/short_drama_form_lock_v1.md`
-5. `shortdrama-remix/skills/source-import/SKILL.md`
-6. `shortdrama-remix/skills/short-drama-write/SKILL.md`
+5. `shortdrama-remix/contracts/clean_reviewer_protocol_v1.md`
+6. `shortdrama-remix/skills/source-import/SKILL.md`
+7. `shortdrama-remix/skills/short-drama-write/SKILL.md`
 
 Do not ask the user to install a global Codex skill. This controller ships inside the repo and is reached through `AGENTS.md`.
 
@@ -123,9 +124,10 @@ Do not silently rewrite upstream artifacts when the user asked for a local fix.
 ## Production Rules
 
 - Every claim that a run followed the current chain must be backed by `run_log.md`.
+- Source import has its own `_import_log.md`; the new-drama project has `run_log.md`. The controller must link them: `run_log.md` should name the source library and `_import_log.md` path. If either side is missing, report the exact evidence gap instead of treating the whole chain as fully proven.
 - The controller must check or create `run_log.md` as soon as a production project starts. If generated files exist but `run_log.md` is missing or incomplete, report that as a validation gap instead of treating the run as fully proven.
 - User-visible blueprint and writer input must describe the same story. Do not create separate hidden剧情.
-- The final script cannot include internal tags such as `Commercial Function`, `Visible Stimulus Action`, `One-Glance Cost`, `State Delta Goal`, `## 状态增量`, `Dialogue Polish Notes`, review scores, or callback notes.
+- `episodes/` are production working drafts; the user-facing final deliverable is `/export`. The final script cannot include internal tags such as `Commercial Function`, `Visible Stimulus Action`, `One-Glance Cost`, `State Delta Goal`, `Hook Type`, `Next Debt`, `Previously`, `## 状态增量`, `Dialogue Polish Notes`, review scores, run logs, or callback notes.
 - Common names, short dramatic lines, and genre tropes are allowed. Only high-recognition surface combinations are hard rewrite risks.
 - If a failure has a responsible layer, return once to that layer. Do not create invisible infinite callback loops before the user sees a blueprint or script.
 
@@ -134,7 +136,7 @@ Do not silently rewrite upstream artifacts when the user asked for a local fix.
 The main controller owns the user relationship and final decision.
 
 - `source-import`, `short-drama-write`, and `/dialogue-polish` may run in the main controller unless isolation is needed.
-- Clean reviewer must be a clean temporary perspective when making a quality-pass claim. It should not read author self-review, main-controller conclusions, or prior praise before first verdict.
+- Clean reviewer must follow `contracts/clean_reviewer_protocol_v1.md` when making a quality-pass claim. It should not read author self-review, main-controller conclusions, prior praise, or earlier verdicts before first verdict.
 - Helper agents are allowed only for bounded side work such as external reference audits, genre research, or independent review.
 - Nested sub-agent delegation is off by default. If a helper needs another helper, route that request back to the main controller.
 

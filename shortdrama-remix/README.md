@@ -47,6 +47,7 @@ skills/shortdrama-main-controller/SKILL.md
 硬约束文件：
 
 - `contracts/short_drama_form_lock_v1.md`
+- `contracts/clean_reviewer_protocol_v1.md`
 
 已复制执行文件：
 
