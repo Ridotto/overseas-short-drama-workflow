@@ -26,7 +26,9 @@ shortdrama-remix/vendor/short-drama/
 -> /episode
 -> /dialogue-polish
 -> /review
+-> clean reviewer 内容验收
 -> /batch-state 或 /export
+-> /delivery-qa
 ```
 
 用户层入口不在本文件，而在：
@@ -42,8 +44,9 @@ shortdrama-remix/skills/shortdrama-main-controller/SKILL.md
 - `/outline`：生成当前批分集执行包，锁住每集赚钱功能、可见代价、信息释放和下一债务。
 - `/episode`：写生产工作稿，可保留内部锚点和 `## 状态增量`，但正文结尾不得输出 `钩子：`、`本集钩子`、`下集预告`、`End Hook` 或 `> Next:`。
 - `/dialogue-polish`：只做台词、声线、解释压缩、反应拍和去 AI 味，不改剧情事实。
-- `/review`：做质量归因，不负责生产剧情。
+- `/review`：做内部质量归因，不负责生产剧情；通过后再进入 clean reviewer 内容验收。
 - `/export`：生成用户交付稿，必须清理内部施工字段、状态增量、台词精修记录、review 痕迹、run log 摘要和 callback 记录。
+- `/delivery-qa`：只查导出交付稿是否漏集、乱序、元信息错误或泄漏内部字段，不重新审剧情。
 
 ## 出海模式
 

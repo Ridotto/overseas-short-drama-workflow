@@ -13,7 +13,7 @@ skills/shortdrama-main-controller/SKILL.md
 ```text
 用户层：自然语言 / rewrite-* 高级命令 / 未来网页入口
 主控层：shortdrama-main-controller
-生产层：source-import / short-drama-write / clean reviewer / 按需 helper agent
+生产层：source-import / short-drama-write / clean reviewer / delivery QA / 按需 helper agent
 能力层：skills / references / contracts / state
 ```
 
@@ -65,13 +65,14 @@ skills/shortdrama-main-controller/SKILL.md
 1. 用户自然语言默认由 `skills/shortdrama-main-controller/SKILL.md` 路由。
 2. 用户层高级命令统一使用 `/rewrite-start`、`/rewrite-blueprint`、`/rewrite-write`、`/rewrite-polish`、`/rewrite-review`、`/rewrite-continue`、`/rewrite-export`、`/rewrite-status`。
 3. 源本吸收从 `skills/source-import/SKILL.md` 进入；它是本地复制并改造后的执行文件，不是摘要。
-4. 短剧写稿从 `skills/short-drama-write/SKILL.md` 的 `/write-from-source -> /plan -> /characters -> /outline -> /episode -> /dialogue-polish -> /review` 进入。
+4. 短剧写稿从 `skills/short-drama-write/SKILL.md` 的 `/write-from-source -> /plan -> /characters -> /outline -> /episode -> /dialogue-polish -> /review -> clean reviewer -> /export -> /delivery-qa` 进入。
 5. `/plan` 负责用户可见的商业项目包 / 创作蓝图包；`/outline` 负责分集执行包；`/episode` 负责正文初稿；`/dialogue-polish` 负责台词目标、声线、潜台词和去 AI 味；`/review` 负责自检和 callback 归因。
 6. 蓝图、分集执行包和正文必须是一条剧情理解，不允许“给用户看的故事”和“给 writer 的隐藏剧情”分裂。
 7. 长线追踪从 `/plan` 开始以轻量全剧骨架启用；首批 1-10 集只吃当前批和本集速记，`batch-state.md` 用于批次完成后的续写汇总。详见 `external_skill_reference_integration_map_2026-07-04.md`。
-8. 当前不使用 `how-to-make-script` 整包，只使用已经落成本地 brief 的台词层能力。
-9. `vendor/` 只保留当前链路需要的冻结来源，便于追溯和继续移植；不要直接从 vendor 原入口跑当前产品链。
-10. 如果执行失败，先看失败发生在哪个 copied file，再改本地副本。
+8. 源本强节点从 `09_源本留存锚点.md` 开始进入强度适配链：`/plan` 做强节点适配审计，综合用户需求、新壳想法、角色特殊性、项目目标和目标平台/群体后确定同级或更优表达；`/outline` 做高压可施工检查，`/review` 检查是否静默降级、删除或被证据/流程替代。
+9. 当前不使用 `how-to-make-script` 整包，只使用已经落成本地 brief 的台词层能力。
+10. `vendor/` 只保留当前链路需要的冻结来源，便于追溯和继续移植；不要直接从 vendor 原入口跑当前产品链。
+11. 如果执行失败，先看失败发生在哪个 copied file，再改本地副本。
 
 ## 运行产物
 
@@ -82,7 +83,7 @@ skills/shortdrama-main-controller/SKILL.md
 
 历史样本和 V68 clean run 已从新 main 工作树清出，本地保全在 `.local-archive/pre-main-replacement-2026-07-04/shortdrama-runtime/`。GitHub main 只保留可复用产品链，不带旧样本产物。
 
-当前已处理的链路缺口：既有样本证明 copied files 能跑出完整文本；V65 / V66 / 非同型样本进一步证明“源本赚钱功能 -> 新壳等价刺激动作 -> 一眼可懂代价 -> 反派主动新伤害 -> 本集兑现 -> 下一债务”这条生产链能阶段性通过。
+当前已处理的链路缺口：既有样本证明 copied files 能跑出完整文本；V65 / V66 / 非同型样本进一步证明“源本赚钱功能 -> 新壳等价刺激动作 -> 一眼可懂代价 -> 反派主动新伤害 -> 本集兑现 -> 下一债务”这条生产链能阶段性通过。最新补丁进一步把“源本强节点不能被蓝图/outline 静默写软”接成传动约束，而不是再增加分析维度。
 
 该机制已接进：
 
@@ -90,12 +91,20 @@ skills/shortdrama-main-controller/SKILL.md
 - `skills/short-drama-write/SKILL.md` 的 `/plan`、`/outline`、`/episode`、`/dialogue-polish`；
 - `contracts/short_drama_form_lock_v1.md` 的短剧形态锁。
 
+强度适配链当前落点：
+
+- `source-import` 产出 `09_源本留存锚点.md`，只压缩强节点、情绪债、信息债、付费债务和同级或更优强度目标；
+- `/plan` 必须完成强节点适配审计，标明同级或更优替换、合并优化、延后强化、优化升级、降级、删除或待优化承载；
+- `/outline` 必须给强节点落集，并写最高刺激点、变化、强度适配检查和高压可施工检查；
+- `/review` 把强节点静默降级、删除、待优化承载继续下游列为硬伤。
+
 当前下一步不是继续改旧样本文本，也不是回外层扩 workflow，而是把本目录按 PRD 的产品架构收口：
 
 - 蓝图写成用户可确认、writer 可执行的小 draft；
 - 角色设定必须能下传到正文里的状态、反应和声线；
-- 分集目录升级为分集执行包，承担首批强度地板、信息释放和追看债务；
+- 分集目录升级为分集执行包，承担首批强度目标、信息释放和追看债务；
 - 正文写法强化视听语言、人物反应链；台词层通过 `/dialogue-polish` 固定精修；
-- reviewer 调整为硬伤归因和有限 callback，不做机械禁词，不无限回上游。
+- internal reviewer 调整为硬伤归因和有限 callback，不做机械禁词，不无限回上游；
+- clean reviewer 负责 export 前内容验收；`/delivery-qa` 负责 export 后交付文件完整性和内部字段泄漏检查，不重新审剧情。
 
 只有上述可执行文件发生实质修改后，才需要重新跑 clean sample，并且必须留下本次 `run_log.md`。

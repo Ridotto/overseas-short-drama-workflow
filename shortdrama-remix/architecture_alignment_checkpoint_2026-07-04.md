@@ -19,7 +19,7 @@
 
 ```text
 用户层：主控 agent / 未来网页入口
-生产层：source-import / short-drama-write / clean reviewer / 按需 helper agent
+生产层：source-import / short-drama-write / clean reviewer / delivery QA / 按需 helper agent
 能力层：skills / references / contracts / state
 ```
 
@@ -37,12 +37,14 @@
 | --- | --- | --- |
 | 蓝图小 draft | 不做表格集合 | `short-drama-write` 的 `/plan`，输出 `creative-plan.md` |
 | 信息流 / 真相梯度 | 不做散规则 | `/plan` 和 `/outline`，写进每集释放、继续扣住、下一债务 |
-| 首批强度地板 | 不做外置 reviewer 兜底 | `/plan` 首批商业密度表 + `/outline` 首批通过标准 |
+| 首批强度目标 | 不做外置 reviewer 兜底 | `/plan` 首批商业密度表 + `/outline` 首批通过标准 |
+| 源本强节点适配 | 不新增分析大包，不让 writer 临场补 | `source-import` 产出 `09_源本留存锚点.md`；`/plan` 综合用户需求、新壳、角色、项目目标、目标受众做强节点适配审计；`/outline` 做高压可施工检查；`/review` 查静默降级 |
 | 角色设定 / 欲望 / 关系反应 | 不做固定模板 | `/characters` 产出人物功能、阶段状态、关系反应、声线倾向；`/episode` 必须执行 |
 | 视听语言 / 人物状态写到戏里 | 不做泛影视技法库 | `/episode` 的场面执行要求：动作、空间、身体、物件、声音、反应链 |
 | 去 AI 味 / 台词压缩 | 不允许改剧情 | `/dialogue-polish` 固定执行，只能压表达、声线、潜台词、反应拍，不能改蓝图和事件 |
 | reviewer 严格度 | 不做机械禁词 | contract + `/review`：禁可识别组合复刻，不禁通用人名、短句、套路句 |
 | callback | 不允许无限回上游 | contract + `/review`：失败回对应责任层，同一问题最多一次上游返修 |
+| 交付检查 | 不让 clean reviewer 重审导出稿 | clean reviewer 在 `/export` 前做内容验收；`/delivery-qa` 在 `/export` 后只查漏集、乱序、内部字段泄漏和导出误删 |
 | clean run | 不在文件没改完前空跑 | 可执行文件发生实质改动后再跑，并必须留下 `run_log.md` |
 | 长剧本 / 60-80 集续写 | 不做首批后的临时补丁 | 从 `/plan` 开始有轻量全剧追踪骨架；首批只吃当前批和本集速记，批次完成后再汇总 `batch-state.md` |
 
@@ -59,14 +61,17 @@
 3. `skills/source-import/SKILL.md`
    - 源本账本补足信息释放、角色状态压力、视听承载特征。
    - 写稿交接包必须支持蓝图和 writer 执行包，不只支持剧情迁移。
+   - 2026-07-05 补充：新增 `09_源本留存锚点.md`，把源本强节点和同级或更优强度目标压成下游强制继承锚点。
 
 4. `skills/short-drama-write/SKILL.md`
    - `/plan` 生成完整商业项目包 / 创作蓝图包，五块都像小 draft。
+   - `/plan` 必须完成强节点适配审计，不允许强节点静默降级、删除或待优化承载继续下游。
    - `/characters` 锁住角色功能、欲望、关系反应、阶段状态和声线倾向。
-   - `/outline` 变成分集执行包，包含信息释放、角色状态 beat、首批强度地板。
+   - `/outline` 变成分集执行包，包含信息释放、角色状态 beat、首批强度目标、强度适配检查和高压可施工检查。
    - `/episode` 强化视听语言、动作反应链和人物状态执行。
    - `/dialogue-polish` 固定执行台词目标、声线差异、潜台词、解释压缩和去 AI 味。
-   - `/review` 调整严格度和 callback，不做机械禁词、不无限回上游。
+   - `/review` 调整严格度和 callback，不做机械禁词、不无限回上游，并把强节点静默降级列为硬伤。
+   - `/export` 后新增 `/delivery-qa` 交付检查；clean reviewer 仍负责 export 前内容验收，不负责排版/清理层。
 
 5. `docs/决策与变更.md`
    - 记录本轮架构对齐。
