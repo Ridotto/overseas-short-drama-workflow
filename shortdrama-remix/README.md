@@ -48,6 +48,11 @@ source-import
 -> /delivery-qa
 ```
 
+关键执行口径：
+
+- `/episode` 不全文回流 `creative-plan.md`；当当前项目存在由 `/plan` 生成、并已作为用户确认蓝图使用的 `creative-plan.md` 时，只抽取当前批 / 当前集所需的 blueprint slice。writer 以该蓝图切片为骨架，结合 `episode-directory.md` 当前集硬锚点填血肉；`source-handoff`、源本账本、raw assets、debug、draft、comparison、review、polish、export、run evidence 仍禁止作为 writer 直读输入。
+- `/dialogue-polish` 是整集逐场 final surface pass，负责压短句、砍水词、清翻译腔、清假金句、清解释句 / 作者句、拉开声线，并检查关键处是否需要打断、停顿、沉默、反应、身体反应、动作、物件或空间表层。它只改“怎么说、怎么演出来”，不能改剧情事实、真相顺序、人物关系、本集核心代价、结尾债务、状态增量、付费窗口或已确认蓝图承诺。
+
 ## 运行产物
 
 源本导入产物：
