@@ -41,7 +41,7 @@ skills/shortdrama-main-controller/SKILL.md
 1. 最终产物必须是短剧剧本，不是电视剧、网剧、小说、故事梗概或 screenplay 泛型稿。
 2. `oh-story-claudecode` 只保留 `story-import` 相关冻结来源，用于追溯源本导入、拆解和状态追踪的来源。
 3. `short-drama` 是短剧写稿执行底座：直接复制并执行它的 `SKILL.md` 和 references，不做摘要替代。
-4. `how-to-make-script` 不整包进主链；当前只把 `dialogue-subtext` 的台词层能力蒸馏成本地 `dialogue-polish-brief.md`，由 `/dialogue-polish` 固定执行。
+4. `how-to-make-script` 不整包进主链；历史台词资产只保留为冻结来源和追溯审计，不再作为 `/dialogue-polish` 默认运行输入。
 5. `shortdrama-pipeline` 不进入文本原型，也不预设为后续运行壳；未来如确实需要，只能单点参考任务状态或 artifact 目录组织，不能接它的剧本到视频主链。
 
 硬约束文件：
@@ -66,13 +66,14 @@ skills/shortdrama-main-controller/SKILL.md
 2. 用户层高级命令统一使用 `/rewrite-start`、`/rewrite-blueprint`、`/rewrite-write`、`/rewrite-polish`、`/rewrite-review`、`/rewrite-continue`、`/rewrite-export`、`/rewrite-status`。
 3. 源本吸收从 `skills/source-import/SKILL.md` 进入；它是本地复制并改造后的执行文件，不是摘要。
 4. 短剧写稿从 `skills/short-drama-write/SKILL.md` 的 `/write-from-source -> /plan -> /characters -> /outline -> /episode -> /dialogue-polish -> /review -> clean reviewer -> /export -> /delivery-qa` 进入。
-5. `/plan` 负责用户可见的商业项目包 / 创作蓝图包；`/outline` 负责分集执行包；`/episode` 负责正文初稿；`/dialogue-polish` 负责台词目标、声线、潜台词和去 AI 味；`/review` 负责自检和 callback 归因。
-6. 蓝图、分集执行包和正文必须是一条剧情理解，不允许“给用户看的故事”和“给 writer 的隐藏剧情”分裂。
-7. 长线追踪从 `/plan` 开始以轻量全剧骨架启用；首批 1-10 集只吃当前批和本集速记，`batch-state.md` 用于批次完成后的续写汇总。详见 `external_skill_reference_integration_map_2026-07-04.md`。
-8. 源本强节点从 `09_源本留存锚点.md` 开始进入强度适配链：`/plan` 做强节点适配审计，综合用户需求、新壳想法、角色特殊性、项目目标和目标平台/群体后确定同级或更优表达；`/outline` 做高压可施工检查，`/review` 检查是否静默降级、删除或被证据/流程替代。
-9. 当前不使用 `how-to-make-script` 整包，只使用已经落成本地 brief 的台词层能力。
-10. `vendor/` 只保留当前链路需要的冻结来源，便于追溯和继续移植；不要直接从 vendor 原入口跑当前产品链。
-11. 如果执行失败，先看失败发生在哪个 copied file，再改本地副本。
+5. `/plan` 负责用户可见的商业项目包 / 创作蓝图包；`/outline` 负责分集执行包；`/episode` 负责正文初稿，但不全文回流 `creative-plan.md`。当当前项目存在由 `/plan` 生成、并已作为用户确认蓝图使用的 `creative-plan.md` 时，`/episode` 只抽当前批 / 当前集所需的 blueprint slice，再结合 `episode-directory.md` 当前集硬锚点填血肉；`source-handoff`、源本账本、raw assets、debug、draft、comparison、review、polish、export、run evidence 仍禁止作为 writer 直读输入。
+6. `/dialogue-polish` 不是轻修或只修 1-3 句，它是整集逐场 final surface pass：负责压短句、砍水词、清翻译腔、清假金句、清解释句 / 作者句、拉开声线，并检查关键处是否需要打断、停顿、沉默、反应、身体反应、动作、物件或空间表层；但不改剧情事实、真相顺序、人物关系、本集核心代价、结尾债务、状态增量、付费窗口或已确认蓝图承诺。
+7. 蓝图、分集执行包和正文必须是一条剧情理解，不允许“给用户看的故事”和“给 writer 的隐藏剧情”分裂。
+8. 长线追踪从 `/plan` 开始以轻量全剧骨架启用；首批 1-10 集只吃当前批和本集速记，`batch-state.md` 用于批次完成后的续写汇总。详见 `external_skill_reference_integration_map_2026-07-04.md`。
+9. 源本强节点从 `09_源本留存锚点.md` 开始进入强度适配链：`/plan` 做强节点适配审计，综合用户需求、新壳想法、角色特殊性、项目目标和目标平台/群体后确定同级或更优表达；`/outline` 做高压可施工检查，`/review` 检查是否静默降级、删除或被证据/流程替代。
+10. 当前不使用 `how-to-make-script` 整包，只使用已经落成本地 brief 和执行合同的能力。
+11. `vendor/` 只保留当前链路需要的冻结来源，便于追溯和继续移植；不要直接从 vendor 原入口跑当前产品链。
+12. 如果执行失败，先看失败发生在哪个 copied file，再改本地副本。
 
 ## 运行产物
 
