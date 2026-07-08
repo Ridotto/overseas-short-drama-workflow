@@ -107,11 +107,11 @@
 | overseas-localization-brief.md | 出海/平台本地化保守复核、证据化建议、目标语境承载和误伤检查 | /plan 必读；/outline, /episode, /review 只执行或验收已确认策略 |
 | series-state-brief.md | 全剧追踪骨架、本集速记、状态增量、批次续写 | /plan, /characters, /outline, /episode, /batch-state |
 | dialogue-force-brief.md | 角色表达材料、本集对话压力方向、坏句警报与 writer / polish 归因 | /characters, /outline, /episode, /dialogue-polish |
-| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/golden/dialogue-polish/artifact.md` | 真实 bad line -> polished line 对照 | /dialogue-polish |
-| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/reference-packs/character-voice-reference-pack.md` | 角色声音 reference pack | /dialogue-polish |
-| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/failures/fail-002-voice-collapse.md` | 同声线失败样例 | /dialogue-polish, /review |
-| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/oh-story-claudecode/skills/story-short-write/references/dialogue-mastery.md` | 权力博弈、心死、反咬、打断原始写法手册 | /dialogue-polish |
-| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/oh-story-claudecode/skills/story-short-write/references/short-deslop.md` | 太整、太漂亮、太作者的原始删法 | /dialogue-polish, /review |
+| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/golden/dialogue-polish/artifact.md` | 历史 bad line -> polished line 对照（冻结来源，不作默认运行输入） | 仅追溯审计 |
+| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/reference-packs/character-voice-reference-pack.md` | 历史角色声音 reference pack（冻结来源，不作默认运行输入） | 仅追溯审计 |
+| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/failures/fail-002-voice-collapse.md` | 同声线失败样例（冻结来源，不作默认运行输入） | /review |
+| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/oh-story-claudecode/skills/story-short-write/references/dialogue-mastery.md` | 历史权力博弈台词手册（冻结来源，不作默认运行输入） | 仅追溯审计 |
+| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/oh-story-claudecode/skills/story-short-write/references/short-deslop.md` | 历史去作者腔手册（冻结来源，不作默认运行输入） | /review |
 | performance-dialogue-brief.md | 视听表演、反应链、台词议程、轻 polish、review 归因 | /episode, /review |
 | dialogue-polish-brief.md | 表层话/真实目标、声线差异、潜台词、去 AI 味、台词层权限 | /dialogue-polish, /review |
 | compliance-checklist.md | 薄合规风险备忘；只做成稿风险提示，不削弱强刺激 | /compliance |
@@ -552,6 +552,8 @@ graph TD
 
 **加载参考：** series-state-brief.md, dialogue-force-brief.md, performance-dialogue-brief.md, characters.md, episode-directory.md
 
+如果当前项目存在由 `/plan` 生成、并已作为用户确认蓝图使用的 `creative-plan.md`，`/episode` 只允许内部抽取当前集所需的 `blueprint slice`，不能把全文重新喂给 writer。
+
 出海/平台适配项目必须执行本集已确认的“本地化承载方式”；如发现缺失，不得临场发明，回 `/outline`。
 
 **Runtime Allowlist Manifest：**
@@ -563,12 +565,13 @@ graph TD
 - `performance-dialogue-brief.md`
 - `characters.md`
 - `episode-directory.md`
+- `creative-plan.md` 的 `blueprint slice`（仅当当前项目真实存在该文件，且它确实是 `/plan` 产出的用户确认蓝图时）
 
 **Forbidden Runtime Inputs：**
 
 `/episode` 默认运行输入禁止命中以下文件或来源：
 
-- `creative-plan.md`
+- `creative-plan.md` 全文
 - `source-handoff.md`
 - `09_源本留存锚点.md`
 - `opening-rules.md`
@@ -580,24 +583,55 @@ graph TD
 - `fail-002-voice-collapse.md`
 - `dialogue-mastery.md`
 - 任何外部 raw assets
+- 任何 `_debug/` 产物
+- `episodes/_drafts/` 里的旧稿 / 备份稿
+- comparison reports
+- review outputs
+- dialogue-polish outputs
+- exported drafts
+- run evidence
+- 当前集旧稿、polish 后稿、review 后稿
 
 **上下文编译顺序：**
 
 `/episode` 不是全剧厚包直灌，也不是单集孤岛。它按以下顺序编译上下文：
 
 ```text
-Series Invariants
+Confirmed Blueprint Slice
+-> Series Invariants
 -> Current Batch Execution Packet
 -> Episode Working Memo
 -> Scene Decision Packet
--> 五步 writer 创作决策
--> 成稿
+-> writer first draft
+-> 成稿表层复核
 -> 状态增量 / Batch State Update
 ```
 
+### 0. Confirmed Blueprint Slice
+
+如果当前项目存在真实 `creative-plan.md`，并且它是 `/plan` 产出的用户确认蓝图，`/episode` 先只抽当前集所需的蓝图片段，不回流全文。
+
+这个 `blueprint slice` 只允许包含：
+
+- 当前项目主设定
+- 当前批阶段压力
+- 当前批 / 当前集相关人物关系
+- 当前集必须承接的商业承诺
+- 当前集不能破坏的真相顺序和付费债务
+
+禁止把以下内容直接回流给 writer：
+
+- 蓝图里的分析废话
+- 已失效旧判断
+- 源本痕迹说明
+- 规则说明
+- 和当前集无关的全剧段落
+
+如果当前项目没有 `creative-plan.md`，不得伪造这个输入，也不得回退去读厚包替代。此时 `/episode` 只能按现有 `episode-directory.md` 和状态锚点继续，但必须承认这是退化模式，不是标准的 blueprint-first。
+
 ### 1. Series Invariants
 
-来自当前批执行包已经编译过的不可变约束，只包括：
+来自 `blueprint slice` 和当前批执行包已经编译过的不可变约束，只包括：
 
 - 不能改的故事事实
 - 必须保留的 source facts
@@ -621,9 +655,13 @@ Series Invariants
   - 第 N 集自己的 `下集债务`
   - 如需校验连续性，仅读第 N+1 集的入口/钩子字段
 
+- `episode-directory.md` 是 anchors-second。它锁当前批和当前集的硬锚点，但不能取代 writer 对用户确认蓝图的主理解。
+
 ### 3. Episode Working Memo
 
-`/episode` 在内部先把当前批执行包压成本集速记，不默认落盘。字段固定为：
+`/episode` 在内部先把 `blueprint slice` 和当前批执行包压成本集速记，不默认落盘。
+
+它只是内部编译辅助，不是 writer 要复述的摘要，也不是正文的字段施工表。字段固定为：
 
 ```markdown
 ## 第{N}集 Episode Working Memo
@@ -644,7 +682,9 @@ Series Invariants
 
 ### 4. Scene Decision Packet
 
-每场戏开写前，再从 Episode Working Memo 内部编译本场决策包，不默认落盘。每场固定字段为：
+每场戏开写前，再从 Episode Working Memo 内部编译本场决策包，不默认落盘。
+
+它只负责把当前场的施工重点压清楚，不能取代 writer 对蓝图、人物和场面的主创理解。每场固定字段为：
 
 ```markdown
 ## Scene Decision Packet
@@ -660,9 +700,38 @@ Series Invariants
 - anti-contamination constraints:
 ```
 
-### 5. 五步 writer 创作决策
+### 5. writer first draft 责任
 
-Scene Decision Packet 编译后，writer 才进入创作决策：
+Scene Decision Packet 编译后，writer 才进入 first draft。
+
+writer 不是 `blueprint summary`，不是 `field execution`，也不是 `rules executor`。
+
+writer 必须在不改变以下内容的前提下完成主创落稿：
+
+- 核心设定
+- 人物关系方向
+- 真相顺序
+- 本集核心代价
+- 付费钩子
+- 结尾债务
+- 已确认的商业卖点
+- 当前集硬锚点
+
+writer 可以并且应该主动创造：
+
+- 场面动作
+- 台词博弈
+- 短句节奏
+- 打断、停顿、沉默、回避
+- 人物当下反应
+- 物件参与冲突
+- 空间 / 位置变化
+- 可拍可演可剪的视听表层
+- 具体情绪推进
+
+writer 的工作不是复述蓝图，而是以用户确认蓝图为骨架填血肉。
+
+进入成稿前，writer 仍按以下五步判断场面：
 
 - Audience Nerve / 观众神经
 - Power Contest / 权力争夺
@@ -670,7 +739,7 @@ Scene Decision Packet 编译后，writer 才进入创作决策：
 - Pressure Dialogue / 压迫台词
 - Unpaid Debt / 未偿债务
 
-这五步只决定“怎么成片”，不允许重判上游已经确认的剧情任务。
+这五步只决定“怎么把戏写活”，不允许重判上游已经确认的剧情任务。
 
 ### 6. 冲突优先级
 
@@ -890,19 +959,13 @@ CLOSE-UP - {key detail}
 
 ### /dialogue-polish {N}
 
-**功能：** 对已完成正文做固定台词层精修。
+**功能：** 对已完成正文做整集逐场 final surface pass。
 
 这不是针对单一样片的最终美容，而是所有剧本默认经过的项目层环节。它位于 `/episode` 之后、`/review` 之前。
 
 **前置条件：** 目标集数已完成 `/episode`
 
-**加载参考：** dialogue-polish-brief.md, dialogue-force-brief.md, performance-dialogue-brief.md, characters.md, episode-directory.md, creative-plan.md, source-handoff.md, `07_禁抄边界.md`，并直接读取以下外部原文资产，不用本地摘要替代：
-
-- `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/golden/dialogue-polish/artifact.md`
-- `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/reference-packs/character-voice-reference-pack.md`
-- `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/failures/fail-002-voice-collapse.md`
-- `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/oh-story-claudecode/skills/story-short-write/references/dialogue-mastery.md`
-- `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/oh-story-claudecode/skills/story-short-write/references/short-deslop.md`
+**加载参考：** dialogue-polish-brief.md, dialogue-force-brief.md, performance-dialogue-brief.md, characters.md, episode-directory.md，以及当前集正文。
 
 **支持格式：**
 - `/dialogue-polish 1` — 精修第1集
@@ -914,10 +977,12 @@ CLOSE-UP - {key detail}
 只能改：
 
 - 台词表达、句长、语气、节奏。
-- 表层话与真实目标。
+- 水词和翻译腔。
+- 假金句、解释句 / 作者句压缩。
 - 声线差异。
-- 解释句压缩。
-- 少量反应拍、停顿、动作承载。
+- 打断、停顿、沉默、回避。
+- 反应拍、身体反应、动作承载、物件承载、空间承载。
+- 可拍可演可剪的表层强化。
 - AI 味和书面腔。
 
 不能改：
@@ -929,25 +994,27 @@ CLOSE-UP - {key detail}
 - 本集核心代价。
 - 分集结尾债务。
 - 状态增量事实。
+- 已确认蓝图承诺。
+- 当前集硬锚点。
 
 如果发现必须改上述内容才能修好，说明不是台词层问题；必须停止并归因到 `/episode`、`/outline` 或 `/characters`，不能在 dialogue polish 里硬补。
-`/dialogue-polish` 不得自我降级成只修小错。若台词层没有完成，必须按当前责任层判断：角色表达材料缺失回 `/characters`，本集对话压力方向过空回 `/outline`，正文初稿根本没把戏写出来回 `/episode`，只有表达、句长、节奏、解释和反应拍问题才留在本步骤修。
+`/dialogue-polish` 不得自我降级成只修小错，也不能冒充 rewrite。它做的是整集逐场的 final surface pass：把已经成立的戏写得更短、更准、更像人、更可拍。若正文初稿根本没把戏写出来，必须回 `/episode`，不能在这里硬补剧情。
 
 **执行步骤：**
 
 1. 保存当前正文到 `episodes/_drafts/ep{NNN}_pre_dialogue_polish.md`。
 2. 按 dialogue-polish-brief.md 锁住不可改项。
-3. 按 dialogue-polish-brief.md 检查本集是否有 `本集对话压力方向`（旧项目允许读取 `本集台词冲突任务`）、主要角色是否有表达锚点、正文是否已经把场上争位置写出来。
-4. 逐场识别每个角色的表面话和真实目标。
-5. 先标出最假的 1-3 句：作者总结句、完整句病、假金句、解释句、同声线句。
-6. 只读取最接近当前问题的外部原文资产，用其中的坏句/好句对照、声线示例和失败样例重写这 1-3 句或对应回合；不得直接照抄示例。
-7. 压缩解释性台词，把信息放回冲突、动作、物件和反应里。
-8. 按权力关系调整句长：掌控者短，被压者急，装弱者绕，心死者少说。
-9. 拉开主要角色声线：句长、攻击方式、闪避方式、沉默方式必须可区分。
-10. 只在关键压迫、反杀、真相释放后补必要反应拍。
-11. 删除空泛 AI 腔，但不得误删有效短剧套路句。
+3. 读取当前集对应的 `writer 直读区`、`系统校验区` 和必要状态锚点，锁住当前集硬锚点与不可改事实。
+4. 逐场检查：这一场的冲突是否已经成立；若成立，只修表层，不改剧情任务。
+5. 逐场压短句：删水词、删完整句病、删翻译腔、删把意思说满的台词。
+6. 逐场清假金句、解释句 / 作者句：把解释尽量压回冲突、打断、停顿、沉默、动作、物件、空间和反应里。
+7. 逐场拉开人物声线：句长、攻击方式、闪避方式、沉默方式、回嘴方式要可区分。
+8. 逐场修节奏：让掌控者更短，被压者更急，装弱者更绕，心死者更少说，但不要写成统一公式。
+9. 逐场补最值钱的表层：只补最必要的打断、反应、身体反应、动作、物件或空间变化，不把每句都配动作，也不写成导演分镜。
+10. 逐场复核：不得改变核心设定、人物关系、真相顺序、本集核心代价、结尾债务、状态增量和已确认蓝图承诺。
+11. 清掉空泛 AI 腔，但不得误删有效短剧套路句。
 12. 保留并同步 `## 状态增量`，不得新增状态事实。
-13. 追加 `## Dialogue Polish Notes`，说明处理重点、声线修正、反应拍和未改动硬约束。
+13. 追加 `## Dialogue Polish Notes`，说明本次逐场 surface pass 重点、保留的硬锚点和未改动事实边界。
 
 **输出：** 更新 `episodes/ep{NNN}.md`
 
@@ -958,10 +1025,11 @@ CLOSE-UP - {key detail}
 - 遮住角色名后，主要角色能大致区分。
 - 重要台词能看出角色目标，而不是作者解释。
 - 主要角色的说话方式能追溯到 characters.md 的表达锚点和台词武器表，且不违背 episode-directory.md 的本集对话压力方向。
+- 本集不是只修 1-3 句，而是整集逐场完成了表层收束。
 - 本集信息没有靠长篇说明书说完。
-- 压迫性台词后有必要反应拍。
+- 关键压迫、失位、真相、身体伤害或关系转折后，已检查是否需要身体反应、反应拍或其他可见承载。
 - 有效短剧短句、套路句没有被机械洗掉。
-- 没有新增剧情事实或改变核心代价。
+- 没有新增剧情事实，没有改变核心代价、结尾债务、状态增量或已确认蓝图承诺。
 
 **结束提示：** `✅ 第{N}集台词精修已完成！输入 /review {N} 检查质量，或继续 /dialogue-polish {N+1}。`
 
