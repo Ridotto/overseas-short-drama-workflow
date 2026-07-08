@@ -39,9 +39,9 @@ skills/shortdrama-main-controller/SKILL.md
 当前原则：
 
 1. 最终产物必须是短剧剧本，不是电视剧、网剧、小说、故事梗概或 screenplay 泛型稿。
-2. `oh-story-claudecode` 只保留 `story-import` 相关冻结来源，用于追溯源本导入、拆解和状态追踪的来源。
+2. `oh-story-claudecode` 不作为当前产品入口整包接入；当前只保留 `story-import` 冻结来源，并直接借用少量原始台词资产（如 `dialogue-mastery.md`、`short-deslop.md`）给 `/episode`、`/dialogue-polish`、`/review` 做原文参照。
 3. `short-drama` 是短剧写稿执行底座：直接复制并执行它的 `SKILL.md` 和 references，不做摘要替代。
-4. `how-to-make-script` 不整包进主链；当前只把 `dialogue-subtext` 的台词层能力蒸馏成本地 `dialogue-polish-brief.md`，由 `/dialogue-polish` 固定执行。
+4. `how-to-make-script` 不整包进主链；当前做法是：边界和责任层沉到本地 brief，少量真实原文资产直接给 `/episode`、`/dialogue-polish`、`/review` 读，不再只留一句蒸馏摘要。
 5. `shortdrama-pipeline` 不进入文本原型，也不预设为后续运行壳；未来如确实需要，只能单点参考任务状态或 artifact 目录组织，不能接它的剧本到视频主链。
 
 硬约束文件：
@@ -67,12 +67,13 @@ skills/shortdrama-main-controller/SKILL.md
 3. 源本吸收从 `skills/source-import/SKILL.md` 进入；它是本地复制并改造后的执行文件，不是摘要。
 4. 短剧写稿从 `skills/short-drama-write/SKILL.md` 的 `/write-from-source -> /plan -> /characters -> /outline -> /episode -> /dialogue-polish -> /review -> clean reviewer -> /export -> /delivery-qa` 进入。
 5. `/plan` 负责用户可见的商业项目包 / 创作蓝图包；`/outline` 负责分集执行包；`/episode` 负责正文初稿；`/dialogue-polish` 负责台词目标、声线、潜台词和去 AI 味；`/review` 负责自检和 callback 归因。
-6. 蓝图、分集执行包和正文必须是一条剧情理解，不允许“给用户看的故事”和“给 writer 的隐藏剧情”分裂。
-7. 长线追踪从 `/plan` 开始以轻量全剧骨架启用；首批 1-10 集只吃当前批和本集速记，`batch-state.md` 用于批次完成后的续写汇总。详见 `external_skill_reference_integration_map_2026-07-04.md`。
-8. 源本强节点从 `09_源本留存锚点.md` 开始进入强度适配链：`/plan` 做强节点适配审计，综合用户需求、新壳想法、角色特殊性、项目目标和目标平台/群体后确定同级或更优表达；`/outline` 做高压可施工检查，`/review` 检查是否静默降级、删除或被证据/流程替代。
-9. 当前不使用 `how-to-make-script` 整包，只使用已经落成本地 brief 的台词层能力。
-10. `vendor/` 只保留当前链路需要的冻结来源，便于追溯和继续移植；不要直接从 vendor 原入口跑当前产品链。
-11. 如果执行失败，先看失败发生在哪个 copied file，再改本地副本。
+6. `/episode` 默认不再全文吞 `creative-plan.md`、`source-handoff.md` 这类上游包；writer 直读面收敛为 `characters.md`、`episode-directory.md` 的 `writer 直读区` 和最少硬约束，其余信息交给 `/plan`、`/outline`、`/dialogue-polish`、`/review` 编译和验收。
+7. 蓝图、分集执行包和正文必须是一条剧情理解，不允许“给用户看的故事”和“给 writer 的隐藏剧情”分裂。
+8. 长线追踪从 `/plan` 开始以轻量全剧骨架启用；首批 1-10 集只吃当前批和本集速记，`batch-state.md` 用于批次完成后的续写汇总。详见 `external_skill_reference_integration_map_2026-07-04.md`。
+9. 源本强节点从 `09_源本留存锚点.md` 开始进入强度适配链：`/plan` 做强节点适配审计，综合用户需求、新壳想法、角色特殊性、项目目标和目标平台/群体后确定同级或更优表达；`/outline` 做高压可施工检查，`/review` 检查是否静默降级、删除或被证据/流程替代。
+10. 当前不使用 `how-to-make-script` 或 `oh-story-claudecode` 整包；只接已经写进 copied files 的本地执行规则，以及少量被点名读取的外部原文资产。
+11. `vendor/` 只保留当前链路需要的冻结来源，便于追溯和继续移植；不要直接从 vendor 原入口跑当前产品链。
+12. 如果执行失败，先看失败发生在哪个 copied file，再改本地副本。
 
 ## 运行产物
 

@@ -432,7 +432,7 @@ Phase 5 的硬要求：
 ```markdown
 # 写稿交接包
 
-## 输入文件
+## 输入文件（上游全量）
 
 - `01_源本有效性摘要.md`
 - `02_集级事件账本.md`
@@ -443,6 +443,15 @@ Phase 5 的硬要求：
 - `07_禁抄边界.md`
 - `08_新壳迁移建议.md`
 - `09_源本留存锚点.md`
+
+## writer 默认读取说明
+
+- `handoff_to_short_drama_write.md` 是主控和上游编译用的交接包，不等于 writer 需要全文直读的稿件。
+- `short-drama-write` 进入 `/episode` 时，writer 默认应优先消费：
+  - `characters.md`
+  - `episode-directory.md` 的 `writer 直读区`
+  - 最少硬约束
+- 本交接包中的强节点审计、证据链、本地化复核、商业功能映射和禁抄说明必须保留，但默认由 `/plan`、`/outline`、`/review` 和 `dialogue-polish` 消费，不要求 writer 全文直读。
 
 ## 写作目标
 

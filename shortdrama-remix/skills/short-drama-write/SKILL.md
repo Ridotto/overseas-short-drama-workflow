@@ -106,6 +106,12 @@
 | hook-design.md | 5种钩子类型 | /episode |
 | overseas-localization-brief.md | 出海/平台本地化保守复核、证据化建议、目标语境承载和误伤检查 | /plan 必读；/outline, /episode, /review 只执行或验收已确认策略 |
 | series-state-brief.md | 全剧追踪骨架、本集速记、状态增量、批次续写 | /plan, /characters, /outline, /episode, /batch-state |
+| dialogue-force-brief.md | 角色表达材料、本集对话压力方向、坏句警报与 writer / polish 归因 | /characters, /outline, /episode, /dialogue-polish |
+| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/golden/dialogue-polish/artifact.md` | 真实 bad line -> polished line 对照 | /dialogue-polish |
+| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/reference-packs/character-voice-reference-pack.md` | 角色声音 reference pack | /dialogue-polish |
+| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/failures/fail-002-voice-collapse.md` | 同声线失败样例 | /dialogue-polish, /review |
+| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/oh-story-claudecode/skills/story-short-write/references/dialogue-mastery.md` | 权力博弈、心死、反咬、打断原始写法手册 | /dialogue-polish |
+| `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/oh-story-claudecode/skills/story-short-write/references/short-deslop.md` | 太整、太漂亮、太作者的原始删法 | /dialogue-polish, /review |
 | performance-dialogue-brief.md | 视听表演、反应链、台词议程、轻 polish、review 归因 | /episode, /review |
 | dialogue-polish-brief.md | 表层话/真实目标、声线差异、潜台词、去 AI 味、台词层权限 | /dialogue-polish, /review |
 | compliance-checklist.md | 薄合规风险备忘；只做成稿风险提示，不削弱强刺激 | /compliance |
@@ -333,7 +339,7 @@
 
 **前置条件：** 已完成 /plan
 
-**加载参考：** villain-design.md, series-state-brief.md, creative-plan.md, source-handoff.md, `03_人物功能账本.md`, `07_禁抄边界.md`
+**加载参考：** villain-design.md, series-state-brief.md, dialogue-force-brief.md, creative-plan.md, source-handoff.md, `03_人物功能账本.md`, `07_禁抄边界.md`
 
 **生成内容：**
 
@@ -353,6 +359,8 @@
    - 与源本的关键差异
    - 禁止复刻提醒
    - 声线倾向（句长、命令感、闪避方式、攻击方式、沉默方式）
+   - 表达锚点（按 dialogue-force-brief.md 生成）：voice anchor、pressure drift、register 禁区、allowed variation
+   - 台词武器表：常用施压/伤人方式、常用逃责方式、被戳中羞耻点时的失控方式、面对不同对象的变声、off-character 红线
 
 2. **角色关系图**（Mermaid 格式）：
 ```mermaid
@@ -400,6 +408,7 @@ graph TD
 - 不能用“改名”代替重构。若角色功能、关系、场面和台词都接近源本，必须返工。
 - 角色设定不能写成固定模板。小配角可以类型化；主角和主要反派必须能根据剧情事件、对象和关系位置产生不同反应，但这些反应要符合角色底层欲望和恐惧。
 - 声线不是为了炫技，而是为了正文不写成所有人同一种 AI 口吻。后续 `/episode` 必须执行主要角色的句长、攻击方式、闪避方式和沉默方式。
+- 表达锚点和台词武器表都不是口头禅表，也不是固定台词模板。它们必须说明角色为什么这么说、在压力下会怎么偏，以及哪些漂亮句或价值判断一出现就不像这个角色。
 - 角色档案必须承接 series-state-brief.md 的欲望、恐惧、面具、反应差异和不能倒退项；但不能写成僵硬规则模板。
 
 **结束提示：** `角色档案已保存。输入 /outline 规划分集。`
@@ -412,35 +421,73 @@ graph TD
 
 **前置条件：** 已完成 /characters
 
-**加载参考：** paywall-design.md, rhythm-curve.md, series-state-brief.md, creative-plan.md, characters.md, source-handoff.md, `02_集级事件账本.md`, `05_付费点与追更压力.md`, `09_源本留存锚点.md`。出海/平台适配项目还必须继承 `creative-plan.md` 中用户确认过的本地化适配策略；如需核对边界，读取 `overseas-localization-brief.md`。
+**加载参考：** paywall-design.md, rhythm-curve.md, series-state-brief.md, dialogue-force-brief.md, creative-plan.md, characters.md, source-handoff.md, `02_集级事件账本.md`, `05_付费点与追更压力.md`, `09_源本留存锚点.md`。出海/平台适配项目还必须继承 `creative-plan.md` 中用户确认过的本地化适配策略；如需核对边界，读取 `overseas-localization-brief.md`。
 
 **生成内容：**
 
-为每一集生成一个可直接进入正文的条目。条目必须先有自然语言小 draft，再有执行锚点：
+为每一集生成一个可直接进入正文的条目。`episode-directory.md` 同时承担两种消费：
+
+- `writer 直读区`：只放 writer 开写前必须直吃的 8 个字段和最小硬禁区。
+- `系统校验区`：保留上游、review、callback 和 export 需要的执行信息，不默认直喂 writer。
+
+文件头必须先写一段 `## 当前批执行包`，作为 writer 的主执行上下文。它不是 `creative-plan.md` 缩写摘要，而是当前批 runtime packet，最少包含：
+
+```markdown
+## 当前批执行包
+
+- 当前批范围：
+- 当前批剧情推进目标：
+- 当前批人物关系变化：
+- 当前批主要商业钩子：
+- 当前批继承自上一批的未偿债务：
+- 当前批继承的信息差 / 关系状态：
+- 当前批不可提前爆：
+- 当前批必须保留 source facts：
+- 当前批状态来源：{creative-plan / batch-state / 已完成正文范围}
+```
+
+条目格式：
 
 ```markdown
 ## 第{N}集：{集标题} {标记}
 
+### writer 直读区
+
 - 本集小 draft：
+- 本集硬禁区：
+- 开场第一拍：
+- 核心冲突：
+- 一眼可懂代价：
+- 本集变化 / Change：
+- 人物状态 beat：
+- 反派新伤害/反咬：
+- 结尾按钮：
+
+### 系统校验区
+
+- 本集功能：
+- 本集主观众神经：
+- 本集副观众神经：
 - 上一集状态承接：
+- 本集入口：
+- 本集出口：
 - 源本赚钱功能：
 - 新壳可见刺激动作：
 - 本地化承载方式：（出海/平台适配项目按已确认策略填写；国内项目可省略）
-- 一眼可懂代价：
 - 本集释放的信息：
 - 本集继续扣住的信息：
 - 本集不可提前消费：
-- 开场第一拍：
-- 核心冲突：
+- 本集必须保留 source facts：
 - 最高刺激点 / Max Spike：
-- 本集变化 / Change：
-- 人物状态 beat：
+- 本集 change point：
 - 关系位置变化：
+- 本集对话压力方向：
 - 本集状态增量目标：
-- 反派新伤害/反咬：
+- 本集付费钩子：
+- 本集留存钩子：
 - 本集兑现：
 - 下集债务：
-- 结尾按钮：
+- 本集未偿债务：
 - 源本功能映射：
 - 关联 09 强节点ID：{无 / SN-001 / SN-002；如合并、延后或拆分，写明来源节点}
 - 源本强节点处理状态：
@@ -460,6 +507,9 @@ graph TD
 - 前 10 集必须每集都有源本赚钱功能、新壳可见刺激动作、一眼可懂代价、反派新伤害或压力升级、本集兑现、下集债务
 - 前 10 集必须每集写清本集释放什么、继续扣住什么、下一集欠什么；不能提前解完关键答案
 - 前 10 集必须每集写清至少一个人物状态 beat 或关系位置变化；不能只写事件流水
+- 前 10 集必须在 `writer 直读区` 写清：`本集小 draft`、`本集硬禁区`、`开场第一拍`、`核心冲突`、`一眼可懂代价`、`本集变化 / Change`、`人物状态 beat`、`反派新伤害/反咬`、`结尾按钮`。这些字段必须已经像戏，而不是像策划文。
+- 前 10 集必须在 `系统校验区` 按 dialogue-force-brief.md 写清“本集对话压力方向”：用 1-2 句自然语言说明这集谁在不断夺谁的解释资格、谁在装无辜、谁最后不再解释或只剩一句短话。它是校验方向，不是 writer 要照抄的正文标签。
+- 前 10 集必须把 analysis / commercial / hook 信号字段化写进 `系统校验区`，至少包括：`本集功能`、`本集主观众神经`、`本集副观众神经`、`本集付费钩子`、`本集留存钩子`、`本集未偿债务`、`本集 change point`、`关系位置变化`、`本集不可提前消费`、`本集必须保留 source facts`。不要写成一段原则散文。
 - 每集必须能抽出 series-state-brief.md 的本集速记：上一集状态、本集推进的关系/真相/债务、不可提前消费、结尾新状态
 - 🔥 / 💰 根据用户收费边界和源本节奏标注，不硬凑固定比例
 - 目录必须体现三幕结构的节奏变化
@@ -468,6 +518,8 @@ graph TD
 - 每个强节点集必须写 `最高刺激点 / Max Spike`、`本集变化 / Change`、`强度适配检查` 和 `高压可施工检查`。
 - `强度适配检查` 必须说明：本集如何结合用户需求、新壳、角色、项目目标和目标群体，达到或超过源本强度目标；是否有降级；若合并/延后，原情绪债和下一债务如何被保留并增强。
 - `高压可施工检查` 必须说明：谁逼谁行动、谁抵赖/反咬/二次施压、谁当场失去身份/身体/关系/权力/体面/资产/空间位置/选择权。只靠证据、文件、系统、会议、鉴定、报告或旁白说明的节点不能进入 `/episode`。
+- `本集硬禁区` 只写 writer 真不能碰的 2-4 条，不得写成长说明，也不得把审计语言直接塞进来。
+- `本集对话压力方向` 必须能承接角色表达锚点和台词武器表，但不要写成模式表、术语表或 writer 勾选表。
 - 出海/平台适配项目每集必须标明“本地化承载方式”：本集刺激动作如何按用户确认策略落在目标观众能理解的权力关系、羞辱场域、情感表达或可见代价里；不能只写海外地点、英文名或文化符号，也不能临场扩大未确认的改写范围。
 - 证据、文件、系统记录、会议、鉴定只能作为触发物；如果没有当场可见损失，不能算作本集刺激动作
 
@@ -498,24 +550,169 @@ graph TD
 
 **前置条件：** 已完成 /outline
 
-**加载参考：** opening-rules.md（第1集时重点参考）, rhythm-curve.md, satisfaction-matrix.md, hook-design.md, series-state-brief.md, performance-dialogue-brief.md, creative-plan.md, characters.md, episode-directory.md, source-handoff.md, `07_禁抄边界.md`。出海/平台适配项目必须执行本集已确认的“本地化承载方式”；如发现缺失，不得临场发明，回 `/outline`。
+**加载参考：** series-state-brief.md, dialogue-force-brief.md, performance-dialogue-brief.md, characters.md, episode-directory.md
+
+出海/平台适配项目必须执行本集已确认的“本地化承载方式”；如发现缺失，不得临场发明，回 `/outline`。
+
+**Runtime Allowlist Manifest：**
+
+`/episode` 默认只允许读取以下文件：
+
+- `series-state-brief.md`
+- `dialogue-force-brief.md`
+- `performance-dialogue-brief.md`
+- `characters.md`
+- `episode-directory.md`
+
+**Forbidden Runtime Inputs：**
+
+`/episode` 默认运行输入禁止命中以下文件或来源：
+
+- `creative-plan.md`
+- `source-handoff.md`
+- `09_源本留存锚点.md`
+- `opening-rules.md`
+- `rhythm-curve.md`
+- `satisfaction-matrix.md`
+- `hook-design.md`
+- `dialogue-polish/artifact.md`
+- `character-voice-reference-pack.md`
+- `fail-002-voice-collapse.md`
+- `dialogue-mastery.md`
+- 任何外部 raw assets
+
+**上下文编译顺序：**
+
+`/episode` 不是全剧厚包直灌，也不是单集孤岛。它按以下顺序编译上下文：
+
+```text
+Series Invariants
+-> Current Batch Execution Packet
+-> Episode Working Memo
+-> Scene Decision Packet
+-> 五步 writer 创作决策
+-> 成稿
+-> 状态增量 / Batch State Update
+```
+
+### 1. Series Invariants
+
+来自当前批执行包已经编译过的不可变约束，只包括：
+
+- 不能改的故事事实
+- 必须保留的 source facts
+- 长线不可提前爆的秘密
+- 主线关系不能倒退项
+- 当前批商业主钩子和强节点硬约束
+
+不得在 `/episode` 默认回退去全文重读全剧厚包、导入厚包、源本锚点厚包或其他未编译资料。当前批执行包缺失时，停止并回 `/outline`。
+
+### 2. Current Batch Execution Packet
+
+写第 N 集时，不允许全文混读整个 `episode-directory.md`。`episode-directory` 的 section-level allowlist 只允许读取：
+
+- `## 当前批执行包` 头部
+- 第 N 集的 `writer 直读区`
+- 第 N 集的 `系统校验区`
+- 必要的上一集状态来源：
+  - 已完成正文里的 `## 状态增量`
+  - 或第 N-1 集的系统区摘要
+- 必要的下一集债务 / 钩子约束：
+  - 第 N 集自己的 `下集债务`
+  - 如需校验连续性，仅读第 N+1 集的入口/钩子字段
+
+### 3. Episode Working Memo
+
+`/episode` 在内部先把当前批执行包压成本集速记，不默认落盘。字段固定为：
+
+```markdown
+## 第{N}集 Episode Working Memo
+
+- 本集功能：
+- 本集入口：
+- 本集出口：
+- 本集主冲突：
+- 本集 change point：
+- 本集主观众神经：
+- 本集副观众神经：
+- 本集付费钩子：
+- 本集留存钩子：
+- 本集未偿债务：
+- 本集必须保留 source facts：
+- 本集不能提前暴露的信息：
+```
+
+### 4. Scene Decision Packet
+
+每场戏开写前，再从 Episode Working Memo 内部编译本场决策包，不默认落盘。每场固定字段为：
+
+```markdown
+## Scene Decision Packet
+
+- source constraints:
+- blueprint role:
+- analysis signals:
+- commercial signals:
+- power contest:
+- dramatic carrier:
+- pressure dialogue direction:
+- unpaid debt:
+- anti-contamination constraints:
+```
+
+### 5. 五步 writer 创作决策
+
+Scene Decision Packet 编译后，writer 才进入创作决策：
+
+- Audience Nerve / 观众神经
+- Power Contest / 权力争夺
+- Dramatic Carrier / 戏剧载体
+- Pressure Dialogue / 压迫台词
+- Unpaid Debt / 未偿债务
+
+这五步只决定“怎么成片”，不允许重判上游已经确认的剧情任务。
+
+### 6. 冲突优先级
+
+当输入之间冲突时，按以下顺序处理：
+
+```text
+source facts / 不可改事实
+>
+Series Invariants / 全剧不可变约束
+>
+batch-state / 已发生状态
+>
+Current Batch Execution Packet
+>
+Episode Working Memo
+>
+Scene Decision Packet
+>
+writer 创作表达
+>
+dialogue-force / performance brief
+```
+
+如果冲突无法自动解决，不得擅自编写新事实，必须在 debug 产物或 `run_log.md` 里标出 `conflict:`。
 
 **写作前动作链检查：**
 
-写第 N 集前，先按 series-state-brief.md 从 `creative-plan.md`、`characters.md`、`episode-directory.md`、已有正文和状态增量中抽出本集速记；再从 `episode-directory.md` 抽取并落实本集动作链：
+写第 N 集前，先从 Episode Working Memo 中落实本集动作链：
 
 ```text
-上一集状态 -> 本集必须推进的关系/真相/债务 -> 源本赚钱功能 -> 关联 09 强节点ID（如有） -> 本集释放/继续扣住 -> 不可提前消费 -> 新壳可见刺激动作 -> 本地化承载方式（出海/平台适配项目） -> 一眼可懂代价 -> 开场第一拍 -> 人物状态 beat -> 反派新伤害/反咬 -> 本集兑现 -> 本集结束新状态 -> 下集债务 -> 结尾按钮
+上一集状态 -> 开场第一拍 -> 核心冲突 -> 一眼可懂代价 -> 本集变化 / Change -> 人物状态 beat -> 反派新伤害/反咬 -> 结尾按钮
 ```
 
-如果任一项缺失，不得临场发明正文桥段；必须回到 `/outline` 补齐该集目录。
-每场戏写前必须执行 performance-dialogue-brief.md 的 6 个问题。问题不需要输出给用户，但正文必须体现：谁想要什么、谁阻挡、改变了什么、代价如何可见、压迫后反应链、场尾钩子。
+如果任一 `writer 直读区` 字段缺失，不得临场发明正文桥段；必须回到 `/outline` 补齐该集目录。
+每场戏写前必须执行 performance-dialogue-brief.md 的 6 个问题。不要把内部施工语写进工作稿，也不要把原则文件照抄成散文。
 `episode-directory.md` 里的钩子、爽点、付费点是内部施工锚点；`/episode` 最终正文不得输出 `钩子：`、`本集钩子`、`下集预告`、`End Hook`、`> Next:` 这类生产标签。必须把本集钩子写成最后一个可见动作、台词、声音或物件变化。
 
 **支持格式：**
 - `/episode 1` — 写第1集
 - `/episode 5-8` — 批量写第5到第8集
 - `/episode next` — 写下一集（自动递增）
+- `/episode-debug 5` — 只编译 EP5 的 Episode Working Memo / Scene Decision Packet / 五步决策摘要，不生成新成稿
 
 **单集剧本格式（国内模式）：**
 
@@ -523,15 +720,9 @@ graph TD
 # 第{N}集：{集标题}
 
 > 本集关键词：{3个关键词}
-> 本集赚钱功能：{观众为什么追/付费}
-> 新壳刺激动作：{本集可见动作}
 > 一眼可懂代价：{谁当场失去什么}
-> 本集信息释放：{本集揭什么 / 继续扣什么}
 > 人物状态 beat：{谁被压、破防、反击、伪装或关系位置变化}
 > 反派新伤害/反咬：{本集压力升级}
-> 本集兑现：{本集还给观众什么}
-> 下一债务：{下一集必须接住什么}
-> 本集爽点：{爽点类型}
 > 前情提要：{上一集结尾悬念，1-2句}
 > 上一集状态承接：{关系/真相/债务/角色状态}
 > 本集状态增量目标：{本集结束后必须留下的新状态}
@@ -574,16 +765,9 @@ graph TD
 # Episode {N}: {Title}
 
 > Key Words: {3 keywords}
-> Commercial Function: {why the audience keeps watching/paying}
-> Visible Stimulus Action: {what happens on screen}
-> Target-Market Localization: {confirmed local carrier for this action, if applicable}
 > One-Glance Cost: {what the audience instantly sees as lost}
-> Info Release: {what this episode reveals / withholds}
 > Character State Beat: {who is pressured, breaks, resists, masks, or changes position}
 > Villain Pressure/Reversal: {new harm or counterattack}
-> Payoff: {what this episode pays off}
-> Next Debt: {what the next episode must carry}
-> Hook Type: {hook type}
 > Previously: {last episode cliffhanger, 1-2 sentences}
 > Previous State: {relationship/truth/debt/character state}
 > State Delta Goal: {new state that must remain after this episode}
@@ -617,8 +801,8 @@ CLOSE-UP - {key detail}
 - 悬念钩子必须写成正文里的最后一个可见动作、台词、声音或物件变化；不得在最终正文里输出 `钩子：`、`本集钩子`、`下集预告`、`End Hook`、`> Next:` 等生产标签
 - 第1集必须在前30秒（约前3段）抓住观众（参考 opening-rules.md）
 - 付费卡点集（💰）结尾必须制造强悬念
-- 必须落实 `episode-directory.md` 的源本功能映射，但换成新壳事件载体
-- 必须落实本集“源本赚钱功能”和“新壳可见刺激动作”；不能只完成剧情摘要
+- 必须落实 `episode-directory.md` 的 `writer 直读区`；不能只完成剧情摘要
+- 本集的赚钱功能、新壳可见刺激动作和信息释放已经在上游系统校验区成立，writer 不负责重新解释它们，只负责把它们写成戏
 - 如果本集承接 `creative-plan.md` 的强节点适配审计，必须落实该节点的处理状态、同级或更优强度目标和高压可施工检查；不得把强节点改成更合理但更软的事件。
 - 必须落实本集“一眼可懂代价”；不能把合同、权限、流程或行业机制当主刺激
 - 每场戏必须有 function / conflict / change point，且至少改变信息、关系、权力、行动条件、体面或身体安全之一
@@ -636,7 +820,7 @@ CLOSE-UP - {key detail}
 **上下文连贯性：**
 - 写第 N 集前，回顾前面已完成的集数内容
 - 确保角色行为与 characters.md 一致
-- 执行 characters.md 的角色状态、关系反应和声线倾向；不要把所有角色写成同一种句长、同一种冷静、同一种解释腔
+- 执行 characters.md 的角色状态、关系反应、声线倾向、表达锚点和台词武器表；不要把所有角色写成同一种句长、同一种冷静、同一种解释腔
 - 确保剧情推进与 episode-directory.md 一致
 - 如果前面集数已有 `## 状态增量`，写下一集前必须读取；如果缺失，则从已确认正文和 episode-directory.md 抽取，不得新增剧情事实
 - 如发现前后矛盾，主动提醒用户
@@ -666,7 +850,39 @@ CLOSE-UP - {key detail}
 
 **输出：** 保存为 `episodes/ep{NNN}.md`（三位数补零）
 
-同时必须追加 `run_log.md`：记录 `/episode {N}` 使用的分集执行包、已读取的前文状态增量、输出文件和任何降级。
+同时必须追加 `run_log.md`：记录 `/episode {N}` 使用的当前批执行包范围、已读取的前文状态增量、是否触发冲突优先级、输出文件和任何降级。
+
+**debug / compile-only 机制：**
+
+- 默认 runtime 不落盘 `Episode Working Memo` 和 `Scene Decision Packet`。
+- 只有 `debug / rerun / 证据留档` 时，才允许把它们写到项目目录下的 `_debug/`。
+- `/episode-debug {N}` 只输出：
+  - `ep{NNN}_episode_working_memo.md`
+  - `ep{NNN}_scene_decision_packet.md`
+  - `ep{NNN}_writer_decision_summary.md`
+- `/episode-debug` 不生成新成稿，不覆盖 `episodes/ep{NNN}.md`。
+- `/episode-debug` 不允许 fallback 回厚包。如果当前批执行包或本集字段缺失，必须：
+  - 标记 `MISSING_FIELD`
+  - 停下
+  - 报告应回 `/outline` 或 schema backfill 补哪个字段
+- `/episode-debug` 产物必须给每个字段标注来源。允许来源只包括：
+  - `ED_BATCH_HEADER`
+  - `ED_EP{NNN}_WRITER_DIRECT`
+  - `ED_EP{NNN}_SYSTEM_CHECK`
+  - `EP{NNN}_STATE`
+  - `EP{NNN}_DEBT_OR_HOOK`
+  - `CHARACTERS`
+  - `SERIES_STATE_BRIEF`
+  - `DIALOGUE_FORCE_KERNEL`
+  - `PERFORMANCE_KERNEL`
+- 如果 debug 产物出现以下来源类别，直接判失败：
+  - `THICK_GLOBAL_PACKAGE`
+  - `THICK_IMPORT_PACKET`
+  - `UNCOMPILED_ANCHOR_PACKET`
+  - `UNCOMPILED_EPISODE_GUIDE`
+  - `RAW_EXTERNAL_REFERENCE`
+  - `FALLBACK_COMPILE`
+  - `MANUAL_PATCH`
 
 **结束提示：** `✅ 第{N}集已保存！输入 /dialogue-polish {N} 做台词精修，或 /episode {N+1} 继续。`
 
@@ -680,7 +896,13 @@ CLOSE-UP - {key detail}
 
 **前置条件：** 目标集数已完成 `/episode`
 
-**加载参考：** dialogue-polish-brief.md, performance-dialogue-brief.md, characters.md, episode-directory.md, creative-plan.md, source-handoff.md, `07_禁抄边界.md`
+**加载参考：** dialogue-polish-brief.md, dialogue-force-brief.md, performance-dialogue-brief.md, characters.md, episode-directory.md, creative-plan.md, source-handoff.md, `07_禁抄边界.md`，并直接读取以下外部原文资产，不用本地摘要替代：
+
+- `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/golden/dialogue-polish/artifact.md`
+- `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/reference-packs/character-voice-reference-pack.md`
+- `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/failures/fail-002-voice-collapse.md`
+- `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/oh-story-claudecode/skills/story-short-write/references/dialogue-mastery.md`
+- `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/oh-story-claudecode/skills/story-short-write/references/short-deslop.md`
 
 **支持格式：**
 - `/dialogue-polish 1` — 精修第1集
@@ -709,19 +931,23 @@ CLOSE-UP - {key detail}
 - 状态增量事实。
 
 如果发现必须改上述内容才能修好，说明不是台词层问题；必须停止并归因到 `/episode`、`/outline` 或 `/characters`，不能在 dialogue polish 里硬补。
+`/dialogue-polish` 不得自我降级成只修小错。若台词层没有完成，必须按当前责任层判断：角色表达材料缺失回 `/characters`，本集对话压力方向过空回 `/outline`，正文初稿根本没把戏写出来回 `/episode`，只有表达、句长、节奏、解释和反应拍问题才留在本步骤修。
 
 **执行步骤：**
 
 1. 保存当前正文到 `episodes/_drafts/ep{NNN}_pre_dialogue_polish.md`。
 2. 按 dialogue-polish-brief.md 锁住不可改项。
-3. 逐场识别每个角色的表面话和真实目标。
-4. 压缩解释性台词，把信息放回冲突、动作、物件和反应里。
-5. 按权力关系调整句长：掌控者短，被压者急，装弱者绕，心死者少说。
-6. 拉开主要角色声线：句长、攻击方式、闪避方式、沉默方式必须可区分。
-7. 只在关键压迫、反杀、真相释放后补必要反应拍。
-8. 删除空泛 AI 腔，但不得误删有效短剧套路句。
-9. 保留并同步 `## 状态增量`，不得新增状态事实。
-10. 追加 `## Dialogue Polish Notes`，说明压缩、声线、反应拍和未改动硬约束。
+3. 按 dialogue-polish-brief.md 检查本集是否有 `本集对话压力方向`（旧项目允许读取 `本集台词冲突任务`）、主要角色是否有表达锚点、正文是否已经把场上争位置写出来。
+4. 逐场识别每个角色的表面话和真实目标。
+5. 先标出最假的 1-3 句：作者总结句、完整句病、假金句、解释句、同声线句。
+6. 只读取最接近当前问题的外部原文资产，用其中的坏句/好句对照、声线示例和失败样例重写这 1-3 句或对应回合；不得直接照抄示例。
+7. 压缩解释性台词，把信息放回冲突、动作、物件和反应里。
+8. 按权力关系调整句长：掌控者短，被压者急，装弱者绕，心死者少说。
+9. 拉开主要角色声线：句长、攻击方式、闪避方式、沉默方式必须可区分。
+10. 只在关键压迫、反杀、真相释放后补必要反应拍。
+11. 删除空泛 AI 腔，但不得误删有效短剧套路句。
+12. 保留并同步 `## 状态增量`，不得新增状态事实。
+13. 追加 `## Dialogue Polish Notes`，说明处理重点、声线修正、反应拍和未改动硬约束。
 
 **输出：** 更新 `episodes/ep{NNN}.md`
 
@@ -731,6 +957,7 @@ CLOSE-UP - {key detail}
 
 - 遮住角色名后，主要角色能大致区分。
 - 重要台词能看出角色目标，而不是作者解释。
+- 主要角色的说话方式能追溯到 characters.md 的表达锚点和台词武器表，且不违背 episode-directory.md 的本集对话压力方向。
 - 本集信息没有靠长篇说明书说完。
 - 压迫性台词后有必要反应拍。
 - 有效短剧短句、套路句没有被机械洗掉。
@@ -746,7 +973,12 @@ CLOSE-UP - {key detail}
 
 **前置条件：** 目标集数已完成；默认应先完成 `/dialogue-polish`。如果尚未执行，review 必须标注“未完成台词精修”，但不能把台词问题误判为蓝图失败。
 
-**加载参考：** performance-dialogue-brief.md, dialogue-polish-brief.md, series-state-brief.md, short_drama_form_lock_v1.md, creative-plan.md, characters.md, episode-directory.md, source-handoff.md, `07_禁抄边界.md`。出海/平台适配项目还必须读取 `overseas-localization-brief.md`，但只能用于验收已确认策略和误伤风险，不得重新选题。
+**加载参考：** performance-dialogue-brief.md, dialogue-polish-brief.md, series-state-brief.md, short_drama_form_lock_v1.md, creative-plan.md, characters.md, episode-directory.md, source-handoff.md, `07_禁抄边界.md`，并直接读取以下外部原文资产，不用本地摘要替代：
+
+- `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/how-to-make-script/examples/failures/fail-002-voice-collapse.md`
+- `/Users/jiakun/Codex/自动化编剧/.local-archive/obsolete-worktrees-2026-07-04/自动化编剧-external-chain-rebuild/external_full_repos/oh-story-claudecode/skills/story-short-write/references/short-deslop.md`
+
+出海/平台适配项目还必须读取 `overseas-localization-brief.md`，但只能用于验收已确认策略和误伤风险，不得重新选题。
 
 **支持格式：**
 - `/review 5` — 检查第5集
@@ -766,7 +998,7 @@ CLOSE-UP - {key detail}
 | 信息释放 | 本集释放、继续扣住、下一债务是否清楚，是否提前解开 |
 | 人物状态 | 角色欲望、关系反应、破防/伪装/反扑是否写进动作 |
 | 视听语言 | 动作、空间、物件、声音、反应链是否承载戏剧压力 |
-| 台词 | 是否完成 dialogue polish；角色目标、潜台词、声线差异、解释压缩是否成立 |
+| 台词 | 是否完成 dialogue polish；角色声音是否可区分；是否存在解释过度、完整句病、假金句、语域错位或明显 AI 腔；角色目标、潜台词、声线差异和反应承载是否成立 |
 | 格式 | 场景头完整性、景别标注、音乐提示、特殊标记 |
 | 连贯性 | 与前后集是否矛盾、角色行为是否一致、伏笔是否延续、状态增量是否能接住下一集 |
 
@@ -847,7 +1079,7 @@ CLOSE-UP - {key detail}
 - `09_源本留存锚点.md` 中的强节点如果在 `creative-plan.md` 没有处理状态或没有综合适配依据，回 `/plan`；如果在 `episode-directory.md` 没有落点或强度适配检查，回 `/outline`；如果正文把已确认强动作写软，回当前 `/episode`。
 - 强节点 `降级`、`删除`、`待优化承载` 未写证据、未获用户确认、未停在上游的，属于致命硬伤；即使总分达标，也不能通过。
 - reviewer 不负责把短剧感生产出来，也不负责逐句重写。
-- 如果问题只在台词 AI 味、废话、反应链薄，最多进入 `dialogue-polish` 或当前集轻修；不能回蓝图大改。
+- 如果台词问题只在 AI 味、废话、完整句病、假金句、句长、声线、语域或反应拍，进入 `dialogue-polish` 或当前集轻修；如果场面本身没把争位置和可见权力变化写出来，回当前 `/episode`；如果角色表达锚点明显失真，回 `/characters`。不能用 review 逐句重写，也不能默认回蓝图大改。
 - 如果问题来自蓝图薄、分集执行包弱、新壳承载不够，必须回对应上游；不能要求正文临场发明商业逻辑。
 - 如果出海/平台适配项目只是表层欧美化、无证据改写、未确认方向性重构，或为了本地化洗掉源本有效点，先判断责任层：源本适配质量复核缺失则回 `source-import`，蓝图未做证据化策略或未保护有效点则回 `/plan`，单集承载缺失或扩大范围则回 `/outline`，台词/表达问题才回 `/dialogue-polish`。
 - 如果本集缺状态增量、状态承接或关键反应链，但商业任务和分集执行包成立，优先回当前 `/episode` 或 `/dialogue-polish`；不要直接回 `/plan`。
@@ -995,7 +1227,7 @@ CLOSE-UP - {key detail}
 
 **导出清理要求：**
 
-- 必须移除内部执行字段：`本集关键词`、`本集赚钱功能`、`新壳刺激动作`、`一眼可懂代价`、`本集信息释放`、`人物状态 beat`、`反派新伤害/反咬`、`本集兑现`、`下一债务`、`本集爽点`、`前情提要`、`上一集状态承接`、`本集状态增量目标`、`Key Words`、`Commercial Function`、`Visible Stimulus Action`、`Target-Market Localization`、`One-Glance Cost`、`Info Release`、`Character State Beat`、`Villain Pressure/Reversal`、`Payoff`、`Next Debt`、`Hook Type`、`Previously`、`Previous State`、`State Delta Goal`。
+- 必须移除内部执行字段：`本集关键词`、`本集赚钱功能`、`新壳刺激动作`、`一眼可懂代价`、`本集信息释放`、`人物状态 beat`、`台词冲突任务`、`反派新伤害/反咬`、`本集兑现`、`下一债务`、`本集爽点`、`前情提要`、`上一集状态承接`、`本集状态增量目标`、`Key Words`、`Commercial Function`、`Visible Stimulus Action`、`Target-Market Localization`、`One-Glance Cost`、`Info Release`、`Character State Beat`、`Dialogue Conflict Task`、`Villain Pressure/Reversal`、`Payoff`、`Next Debt`、`Hook Type`、`Previously`、`Previous State`、`State Delta Goal`。
 - 必须移除内部段落：`## 状态增量`、`## Dialogue Polish Notes`、review 分数、callback 记录、质量自检报告、clean reviewer verdict、run log 摘要。
 - 必须移除生产标签：`钩子：`、`本集钩子`、`下集预告`、`End Hook`、`> Next:`。如果发现这些标签，只删除标签，不删除已经写成剧情动作的最后一拍。
 - 保留用户真正需要看的剧本文字、场景、人物、台词、音效和必要动作。
@@ -1035,7 +1267,7 @@ CLOSE-UP - {key detail}
 
 1. 集数是否完整、顺序是否正确，标题是否对应。
 2. 元信息是否正确：类型、集数、目标受众、语言、日期。
-3. 是否仍泄漏内部执行字段：`Commercial Function`、`Visible Stimulus Action`、`One-Glance Cost`、`Hook Type`、`Next Debt`、`Previously`、`State Delta Goal`、`本集赚钱功能`、`新壳刺激动作`、`一眼可懂代价`、`本集爽点` 等。
+3. 是否仍泄漏内部执行字段：`Commercial Function`、`Visible Stimulus Action`、`One-Glance Cost`、`Hook Type`、`Dialogue Conflict Task`、`Next Debt`、`Previously`、`State Delta Goal`、`本集赚钱功能`、`新壳刺激动作`、`一眼可懂代价`、`台词冲突任务`、`本集爽点` 等。
 4. 是否仍泄漏内部段落：`## 状态增量`、`## Dialogue Polish Notes`、review 分数、callback 记录、clean reviewer verdict、run log 摘要。
 5. 是否仍有生产标签：`钩子：`、`本集钩子`、`下集预告`、`End Hook`、`> Next:`。
 6. 导出清理是否误删正文最后一拍、场景、台词、音效或必要动作。

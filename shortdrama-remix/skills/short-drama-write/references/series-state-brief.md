@@ -43,9 +43,22 @@
 
 主角和主要反派不能写成固定模板。小配角可以类型化；核心角色必须能根据事件、对象、关系位置产生不同反应，但反应要从同一底层欲望和恐惧里长出来。
 
-### /outline：压成当前批状态
+### /outline：压成当前批执行包
 
-`episode-directory.md` 不只是分集剧情表。每集条目必须把全剧骨架压成当前批执行状态：
+`episode-directory.md` 不只是分集剧情表。它要先生成 `## 当前批执行包`，再按每集条目把全剧骨架压成当前批执行状态。
+
+批次头部最少包含：
+
+- 当前批范围。
+- 当前批剧情推进目标。
+- 当前批人物关系变化。
+- 当前批主要商业钩子。
+- 当前批继承自上一批的未偿债务、关系状态、信息差。
+- 当前批不可提前爆。
+- 当前批必须保留的 source facts。
+- 当前批状态来源。
+
+每集条目再承接：
 
 - 本集释放什么。
 - 本集继续扣住什么。
@@ -57,9 +70,16 @@
 
 前 10 集必须形成一个“首批状态闭环”：观众知道主冲突、看见不可逆压力、看到主角反击方向、带着更大债务进入下一批。
 
-### /episode：只吃本集速记
+### /episode：执行当前批，落笔只抽本集速记
 
-写第 N 集前，不要重读一堆外部参考。只从 `creative-plan.md`、`characters.md`、`episode-directory.md`、已有正文和状态增量中抽取本集速记：
+写第 N 集前，不要重读一堆外部参考，也不要全文混读 `creative-plan.md` 或整个 `episode-directory.md`。只读取：
+
+- 当前批执行包头部；
+- 第 N 集条目；
+- 必要的上一集状态增量；
+- 必要的下一集债务 / 钩子约束。
+
+然后内部编译本集速记：
 
 ```text
 上一集状态：
@@ -70,7 +90,25 @@
 本集结束后必须留下的新状态：
 ```
 
-如果本集速记抽不出来，不要临场写正文，回 `/outline` 补当前集执行包。
+如果当前批执行包或本集速记抽不出来，不要临场写正文，回 `/outline` 补当前批执行包。
+
+### Scene Decision Packet：本场决策，不是新增厚输入
+
+每场戏开写前，再从本集速记编译出本场决策包。默认不落盘，只有 debug / rerun 需要证据时才写入 `_debug/`。
+
+```markdown
+## Scene Decision Packet
+
+- source constraints:
+- blueprint role:
+- analysis signals:
+- commercial signals:
+- power contest:
+- dramatic carrier:
+- pressure dialogue direction:
+- unpaid debt:
+- anti-contamination constraints:
+```
 
 ### 每集完成后：更新状态增量
 
@@ -124,6 +162,30 @@
 - 本集只在调查、确认、解释、递交，没有当场可见损失。
 - 本集钩子和上一集债务无关。
 - 本集用了同一种爽点，但没有升级影响范围、揭示深度、身份落差或关系代价。
+
+## 冲突优先级
+
+输入冲突时按下面顺序处理，不允许自由折中：
+
+```text
+source facts / 不可改事实
+>
+Series Invariants / 全剧不可变约束
+>
+batch-state / 已发生状态
+>
+Current Batch Execution Packet
+>
+Episode Working Memo
+>
+Scene Decision Packet
+>
+writer 创作表达
+>
+dialogue-force / performance brief
+```
+
+无法自动解决时，标记 `conflict:`，停在当前步，不得擅自编新事实。
 
 ## 禁止
 
